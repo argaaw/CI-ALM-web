@@ -43,8 +43,8 @@
         "Thin"
       ],
       "audio": {
-        "original": "audio/ccmusic-database%3Awestern_016_bells/original.wav",
-        "ci_vocoded": "audio/ccmusic-database%3Awestern_016_bells/ci-vocoded.wav"
+        "original": "audio/ccmusic-database%253Awestern_016_bells/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_016_bells/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -119,8 +119,8 @@
         "Thin"
       ],
       "audio": {
-        "original": "audio/ccmusic-database%3Awestern_021_clavichord/original.wav",
-        "ci_vocoded": "audio/ccmusic-database%3Awestern_021_clavichord/ci-vocoded.wav"
+        "original": "audio/ccmusic-database%253Awestern_021_clavichord/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_021_clavichord/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -197,8 +197,8 @@
         "Vigorous"
       ],
       "audio": {
-        "original": "audio/ccmusic-database%3Awestern_003_double_bass/original.wav",
-        "ci_vocoded": "audio/ccmusic-database%3Awestern_003_double_bass/ci-vocoded.wav"
+        "original": "audio/ccmusic-database%253Awestern_003_double_bass/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_003_double_bass/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -265,8 +265,8 @@
         "Sadness"
       ],
       "audio": {
-        "original": "audio/emotify%3Aclassical%3A45/original.mp3",
-        "ci_vocoded": "audio/emotify%3Aclassical%3A45/ci-vocoded.wav"
+        "original": "audio/emotify%253Aclassical%253A45/original.mp3",
+        "ci_vocoded": "audio/emotify%253Aclassical%253A45/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -333,8 +333,8 @@
         "Joyful Activation"
       ],
       "audio": {
-        "original": "audio/emotify%3Arock%3A123/original.mp3",
-        "ci_vocoded": "audio/emotify%3Arock%3A123/ci-vocoded.wav"
+        "original": "audio/emotify%253Arock%253A123/original.mp3",
+        "ci_vocoded": "audio/emotify%253Arock%253A123/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -391,8 +391,8 @@
         "A3"
       ],
       "audio": {
-        "original": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_01_rising/original.wav",
-        "ci_vocoded": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_01_rising/ci-vocoded.wav"
+        "original": "audio/galvin-mci-rp%253Amci_a3_0220hz_01st_01_rising/original.wav",
+        "ci_vocoded": "audio/galvin-mci-rp%253Amci_a3_0220hz_01st_01_rising/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -449,8 +449,8 @@
         "A3"
       ],
       "audio": {
-        "original": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_03_flat/original.wav",
-        "ci_vocoded": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_03_flat/ci-vocoded.wav"
+        "original": "audio/galvin-mci-rp%253Amci_a3_0220hz_01st_03_flat/original.wav",
+        "ci_vocoded": "audio/galvin-mci-rp%253Amci_a3_0220hz_01st_03_flat/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -506,8 +506,8 @@
         "0"
       ],
       "audio": {
-        "original": "audio/medley-solos-db%3A035332aa-b18c-567d-f247-8235fe046741/original.wav",
-        "ci_vocoded": "audio/medley-solos-db%3A035332aa-b18c-567d-f247-8235fe046741/ci-vocoded.wav"
+        "original": "audio/medley-solos-db%253A035332aa-b18c-567d-f247-8235fe046741/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A035332aa-b18c-567d-f247-8235fe046741/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -563,8 +563,8 @@
         "1"
       ],
       "audio": {
-        "original": "audio/medley-solos-db%3A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/original.wav",
-        "ci_vocoded": "audio/medley-solos-db%3A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/ci-vocoded.wav"
+        "original": "audio/medley-solos-db%253A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -620,8 +620,8 @@
         "4"
       ],
       "audio": {
-        "original": "audio/medley-solos-db%3A00315143-d2c3-5fb2-f84a-253505a69b97/original.wav",
-        "ci_vocoded": "audio/medley-solos-db%3A00315143-d2c3-5fb2-f84a-253505a69b97/ci-vocoded.wav"
+        "original": "audio/medley-solos-db%253A00315143-d2c3-5fb2-f84a-253505a69b97/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A00315143-d2c3-5fb2-f84a-253505a69b97/ci-vocoded.wav"
       },
       "response_models": [
         {
