@@ -1,0 +1,667 @@
+{
+  "tasks": [
+    "Melody",
+    "Instrument",
+    "Timbre",
+    "Emotion"
+  ],
+  "samples": [
+    {
+      "id": "ccmusic-database:western_016_bells",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "bells",
+      "split": "Western",
+      "source_id": "16",
+      "duration": 14.273356009070294,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "8.8",
+        "Bright": "8.7",
+        "Dark": "1.0",
+        "Sharp": "8.5",
+        "Thick": "1.0",
+        "Thin": "8.7",
+        "Vigorous": "1.0",
+        "Silvery": "9.0",
+        "Raspy": "5.7",
+        "Full": "2.5",
+        "Coarse": "1.7",
+        "Pure": "8.6",
+        "Hoarse": "2.3",
+        "Consonant": "1.3",
+        "Mellow": "7.2",
+        "Muddy": "3.4"
+      },
+      "tags": [
+        "Bright",
+        "Mellow",
+        "Pure",
+        "Sharp",
+        "Silvery",
+        "Slim",
+        "Thin"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%3Awestern_016_bells/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%3Awestern_016_bells/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Mellow"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Sharp\r\nSecondary answer: Bright"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccmusic-database:western_021_clavichord",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "clavichord",
+      "split": "Western",
+      "source_id": "21",
+      "duration": 12.423514739229025,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "3.8",
+        "Bright": "5.9",
+        "Dark": "3.4",
+        "Sharp": "6.7",
+        "Thick": "4.1",
+        "Thin": "6.8",
+        "Vigorous": "3.9",
+        "Silvery": "5.3",
+        "Raspy": "5.2",
+        "Full": "4.4",
+        "Coarse": "6.6",
+        "Pure": "2.8",
+        "Hoarse": "7.9",
+        "Consonant": "6.9",
+        "Mellow": "3.5",
+        "Muddy": "2.1"
+      },
+      "tags": [
+        "Coarse",
+        "Hoarse",
+        "Thin"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%3Awestern_021_clavichord/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%3Awestern_021_clavichord/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: Bright"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Sharp\r\nSecondary answer: Rough"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccmusic-database:western_003_double_bass",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "double_bass",
+      "split": "Western",
+      "source_id": "3",
+      "duration": 17.993537414965985,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "1.6",
+        "Bright": "1.0",
+        "Dark": "8.5",
+        "Sharp": "1.3",
+        "Thick": "8.8",
+        "Thin": "1.8",
+        "Vigorous": "8.7",
+        "Silvery": "1.1",
+        "Raspy": "3.2",
+        "Full": "6.6",
+        "Coarse": "7.6",
+        "Pure": "3.9",
+        "Hoarse": "6.4",
+        "Consonant": "8.1",
+        "Mellow": "3.0",
+        "Muddy": "3.8"
+      },
+      "tags": [
+        "Coarse",
+        "Consonant",
+        "Dark",
+        "Thick",
+        "Vigorous"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%3Awestern_003_double_bass/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%3Awestern_003_double_bass/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Dark"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Dark\r\nSecondary answer: Mellow"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the emotion that a cochlear implant user would be most likely to feel while listening to the provided audio, rather than on assumptions about the emotion intended or expressed in the original music.\r\n\r\nWhile listening to this music, which emotion did you feel most strongly?\r\n\r\nOptions:\r\nA. Sharp\r\nB. Mellow\r\nC. Rough\r\nD. Muddy\r\nE. Bright\r\nF. Dark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Dark"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
+          }
+        }
+      }
+    },
+    {
+      "id": "emotify:classical:45",
+      "dataset_id": "emotify",
+      "dataset_name": "Emotify",
+      "instrument": "music excerpt",
+      "split": "unspecified",
+      "source_id": "classical/45",
+      "duration": null,
+      "include_task": "Emotion",
+      "display_metadata": {
+        "Amazement": "0.06",
+        "Solemnity": "0.24",
+        "Tenderness": "0.18",
+        "Nostalgia": "0.41",
+        "Calmness": "0.53",
+        "Power": "0.06",
+        "Joyful Activation": "0.06",
+        "Tension": "0.06",
+        "Sadness": "0.53"
+      },
+      "tags": [
+        "classical",
+        "Sadness"
+      ],
+      "audio": {
+        "original": "audio/emotify%3Aclassical%3A45/original.mp3",
+        "ci_vocoded": "audio/emotify%3Aclassical%3A45/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nBase your answer on the emotion that the music most strongly conveys to the listener.\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Tenderness\r\nSecondary answer: None"
+          },
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nBase your answer on the emotion that the music most strongly conveys to the listener.\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Sadness\r\nSecondary answer: Tenderness"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the emotional quality that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the emotion intended or conveyed in the original music.\r\n\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Tension\r\nSecondary answer: Power"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the emotional quality that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the emotion intended or conveyed in the original music.\r\n\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Tension\r\nSecondary answer: Joyful activation"
+          }
+        }
+      }
+    },
+    {
+      "id": "emotify:rock:123",
+      "dataset_id": "emotify",
+      "dataset_name": "Emotify",
+      "instrument": "music excerpt",
+      "split": "unspecified",
+      "source_id": "rock/23",
+      "duration": null,
+      "include_task": "Emotion",
+      "display_metadata": {
+        "Amazement": "0.06",
+        "Solemnity": "0.00",
+        "Tenderness": "0.00",
+        "Nostalgia": "0.12",
+        "Calmness": "0.00",
+        "Power": "0.24",
+        "Joyful Activation": "0.76",
+        "Tension": "0.18",
+        "Sadness": "0.06"
+      },
+      "tags": [
+        "rock",
+        "Joyful Activation"
+      ],
+      "audio": {
+        "original": "audio/emotify%3Arock%3A123/original.mp3",
+        "ci_vocoded": "audio/emotify%3Arock%3A123/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nBase your answer on the emotion that the music most strongly conveys to the listener.\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Joyful activation\r\nSecondary answer: Power"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nBase your answer on the emotion that the music most strongly conveys to the listener.\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Joyful activation\r\nSecondary answer: Tension"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the emotional quality that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the emotion intended or conveyed in the original music.\r\n\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Joyful activation\r\nSecondary answer: Power"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the emotional quality that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the emotion intended or conveyed in the original music.\r\n\r\nWhile listening to this music, which emotional quality would be perceived most strongly?\r\n\r\nOptions:\r\nPower\r\nJoyful activation\r\nTenderness\r\nTension\r\nCalmness\r\nSadness\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived emotion is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Tension\r\nSecondary answer: Joyful activation"
+          }
+        }
+      }
+    },
+    {
+      "id": "galvin-mci-rp:mci_a3_0220hz_01st_01_rising",
+      "dataset_id": "galvin-mci-rp",
+      "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+      "instrument": "synthetic tone",
+      "split": "unspecified",
+      "source_id": "1",
+      "duration": 4.9,
+      "include_task": "Melody",
+      "display_metadata": {},
+      "tags": [
+        "rising",
+        "A3"
+      ],
+      "audio": {
+        "original": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_01_rising/original.wav",
+        "ci_vocoded": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_01_rising/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "The audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the fundamental pitch of the five notes. Focus only on whether the pitch goes up, down, or stays the same from one note to the next.\r\n\r\nWhich option best describes the relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
+          },
+          "gemini-3-1-pro": {
+            "prompt": "The audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the fundamental pitch of the five notes. Focus only on whether the pitch goes up, down, or stays the same from one note to the next.\r\n\r\nWhich option best describes the relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: None"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded audio excerpt and predict how an adult cochlear implant user would most likely perceive the melody.\r\n\r\nThe audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the perceived pitch of the five notes. Focus only on whether the pitch appears to go up, down, or stay the same from one note to the next.\r\n\r\nBase your answer primarily on the relative pitch pattern that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the fundamental pitches intended or present in the original audio.\r\n\r\nWhich option best describes the perceived relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the perceived pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: flat: same → same → same → same → same\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded audio excerpt and predict how an adult cochlear implant user would most likely perceive the melody.\r\n\r\nThe audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the perceived pitch of the five notes. Focus only on whether the pitch appears to go up, down, or stay the same from one note to the next.\r\n\r\nBase your answer primarily on the relative pitch pattern that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the fundamental pitches intended or present in the original audio.\r\n\r\nWhich option best describes the perceived relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the perceived pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
+          }
+        }
+      }
+    },
+    {
+      "id": "galvin-mci-rp:mci_a3_0220hz_01st_03_flat",
+      "dataset_id": "galvin-mci-rp",
+      "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+      "instrument": "synthetic tone",
+      "split": "unspecified",
+      "source_id": "3",
+      "duration": 4.9,
+      "include_task": "Melody",
+      "display_metadata": {},
+      "tags": [
+        "flat",
+        "A3"
+      ],
+      "audio": {
+        "original": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_03_flat/original.wav",
+        "ci_vocoded": "audio/galvin-mci-rp%3Amci_a3_0220hz_01st_03_flat/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "The audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the fundamental pitch of the five notes. Focus only on whether the pitch goes up, down, or stays the same from one note to the next.\r\n\r\nWhich option best describes the relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
+          },
+          "gemini-3-1-pro": {
+            "prompt": "The audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the fundamental pitch of the five notes. Focus only on whether the pitch goes up, down, or stays the same from one note to the next.\r\n\r\nWhich option best describes the relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: flat: same → same → same → same → same\r\nSecondary answer: None"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded audio excerpt and predict how an adult cochlear implant user would most likely perceive the melody.\r\n\r\nThe audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the perceived pitch of the five notes. Focus only on whether the pitch appears to go up, down, or stay the same from one note to the next.\r\n\r\nBase your answer primarily on the relative pitch pattern that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the fundamental pitches intended or present in the original audio.\r\n\r\nWhich option best describes the perceived relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the perceived pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: flat: same → same → same → same → same\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "The audio is exactly 5 seconds long and contains five consecutive notes. Each note lasts exactly 1 second. Compare the fundamental pitch of the five notes. Focus only on whether the pitch goes up, down, or stays the same from one note to the next.\r\n\r\nWhich option best describes the relative pitch pattern of Notes 1–5?\r\n\r\nOptions:\r\nrising: low → higher → higher → higher → highest\r\nrising_falling: low → higher → highest → lower → low\r\nflat: same → same → same → same → same\r\nfalling_rising: high → lower → lowest → higher → high\r\nfalling: high → lower → lower → lower → lowest\r\n\r\nSelect the most likely option as the primary answer. If another option is also reasonably plausible because the pitch pattern is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
+          }
+        }
+      }
+    },
+    {
+      "id": "medley-solos-db:035332aa-b18c-567d-f247-8235fe046741",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "clarinet",
+      "split": "test",
+      "source_id": "0",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "display_metadata": {},
+      "tags": [
+        "0"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%3A035332aa-b18c-567d-f247-8235fe046741/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%3A035332aa-b18c-567d-f247-8235fe046741/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Clarinet (blown wind instrument)\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Clarinet (blown wind instrument)\r\nSecondary answer: None"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Drums (percussion instrument)\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
+          }
+        }
+      }
+    },
+    {
+      "id": "medley-solos-db:02f7aac1-d5bb-542d-fb0e-d1030cd9ac88",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "distorted electric guitar",
+      "split": "test",
+      "source_id": "27",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "display_metadata": {},
+      "tags": [
+        "1"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%3A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%3A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Violin (bowed string instrument)"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Drums (percussion instrument)\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
+          }
+        }
+      }
+    },
+    {
+      "id": "medley-solos-db:00315143-d2c3-5fb2-f84a-253505a69b97",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "piano",
+      "split": "validation",
+      "source_id": "217",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "display_metadata": {},
+      "tags": [
+        "4"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%3A00315143-d2c3-5fb2-f84a-253505a69b97/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%3A00315143-d2c3-5fb2-f84a-253505a69b97/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Piano (keyboard instrument)\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Piano (keyboard instrument)\r\nSecondary answer: None"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Drums (percussion instrument)\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
+          }
+        }
+      }
+    }
+  ]
+}
