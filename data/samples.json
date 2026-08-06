@@ -3,6 +3,7 @@
     "Melody",
     "Instrument",
     "Timbre",
+    "Genre",
     "Emotion"
   ],
   "samples": [
@@ -490,6 +491,265 @@
             "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
           }
         }
+      }
+    },
+    {
+      "id": "gtzan:classical:classical.00002",
+      "dataset_id": "gtzan",
+      "dataset_name": "GTZAN",
+      "instrument": "classical",
+      "split": "unspecified",
+      "source_id": "classical.00002",
+      "duration": null,
+      "include_task": "Genre",
+      "display_metadata": {},
+      "tags": [
+        "classical"
+      ],
+      "audio": {
+        "original": "audio/gtzan%253Aclassical%253Aclassical.00002/original.wav",
+        "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00002/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Classical\r\nSecondary answer: None"
+          },
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Classical\r\nSecondary answer: None"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the overall musical style that a cochlear implant user would be most likely to perceive while listening to the provided audio. Consider perceptible features such as the rhythm, and sound texture, rather than assumptions about the genre intended or present in the original music.\r\n\r\nWhich genre would most likely be perceived as describing this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Rock\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the overall musical style that a cochlear implant user would be most likely to perceive while listening to the provided audio. Consider perceptible features such as the rhythm, and sound texture, rather than assumptions about the genre intended or present in the original music.\r\n\r\nWhich genre would most likely be perceived as describing this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Hiphop\r\nSecondary answer: Rock"
+          }
+        }
+      }
+    },
+    {
+      "id": "gtzan:hiphop:hiphop.00027",
+      "dataset_id": "gtzan",
+      "dataset_name": "GTZAN",
+      "instrument": "hiphop",
+      "split": "unspecified",
+      "source_id": "hiphop.00027",
+      "duration": null,
+      "include_task": "Genre",
+      "display_metadata": {},
+      "tags": [
+        "hiphop"
+      ],
+      "audio": {
+        "original": "audio/gtzan%253Ahiphop%253Ahiphop.00027/original.wav",
+        "ci_vocoded": "audio/gtzan%253Ahiphop%253Ahiphop.00027/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Hiphop\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Hiphop\r\nSecondary answer: Rock"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the overall musical style that a cochlear implant user would be most likely to perceive while listening to the provided audio. Consider perceptible features such as the rhythm, and sound texture, rather than assumptions about the genre intended or present in the original music.\r\n\r\nWhich genre would most likely be perceived as describing this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Hiphop\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the overall musical style that a cochlear implant user would be most likely to perceive while listening to the provided audio. Consider perceptible features such as the rhythm, and sound texture, rather than assumptions about the genre intended or present in the original music.\r\n\r\nWhich genre would most likely be perceived as describing this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Hiphop\r\nSecondary answer: Rock"
+          }
+        }
+      }
+    },
+    {
+      "id": "gtzan:jazz:jazz.00078",
+      "dataset_id": "gtzan",
+      "dataset_name": "GTZAN",
+      "instrument": "jazz",
+      "split": "unspecified",
+      "source_id": "jazz.00078",
+      "duration": null,
+      "include_task": "Genre",
+      "display_metadata": {},
+      "tags": [
+        "jazz"
+      ],
+      "audio": {
+        "original": "audio/gtzan%253Ajazz%253Ajazz.00078/original.wav",
+        "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00078/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Jazz\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Jazz\r\nSecondary answer: Rock"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the overall musical style that a cochlear implant user would be most likely to perceive while listening to the provided audio. Consider perceptible features such as the rhythm, and sound texture, rather than assumptions about the genre intended or present in the original music.\r\n\r\nWhich genre would most likely be perceived as describing this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Hiphop\r\nSecondary answer: None"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the overall musical style that a cochlear implant user would be most likely to perceive while listening to the provided audio. Consider perceptible features such as the rhythm, and sound texture, rather than assumptions about the genre intended or present in the original music.\r\n\r\nWhich genre would most likely be perceived as describing this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Rock\r\nSecondary answer: Hiphop"
+          }
+        }
+      }
+    },
+    {
+      "id": "gtzan:reggae:reggae.00005",
+      "dataset_id": "gtzan",
+      "dataset_name": "GTZAN",
+      "instrument": "reggae",
+      "split": "unspecified",
+      "source_id": "reggae.00005",
+      "duration": null,
+      "include_task": "Genre",
+      "display_metadata": {},
+      "tags": [
+        "reggae"
+      ],
+      "audio": {
+        "original": "audio/gtzan%253Areggae%253Areggae.00005/original.wav",
+        "ci_vocoded": "audio/gtzan%253Areggae%253Areggae.00005/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Reggae\r\nSecondary answer: Hiphop"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "gtzan:rock:rock.00028",
+      "dataset_id": "gtzan",
+      "dataset_name": "GTZAN",
+      "instrument": "rock",
+      "split": "unspecified",
+      "source_id": "rock.00028",
+      "duration": null,
+      "include_task": "Genre",
+      "display_metadata": {},
+      "tags": [
+        "rock"
+      ],
+      "audio": {
+        "original": "audio/gtzan%253Arock%253Arock.00028/original.wav",
+        "ci_vocoded": "audio/gtzan%253Arock%253Arock.00028/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich genre best describes this music?\r\n\r\nOptions:\r\nClassical\r\nRock\r\nJazz\r\nHiphop\r\nReggae\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the musical genre is ambiguous or overlaps with multiple styles, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Rock\r\nSecondary answer: None"
+          }
+        },
+        "ci_vocoded": {}
       }
     },
     {
