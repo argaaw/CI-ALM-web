@@ -4,9 +4,211 @@
     "Instrument",
     "Timbre",
     "Genre",
-    "Emotion"
+    "Emotion",
+    "Rhythm"
   ],
   "samples": [
+    {
+      "id": "ccmusic-database:chinese_006_ban_hu",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "ban_hu",
+      "split": "Chinese",
+      "source_id": "6",
+      "duration": 6.88,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "7.4",
+        "Bright": "7.5",
+        "Dark": "2.3",
+        "Sharp": "8.3",
+        "Thick": "2.1",
+        "Thin": "7.2",
+        "Vigorous": "2.4",
+        "Silvery": "7.6",
+        "Raspy": "6.5",
+        "Full": "2.9",
+        "Coarse": "5.7",
+        "Pure": "4.7",
+        "Hoarse": "6.3",
+        "Consonant": "3.9",
+        "Mellow": "2.8",
+        "Muddy": "3.3"
+      },
+      "tags": [
+        "Bright",
+        "Raspy",
+        "Sharp",
+        "Silvery",
+        "Slim",
+        "Thin"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_006_ban_hu/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_006_ban_hu/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_007_bang_di",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "bang_di",
+      "split": "Chinese",
+      "source_id": "7",
+      "duration": 5.76,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "8.3",
+        "Bright": "8.6",
+        "Dark": "1.5",
+        "Sharp": "8.4",
+        "Thick": "1.4",
+        "Thin": "8.0",
+        "Vigorous": "1.5",
+        "Silvery": "8.7",
+        "Raspy": "5.1",
+        "Full": "3.1",
+        "Coarse": "3.0",
+        "Pure": "6.7",
+        "Hoarse": "3.4",
+        "Consonant": "5.6",
+        "Mellow": "3.0",
+        "Muddy": "1.9"
+      },
+      "tags": [
+        "Bright",
+        "Pure",
+        "Sharp",
+        "Silvery",
+        "Slim",
+        "Thin"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_007_bang_di/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_007_bang_di/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Mellow"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Sharp"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Muddy\r\nSecondary answer: Dark"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_021_bei_di_yin_guan",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "bei_di_yin_guan",
+      "split": "Chinese",
+      "source_id": "21",
+      "duration": 6.8,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "2.2",
+        "Bright": "2.2",
+        "Dark": "7.1",
+        "Sharp": "3.2",
+        "Thick": "7.9",
+        "Thin": "2.9",
+        "Vigorous": "7.9",
+        "Silvery": "2.1",
+        "Raspy": "4.4",
+        "Full": "6.7",
+        "Coarse": "6.9",
+        "Pure": "3.0",
+        "Hoarse": "6.4",
+        "Consonant": "4.2",
+        "Mellow": "3.5",
+        "Muddy": "7.6"
+      },
+      "tags": [
+        "Coarse",
+        "Dark",
+        "Full",
+        "Muddy",
+        "Thick",
+        "Vigorous"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_021_bei_di_yin_guan/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_021_bei_di_yin_guan/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
     {
       "id": "ccmusic-database:western_016_bells",
       "dataset_id": "ccmusic-database",
@@ -88,6 +290,122 @@
       }
     },
     {
+      "id": "ccmusic-database:western_002_cello",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "cello",
+      "split": "Western",
+      "source_id": "2",
+      "duration": 24.27294784580499,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "2.7",
+        "Bright": "3.1",
+        "Dark": "5.5",
+        "Sharp": "2.3",
+        "Thick": "7.6",
+        "Thin": "1.9",
+        "Vigorous": "7.6",
+        "Silvery": "2.3",
+        "Raspy": "2.8",
+        "Full": "7.8",
+        "Coarse": "4.7",
+        "Pure": "6.3",
+        "Hoarse": "4.5",
+        "Consonant": "6.0",
+        "Mellow": "6.8",
+        "Muddy": "7.2"
+      },
+      "tags": [
+        "Full",
+        "Muddy",
+        "Thick",
+        "Vigorous"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_002_cello/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_002_cello/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:western_007_clarinet",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "clarinet",
+      "split": "Western",
+      "source_id": "7",
+      "duration": 15.083673469387755,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "4.2",
+        "Bright": "4.8",
+        "Dark": "4.5",
+        "Sharp": "4.3",
+        "Thick": "5.9",
+        "Thin": "4.5",
+        "Vigorous": "6.2",
+        "Silvery": "3.9",
+        "Raspy": "3.6",
+        "Full": "6.5",
+        "Coarse": "3.7",
+        "Pure": "6.6",
+        "Hoarse": "3.5",
+        "Consonant": "5.0",
+        "Mellow": "7.2",
+        "Muddy": "7.2"
+      },
+      "tags": [
+        "Mellow",
+        "Muddy"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_007_clarinet/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_007_clarinet/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
       "id": "ccmusic-database:western_021_clavichord",
       "dataset_id": "ccmusic-database",
       "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
@@ -161,6 +479,200 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
           }
         }
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_004_di_yin_ge_hu",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "di_yin_ge_hu",
+      "split": "Chinese",
+      "source_id": "4",
+      "duration": 5.36,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "1.7",
+        "Bright": "1.5",
+        "Dark": "8.1",
+        "Sharp": "1.8",
+        "Thick": "8.8",
+        "Thin": "1.6",
+        "Vigorous": "8.6",
+        "Silvery": "1.1",
+        "Raspy": "4.2",
+        "Full": "7.3",
+        "Coarse": "6.9",
+        "Pure": "3.0",
+        "Hoarse": "6.8",
+        "Consonant": "3.6",
+        "Mellow": "3.3",
+        "Muddy": "8.0"
+      },
+      "tags": [
+        "Coarse",
+        "Dark",
+        "Full",
+        "Hoarse",
+        "Muddy",
+        "Thick",
+        "Vigorous"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_004_di_yin_ge_hu/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_004_di_yin_ge_hu/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Dark"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: Dark"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Muddy"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_020_di_yin_guan",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "di_yin_guan",
+      "split": "Chinese",
+      "source_id": "20",
+      "duration": 6.0,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "3.1",
+        "Bright": "3.2",
+        "Dark": "6.2",
+        "Sharp": "3.8",
+        "Thick": "7.0",
+        "Thin": "3.5",
+        "Vigorous": "7.2",
+        "Silvery": "2.7",
+        "Raspy": "4.2",
+        "Full": "6.6",
+        "Coarse": "5.9",
+        "Pure": "4.4",
+        "Hoarse": "6.0",
+        "Consonant": "5.1",
+        "Mellow": "4.4",
+        "Muddy": "6.8"
+      },
+      "tags": [
+        "Muddy",
+        "Vigorous"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_020_di_yin_guan/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_020_di_yin_guan/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_017_di_yin_suo_na",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "di_yin_suo_na",
+      "split": "Chinese",
+      "source_id": "17",
+      "duration": 6.72,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "4.8",
+        "Bright": "5.5",
+        "Dark": "6.4",
+        "Sharp": "4.4",
+        "Thick": "6.1",
+        "Thin": "4.3",
+        "Vigorous": "6.5",
+        "Silvery": "2.7",
+        "Raspy": "6.9",
+        "Full": "5.2",
+        "Coarse": "6.7",
+        "Pure": "3.8",
+        "Hoarse": "6.4",
+        "Consonant": "3.0",
+        "Mellow": "2.2",
+        "Muddy": "6.2"
+      },
+      "tags": [
+        "Coarse",
+        "Raspy"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_017_di_yin_suo_na/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_017_di_yin_suo_na/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
       }
     },
     {
@@ -239,6 +751,572 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
           }
         }
+      }
+    },
+    {
+      "id": "ccmusic-database:western_005_flute",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "flute",
+      "split": "Western",
+      "source_id": "5",
+      "duration": 16.695918367346938,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "6.6",
+        "Bright": "6.5",
+        "Dark": "2.9",
+        "Sharp": "6.9",
+        "Thick": "3.4",
+        "Thin": "6.0",
+        "Vigorous": "3.0",
+        "Silvery": "6.9",
+        "Raspy": "3.6",
+        "Full": "4.7",
+        "Coarse": "2.7",
+        "Pure": "5.8",
+        "Hoarse": "2.8",
+        "Consonant": "3.3",
+        "Mellow": "6.7",
+        "Muddy": "6.6"
+      },
+      "tags": [
+        "Muddy",
+        "Sharp",
+        "Slim"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_005_flute/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_005_flute/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_018_gao_yin_guan",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "gao_yin_guan",
+      "split": "Chinese",
+      "source_id": "18",
+      "duration": 5.76,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "5.9",
+        "Bright": "6.0",
+        "Dark": "4.5",
+        "Sharp": "7.2",
+        "Thick": "3.5",
+        "Thin": "6.4",
+        "Vigorous": "3.5",
+        "Silvery": "5.3",
+        "Raspy": "7.7",
+        "Full": "3.5",
+        "Coarse": "6.9",
+        "Pure": "2.8",
+        "Hoarse": "7.4",
+        "Consonant": "2.1",
+        "Mellow": "2.1",
+        "Muddy": "5.3"
+      },
+      "tags": [
+        "Coarse",
+        "Hoarse",
+        "Raspy",
+        "Sharp"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_018_gao_yin_guan/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_018_gao_yin_guan/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:western_014_harp",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "harp",
+      "split": "Western",
+      "source_id": "14",
+      "duration": 17.494444444444444,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "5.3",
+        "Bright": "5.6",
+        "Dark": "3.8",
+        "Sharp": "4.0",
+        "Thick": "4.1",
+        "Thin": "4.2",
+        "Vigorous": "5.0",
+        "Silvery": "6.0",
+        "Raspy": "2.9",
+        "Full": "6.1",
+        "Coarse": "2.7",
+        "Pure": "7.5",
+        "Hoarse": "2.9",
+        "Consonant": "3.9",
+        "Mellow": "7.2",
+        "Muddy": "6.9"
+      },
+      "tags": [
+        "Mellow",
+        "Muddy",
+        "Pure"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_014_harp/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_014_harp/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_033_kong_hou",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "kong_hou",
+      "split": "Chinese",
+      "source_id": "33",
+      "duration": 6.44,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "5.1",
+        "Bright": "5.4",
+        "Dark": "4.3",
+        "Sharp": "3.5",
+        "Thick": "5.9",
+        "Thin": "3.4",
+        "Vigorous": "5.9",
+        "Silvery": "5.2",
+        "Raspy": "2.6",
+        "Full": "7.1",
+        "Coarse": "3.2",
+        "Pure": "6.9",
+        "Hoarse": "2.2",
+        "Consonant": "7.6",
+        "Mellow": "7.3",
+        "Muddy": "4.5"
+      },
+      "tags": [
+        "Consonant",
+        "Full",
+        "Mellow",
+        "Pure"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_033_kong_hou/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_033_kong_hou/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:chinese_025_liu_qin",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "liu_qin",
+      "split": "Chinese",
+      "source_id": "25",
+      "duration": 7.24,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "6.9",
+        "Bright": "7.3",
+        "Dark": "3.0",
+        "Sharp": "6.4",
+        "Thick": "3.4",
+        "Thin": "6.0",
+        "Vigorous": "3.1",
+        "Silvery": "7.5",
+        "Raspy": "4.0",
+        "Full": "5.2",
+        "Coarse": "3.4",
+        "Pure": "5.9",
+        "Hoarse": "3.1",
+        "Consonant": "6.4",
+        "Mellow": "4.9",
+        "Muddy": "3.1"
+      },
+      "tags": [
+        "Bright",
+        "Silvery",
+        "Slim"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Achinese_025_liu_qin/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Achinese_025_liu_qin/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:western_004_piccolo",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "piccolo",
+      "split": "Western",
+      "source_id": "4",
+      "duration": 19.111875,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "7.2",
+        "Bright": "8.0",
+        "Dark": "2.0",
+        "Sharp": "7.9",
+        "Thick": "2.5",
+        "Thin": "7.1",
+        "Vigorous": "3.0",
+        "Silvery": "7.5",
+        "Raspy": "3.7",
+        "Full": "3.5",
+        "Coarse": "3.1",
+        "Pure": "5.5",
+        "Hoarse": "4.1",
+        "Consonant": "3.6",
+        "Mellow": "5.9",
+        "Muddy": "5.1"
+      },
+      "tags": [
+        "Bright",
+        "Sharp",
+        "Silvery",
+        "Slim",
+        "Thin"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_004_piccolo/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_004_piccolo/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Bright\r\nSecondary answer: Mellow"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Sharp"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: Dark"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccmusic-database:western_013_tuba",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "tuba",
+      "split": "Western",
+      "source_id": "13",
+      "duration": 19.5,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "1.2",
+        "Bright": "1.0",
+        "Dark": "8.7",
+        "Sharp": "1.5",
+        "Thick": "8.6",
+        "Thin": "1.6",
+        "Vigorous": "8.6",
+        "Silvery": "1.0",
+        "Raspy": "5.7",
+        "Full": "7.4",
+        "Coarse": "7.6",
+        "Pure": "3.5",
+        "Hoarse": "7.1",
+        "Consonant": "8.6",
+        "Mellow": "5.0",
+        "Muddy": "5.2"
+      },
+      "tags": [
+        "Coarse",
+        "Consonant",
+        "Dark",
+        "Full",
+        "Hoarse",
+        "Thick",
+        "Vigorous"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_013_tuba/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_013_tuba/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Dark\r\nSecondary answer: Mellow"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: Dark"
+          }
+        },
+        "ci_vocoded": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Rough\r\nSecondary answer: Muddy"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nBase your answer primarily on the sound texture that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the timbral qualities intended or present in the original music.\r\n\r\nWhile listening to this music, which timbral quality did you perceive most strongly?\r\n\r\nOptions:\r\nMellow\r\nDark\r\nMuddy\r\nSharp\r\nBright\r\nRough\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
+            "response_text": "Primary answer: Mellow\r\nSecondary answer: Bright"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccmusic-database:western_018_vibraphone",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "vibraphone",
+      "split": "Western",
+      "source_id": "18",
+      "duration": 12.5,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "5.5",
+        "Bright": "6.9",
+        "Dark": "2.0",
+        "Sharp": "5.9",
+        "Thick": "2.7",
+        "Thin": "6.3",
+        "Vigorous": "3.5",
+        "Silvery": "7.8",
+        "Raspy": "3.2",
+        "Full": "5.5",
+        "Coarse": "2.3",
+        "Pure": "7.1",
+        "Hoarse": "2.1",
+        "Consonant": "3.9",
+        "Mellow": "7.2",
+        "Muddy": "6.0"
+      },
+      "tags": [
+        "Mellow",
+        "Pure",
+        "Silvery"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_018_vibraphone/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_018_vibraphone/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "ccmusic-database:western_017_xylophone",
+      "dataset_id": "ccmusic-database",
+      "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+      "instrument": "xylophone",
+      "split": "Western",
+      "source_id": "17",
+      "duration": 13.886031746031746,
+      "include_task": "Timbre",
+      "display_metadata": {
+        "Slim": "6.0",
+        "Bright": "6.5",
+        "Dark": "2.4",
+        "Sharp": "6.8",
+        "Thick": "1.8",
+        "Thin": "8.0",
+        "Vigorous": "2.0",
+        "Silvery": "8.0",
+        "Raspy": "5.2",
+        "Full": "3.0",
+        "Coarse": "2.9",
+        "Pure": "7.9",
+        "Hoarse": "2.1",
+        "Consonant": "1.9",
+        "Mellow": "5.4",
+        "Muddy": "4.1"
+      },
+      "tags": [
+        "Pure",
+        "Silvery",
+        "Thin"
+      ],
+      "audio": {
+        "original": "audio/ccmusic-database%253Awestern_017_xylophone/original.wav",
+        "ci_vocoded": "audio/ccmusic-database%253Awestern_017_xylophone/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {},
+        "ci_vocoded": {}
       }
     },
     {
@@ -921,6 +1999,66 @@
             "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
           }
         }
+      }
+    },
+    {
+      "id": "senn-2023-drumgroove:d_40_marb_4",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "D_40_MarB_4",
+      "duration": null,
+      "include_task": "Rhythm",
+      "display_metadata": {
+        "Mean Desire to Move": "3.539007",
+        "Mean Pleasure": "3.390071",
+        "Mean Perceived Regularity": "2.457447",
+        "Mean Interest": "4.014184",
+        "Mean Energy": "3.632979",
+        "Mean Familiarity": "2.021277",
+        "Perceived Complexity": "4.701342",
+        "Revised Syncopation Index": "0.71517",
+        "Mean Tempo BPM": "98.64"
+      },
+      "tags": [
+        "High Complexity",
+        "High Syncopation",
+        "Low Regularity"
+      ],
+      "audio": {
+        "original": "audio/senn-2023-drumgroove%253Ad_40_marb_4/original.mp3",
+        "ci_vocoded": "audio/senn-2023-drumgroove%253Ad_40_marb_4/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3-1-pro",
+          "label": "Gemini 3.1 Pro",
+          "provider_id": ""
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3-1-pro": {
+            "prompt": "Listen to the drum-pattern excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the most strongly perceived rhythmic quality of this audio?\r\n\r\nOptions:\r\nComplex\r\nSimple\r\nSlow\r\nFast\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because more than one rhythmic quality is prominent or the rhythm is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Fast\r\nSecondary answer: Simple"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the drum-pattern excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the most strongly perceived rhythmic quality of this audio?\r\n\r\nOptions:\r\nComplex\r\nSimple\r\nSlow\r\nFast\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because more than one rhythmic quality is prominent or the rhythm is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
+            "response_text": "Primary answer: Fast\r\nSecondary answer: Simple"
+          }
+        },
+        "ci_vocoded": {}
       }
     }
   ]
