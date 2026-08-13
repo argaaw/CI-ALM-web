@@ -10,10 +10,12 @@
   function filteredSamples() {
     const task = document.querySelector("#task").value;
     const datasetId = document.querySelector("#dataset-id").value;
+    const sampleType = document.querySelector("#sample-type").value;
     const query = document.querySelector("#query").value.trim().toLocaleLowerCase();
     return state.samples.filter((sample) => {
       if (task && sample.include_task !== task) return false;
       if (datasetId && sample.dataset_id !== datasetId) return false;
+      if (sampleType && sample.sample_type !== sampleType) return false;
       if (!query) return true;
       return [sample.id, sample.instrument, sample.source_id]
         .filter(Boolean)
@@ -66,6 +68,24 @@
     </div>`;
   }
 
+
+  function comparisonSourceCards(sample) {
+    const sources = sample.comparison_sources || [];
+    if (!sources.length) return "";
+    return `<section class="comparison-sources">
+      <div class="section-title"><div><p class="eyebrow">COMPARISON SOURCES</p><h3>Source metadata</h3></div><span>${escapeHtml(sample.gap_seconds)} second gap</span></div>
+      ${sources.map((source) => {
+        const sourceMetrics = Object.entries(source.display_metadata || {}).map(([label, value]) =>
+          `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value ?? "—")}</strong></div>`,
+        ).join("");
+        return `<article class="comparison-source-card">
+          <div class="comparison-source-heading"><strong>Audio ${escapeHtml(source.position)}</strong><span>${escapeHtml(source.id)}</span></div>
+          <section class="metadata-grid"><div><span>Dataset</span><strong>${escapeHtml(source.dataset_name)}</strong></div><div><span>Instrument</span><strong>${escapeHtml(source.instrument)}</strong></div><div><span>Split</span><strong>${escapeHtml(source.split)}</strong></div><div><span>Duration</span><strong>${source.duration == null ? "—" : `${escapeHtml(source.duration.toFixed(1))} s`}</strong></div><div><span>Source</span><strong>${escapeHtml(source.source_id || "—")}</strong></div></section>
+          ${sourceMetrics ? `<div class="metadata-grid stimulus-metadata-grid">${sourceMetrics}</div>` : ""}
+        </article>`;
+      }).join("")}
+    </section>`;
+  }
   function renderDetail() {
     const target = document.querySelector("#workspace");
     const sample = selectedSample();
@@ -84,6 +104,7 @@
       <div class="shared-audio-variant-tabs" role="tablist"><button type="button" class="shared-audio-variant-tab is-active" data-audio-variant-tab="original" aria-selected="true">Original audio</button>${ciButton}</div>
       <section class="audio-card shared-audio-card"><audio id="main-audio" controls preload="metadata" src="${escapeHtml(sample.audio.original)}" data-original-src="${escapeHtml(sample.audio.original)}" data-ci-vocoded-src="${escapeHtml(sample.audio.ci_vocoded || "")}"></audio><div class="audio-shortcuts"><span><kbd>Space</kbd> play</span><span><kbd>J</kbd>/<kbd>K</kbd> prev/next</span></div></section>
       <section class="metadata-grid"><div><span>Dataset</span><strong>${escapeHtml(sample.dataset_id)}</strong></div><div><span>Split</span><strong>${escapeHtml(sample.split)}</strong></div><div><span>Duration</span><strong>${sample.duration == null ? "—" : `${escapeHtml(sample.duration.toFixed(1))} s`}</strong></div><div><span>Source</span><strong>${escapeHtml(sample.source_id || "—")}</strong></div></section>
+      ${comparisonSourceCards(sample)}
       ${metrics ? `<section class="stimulus-metadata"><div class="section-title"><div><p class="eyebrow">STIMULUS METRICS</p><h3>Source metadata</h3></div></div><div class="metadata-grid stimulus-metadata-grid">${metrics}</div></section>` : ""}
       <div class="tag-row">${sample.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
       <section class="alm-card saved-response-card" data-audio-variant-card><div class="section-title"><div><p class="eyebrow">ALM RESPONSES</p><h3>Questions &amp; Answers</h3></div></div>${variantPane(sample, "original")}${variantPane(sample, "ci_vocoded")}</section>
@@ -140,9 +161,10 @@
     payload.tasks.forEach((name) => task.add(new Option(name, name)));
     task.addEventListener("change", () => { renderDatasetOptions(); renderList(); });
     document.querySelector("#dataset-id").addEventListener("change", renderList);
+    document.querySelector("#sample-type").addEventListener("change", renderList);
     document.querySelector("#query").addEventListener("input", renderList);
     document.querySelector("#reset-filters").addEventListener("click", () => {
-      document.querySelector("#query").value = ""; task.value = ""; renderDatasetOptions(); renderList();
+      document.querySelector("#query").value = ""; task.value = ""; document.querySelector("#sample-type").value = ""; renderDatasetOptions(); renderList();
     });
     renderDatasetOptions();
     renderList();
