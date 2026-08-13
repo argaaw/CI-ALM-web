@@ -153,7 +153,10 @@
   });
 
   async function start() {
-    const response = await fetch("data/samples.json");
+    const response = await fetch(
+      `data/samples.json?v=${Date.now()}`,
+      { cache: "no-store" },
+    );
     if (!response.ok) throw new Error(`Could not load shared samples: ${response.status}`);
     const payload = await response.json();
     state.samples = payload.samples;
