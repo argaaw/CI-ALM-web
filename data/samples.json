@@ -2098,35 +2098,683 @@
       }
     },
     {
-      "id": "comparison:c919cdd7591406b2e93c368f",
+      "id": "comparison:0735fe71fcf6de90995b824f",
       "dataset_id": "senn-2023-drumgroove",
       "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
       "instrument": "drum pattern",
       "split": "unspecified",
       "source_id": "comparison",
-      "duration": 26.81598639455782,
+      "duration": 24.282607709750568,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 2,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:c_11_nelp_5",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "C_11_NelP_5",
+          "display_metadata": {
+            "Mean Desire to Move": "4.03876",
+            "Mean Pleasure": "3.922481",
+            "Mean Perceived Regularity": "4.203488",
+            "Mean Interest": "3.348837",
+            "Mean Energy": "3.610465",
+            "Mean Familiarity": "2.860465",
+            "Perceived Complexity": "1.63241",
+            "Revised Syncopation Index": "0.250026",
+            "Mean Tempo BPM": "120.15"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:c_15_frej_5",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "C_15_FreJ_5",
+          "display_metadata": {
+            "Mean Desire to Move": "4.410853",
+            "Mean Pleasure": "4.023256",
+            "Mean Perceived Regularity": "4.924419",
+            "Mean Interest": "3.682171",
+            "Mean Energy": "4.261628",
+            "Mean Familiarity": "2.674419",
+            "Perceived Complexity": "2.091152",
+            "Revised Syncopation Index": "0.237849",
+            "Mean Tempo BPM": "122.06"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison",
+        "High Desire to Move",
+        "High Familiarity"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A0735fe71fcf6de90995b824f/original.wav",
+        "ci_vocoded": "audio/comparison%253A0735fe71fcf6de90995b824f/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (10/12)\r\nSecond excerpt (2/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:0fc7df2f8fa3544ee3c8f9b6",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 26.51185941043084,
       "include_task": "Rhythm",
       "sample_type": "comparison",
       "gap_seconds": 4,
       "comparison_sources": [
         {
           "position": 1,
-          "id": "senn-2023-drumgroove:d_04_johr_2",
+          "id": "senn-2023-drumgroove:a_01_tayr_2",
           "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
           "instrument": "drum pattern",
           "split": "unspecified",
           "duration": null,
-          "source_id": "D_04_JohR_2",
+          "source_id": "A_01_TayR_2",
           "display_metadata": {
-            "Mean Desire to Move": "3.680851",
-            "Mean Pleasure": "3.765957",
-            "Mean Perceived Regularity": "4.62766",
-            "Mean Interest": "3.361702",
-            "Mean Energy": "4.276596",
-            "Mean Familiarity": "2.553191",
-            "Perceived Complexity": "0.57295",
+            "Mean Desire to Move": "4.136364",
+            "Mean Pleasure": "4.083333",
+            "Mean Perceived Regularity": "5.227273",
+            "Mean Interest": "3.742424",
+            "Mean Energy": "4.329545",
+            "Mean Familiarity": "2.431818",
+            "Perceived Complexity": "0.4",
             "Revised Syncopation Index": "0.212143",
-            "Mean Tempo BPM": "130.94"
+            "Mean Tempo BPM": "130.19"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:b_06_bonj_5",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "B_06_BonJ_5",
+          "display_metadata": {
+            "Mean Desire to Move": "2.518519",
+            "Mean Pleasure": "2.874074",
+            "Mean Perceived Regularity": "4.788889",
+            "Mean Interest": "2.548148",
+            "Mean Energy": "1.905556",
+            "Mean Familiarity": "2.333333",
+            "Perceived Complexity": "1.182105",
+            "Revised Syncopation Index": "0.298732",
+            "Mean Tempo BPM": "81.4"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison",
+        "Low Complexity"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A0fc7df2f8fa3544ee3c8f9b6/original.wav",
+        "ci_vocoded": "audio/comparison%253A0fc7df2f8fa3544ee3c8f9b6/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (4/12)\r\nSecond excerpt (8/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:1bd3b345a6248185ea55de38",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 33.53566893424036,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:d_24_chad_5",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "D_24_ChaD_5",
+          "display_metadata": {
+            "Mean Desire to Move": "2.631206",
+            "Mean Pleasure": "3.085106",
+            "Mean Perceived Regularity": "4.015957",
+            "Mean Interest": "2.950355",
+            "Mean Energy": "2.760638",
+            "Mean Familiarity": "2.361702",
+            "Perceived Complexity": "3.05147",
+            "Revised Syncopation Index": "0.537663",
+            "Mean Tempo BPM": "84.69"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:c_07_frej_3",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "C_07_FreJ_3",
+          "display_metadata": {
+            "Mean Desire to Move": "3.046512",
+            "Mean Pleasure": "3.24031",
+            "Mean Perceived Regularity": "4.55814",
+            "Mean Interest": "2.604651",
+            "Mean Energy": "2.22093",
+            "Mean Familiarity": "2.395349",
+            "Perceived Complexity": "1.2097",
+            "Revised Syncopation Index": "0.415086",
+            "Mean Tempo BPM": "84.98"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison",
+        "Slow Tempo"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A1bd3b345a6248185ea55de38/original.wav",
+        "ci_vocoded": "audio/comparison%253A1bd3b345a6248185ea55de38/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (9/12)\r\nSecond excerpt (1/12)\r\nNeither sounds clearly faster than the other (2/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:22abd5c7c67c795c815043db",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 30.820408163265306,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 3,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:a_17_phis_5",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "A_17_PhiS_5",
+          "display_metadata": {
+            "Mean Desire to Move": "3.166667",
+            "Mean Pleasure": "3.863636",
+            "Mean Perceived Regularity": "4.142045",
+            "Mean Interest": "3.606061",
+            "Mean Energy": "3.431818",
+            "Mean Familiarity": "1.931818",
+            "Perceived Complexity": "2.188844",
+            "Revised Syncopation Index": "0.422716",
+            "Mean Tempo BPM": "87.88"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:b_18_cops_1",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "B_18_CopS_1",
+          "display_metadata": {
+            "Mean Desire to Move": "4.414815",
+            "Mean Pleasure": "4.42963",
+            "Mean Perceived Regularity": "4.216667",
+            "Mean Interest": "4.533333",
+            "Mean Energy": "4.761111",
+            "Mean Familiarity": "2.711111",
+            "Perceived Complexity": "2.216009",
+            "Revised Syncopation Index": "0.363673",
+            "Mean Tempo BPM": "137.35"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A22abd5c7c67c795c815043db/original.wav",
+        "ci_vocoded": "audio/comparison%253A22abd5c7c67c795c815043db/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:3754abc3419f67ed8b616077",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 24.573174603174603,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:d_32_johr_3",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "D_32_JohR_3",
+          "display_metadata": {
+            "Mean Desire to Move": "3.553191",
+            "Mean Pleasure": "3.602837",
+            "Mean Perceived Regularity": "3.75",
+            "Mean Interest": "4.007092",
+            "Mean Energy": "3.537234",
+            "Mean Familiarity": "2.042553",
+            "Perceived Complexity": "3.342496",
+            "Revised Syncopation Index": "0.685568",
+            "Mean Tempo BPM": "110.85"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:a_13_pean_4",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "A_13_PeaN_4",
+          "display_metadata": {
+            "Mean Desire to Move": "3.954545",
+            "Mean Pleasure": "4.30303",
+            "Mean Perceived Regularity": "5.056818",
+            "Mean Interest": "4.068182",
+            "Mean Energy": "4.636364",
+            "Mean Familiarity": "2.227273",
+            "Perceived Complexity": "1.90243",
+            "Revised Syncopation Index": "0.212143",
+            "Mean Tempo BPM": "111.13"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A3754abc3419f67ed8b616077/original.wav",
+        "ci_vocoded": "audio/comparison%253A3754abc3419f67ed8b616077/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (1/12)\r\nSecond excerpt (10/12)\r\nNeither sounds clearly faster than the other (1/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:4e47c9c7411ea97529467b85",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 23.93512471655329,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:a_37_stuc_4",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "A_37_StuC_4",
+          "display_metadata": {
+            "Mean Desire to Move": "2.931818",
+            "Mean Pleasure": "3.55303",
+            "Mean Perceived Regularity": "3.085227",
+            "Mean Interest": "3.893939",
+            "Mean Energy": "3.136364",
+            "Mean Familiarity": "1.909091",
+            "Perceived Complexity": "3.762756",
+            "Revised Syncopation Index": "0.537717",
+            "Mean Tempo BPM": "111.7"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:c_03_grod_3",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "C_03_GroD_3",
+          "display_metadata": {
+            "Mean Desire to Move": "3.635659",
+            "Mean Pleasure": "3.364341",
+            "Mean Perceived Regularity": "5.127907",
+            "Mean Interest": "3.124031",
+            "Mean Energy": "3.238372",
+            "Mean Familiarity": "2.813953",
+            "Perceived Complexity": "0.47576",
+            "Revised Syncopation Index": "0.363673",
+            "Mean Tempo BPM": "115.88"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A4e47c9c7411ea97529467b85/original.wav",
+        "ci_vocoded": "audio/comparison%253A4e47c9c7411ea97529467b85/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:5ecbd49b5e0550e6d7f383de",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 26.136031746031748,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:d_40_marb_4",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "D_40_MarB_4",
+          "display_metadata": {
+            "Mean Desire to Move": "3.539007",
+            "Mean Pleasure": "3.390071",
+            "Mean Perceived Regularity": "2.457447",
+            "Mean Interest": "4.014184",
+            "Mean Energy": "3.632979",
+            "Mean Familiarity": "2.021277",
+            "Perceived Complexity": "4.701342",
+            "Revised Syncopation Index": "0.71517",
+            "Mean Tempo BPM": "98.64"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:b_02_jaca_2",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "B_02_JacA_2",
+          "display_metadata": {
+            "Mean Desire to Move": "3.02963",
+            "Mean Pleasure": "3.355556",
+            "Mean Perceived Regularity": "5.094444",
+            "Mean Interest": "3.037037",
+            "Mean Energy": "2.761111",
+            "Mean Familiarity": "2.333333",
+            "Perceived Complexity": "0.407778",
+            "Revised Syncopation Index": "0.287908",
+            "Mean Tempo BPM": "103.87"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A5ecbd49b5e0550e6d7f383de/original.wav",
+        "ci_vocoded": "audio/comparison%253A5ecbd49b5e0550e6d7f383de/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:8bb5652c3425a106d307804e",
+      "dataset_id": "senn-2023-drumgroove",
+      "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+      "instrument": "drum pattern",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 29.385079365079363,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:a_05_jors_2",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "A_05_JorS_2",
+          "display_metadata": {
+            "Mean Desire to Move": "3.212121",
+            "Mean Pleasure": "3.378788",
+            "Mean Perceived Regularity": "5.335227",
+            "Mean Interest": "2.765152",
+            "Mean Energy": "3.096591",
+            "Mean Familiarity": "2.340909",
+            "Perceived Complexity": "0.784359",
+            "Revised Syncopation Index": "0.250026",
+            "Mean Tempo BPM": "97.71"
           }
         },
         {
@@ -2155,8 +2803,8 @@
         "comparison"
       ],
       "audio": {
-        "original": "audio/comparison%253Ac919cdd7591406b2e93c368f/original.wav",
-        "ci_vocoded": "audio/comparison%253Ac919cdd7591406b2e93c368f/ci-vocoded.wav"
+        "original": "audio/comparison%253A8bb5652c3425a106d307804e/original.wav",
+        "ci_vocoded": "audio/comparison%253A8bb5652c3425a106d307804e/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -2178,49 +2826,79 @@
       "responses": {
         "original": {
           "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNo clear difference\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
-            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNo clear difference (0/12)"
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly simpler than the other (0/12)"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNo clear difference\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
-            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNo clear difference (0/12)"
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly simpler than the other (0/12)"
           }
         },
         "ci_vocoded": {}
       }
     },
     {
-      "id": "senn-2023-drumgroove:c_39_purb_5",
+      "id": "comparison:c695749266ca46c8e60c014e",
       "dataset_id": "senn-2023-drumgroove",
       "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
       "instrument": "drum pattern",
       "split": "unspecified",
-      "source_id": "C_39_PurB_5",
-      "duration": null,
+      "source_id": "comparison",
+      "duration": 22.587641723356008,
       "include_task": "Rhythm",
-      "sample_type": "original",
-      "gap_seconds": null,
-      "comparison_sources": [],
-      "display_metadata": {
-        "Mean Desire to Move": "3.589147",
-        "Mean Pleasure": "3.542636",
-        "Mean Perceived Regularity": "3.156977",
-        "Mean Interest": "4.325581",
-        "Mean Energy": "4.383721",
-        "Mean Familiarity": "2.232558",
-        "Perceived Complexity": "4.393996",
-        "Revised Syncopation Index": "0.678099",
-        "Mean Tempo BPM": "106.22"
-      },
+      "sample_type": "comparison",
+      "gap_seconds": 2,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:c_03_grod_3",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "C_03_GroD_3",
+          "display_metadata": {
+            "Mean Desire to Move": "3.635659",
+            "Mean Pleasure": "3.364341",
+            "Mean Perceived Regularity": "5.127907",
+            "Mean Interest": "3.124031",
+            "Mean Energy": "3.238372",
+            "Mean Familiarity": "2.813953",
+            "Perceived Complexity": "0.47576",
+            "Revised Syncopation Index": "0.363673",
+            "Mean Tempo BPM": "115.88"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:b_02_jaca_2",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "B_02_JacA_2",
+          "display_metadata": {
+            "Mean Desire to Move": "3.02963",
+            "Mean Pleasure": "3.355556",
+            "Mean Perceived Regularity": "5.094444",
+            "Mean Interest": "3.037037",
+            "Mean Energy": "2.761111",
+            "Mean Familiarity": "2.333333",
+            "Perceived Complexity": "0.407778",
+            "Revised Syncopation Index": "0.287908",
+            "Mean Tempo BPM": "103.87"
+          }
+        }
+      ],
+      "display_metadata": {},
       "tags": [
-        "High Complexity",
-        "High Interest",
-        "High Syncopation",
-        "Low Regularity"
+        "comparison",
+        "High Regularity",
+        "Low Complexity"
       ],
       "audio": {
-        "original": "audio/senn-2023-drumgroove%253Ac_39_purb_5/original.mp3",
-        "ci_vocoded": null
+        "original": "audio/comparison%253Ac695749266ca46c8e60c014e/original.wav",
+        "ci_vocoded": "audio/comparison%253Ac695749266ca46c8e60c014e/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -2242,49 +2920,655 @@
       "responses": {
         "original": {
           "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the drum-pattern excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the most strongly perceived rhythmic quality of this audio?\r\n\r\nOptions:\r\nComplex\r\nSimple\r\nSlow\r\nFast\r\nSyncopated\r\nUnsyncopated\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because more than one rhythmic quality is prominent or the rhythm is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Fast (7/10)\r\nSecondary answer: Complex (3/7)"
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (11/12)\r\nNeither sounds clearly simpler than the other (1/12)"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the drum-pattern excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the most strongly perceived rhythmic quality of this audio?\r\n\r\nOptions:\r\nComplex\r\nSimple\r\nSlow\r\nFast\r\nSyncopated\r\nUnsyncopated\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because more than one rhythmic quality is prominent or the rhythm is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Syncopated (67/100)\r\nSecondary answer: Simple (28/67)"
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly simpler than the other (0/12)"
           }
         },
         "ci_vocoded": {}
       }
     },
     {
-      "id": "senn-2023-drumgroove:d_04_johr_2",
+      "id": "comparison:cab66fb888109954a91174e7",
       "dataset_id": "senn-2023-drumgroove",
       "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
       "instrument": "drum pattern",
       "split": "unspecified",
-      "source_id": "D_04_JohR_2",
-      "duration": null,
+      "source_id": "comparison",
+      "duration": 28.885873015873017,
       "include_task": "Rhythm",
-      "sample_type": "original",
-      "gap_seconds": null,
-      "comparison_sources": [],
-      "display_metadata": {
-        "Mean Desire to Move": "3.680851",
-        "Mean Pleasure": "3.765957",
-        "Mean Perceived Regularity": "4.62766",
-        "Mean Interest": "3.361702",
-        "Mean Energy": "4.276596",
-        "Mean Familiarity": "2.553191",
-        "Perceived Complexity": "0.57295",
-        "Revised Syncopation Index": "0.212143",
-        "Mean Tempo BPM": "130.94"
-      },
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "senn-2023-drumgroove:c_07_frej_3",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "C_07_FreJ_3",
+          "display_metadata": {
+            "Mean Desire to Move": "3.046512",
+            "Mean Pleasure": "3.24031",
+            "Mean Perceived Regularity": "4.55814",
+            "Mean Interest": "2.604651",
+            "Mean Energy": "2.22093",
+            "Mean Familiarity": "2.395349",
+            "Perceived Complexity": "1.2097",
+            "Revised Syncopation Index": "0.415086",
+            "Mean Tempo BPM": "84.98"
+          }
+        },
+        {
+          "position": 2,
+          "id": "senn-2023-drumgroove:b_18_cops_1",
+          "dataset_name": "Senn et al. (2023) Drum Groove Stimuli",
+          "instrument": "drum pattern",
+          "split": "unspecified",
+          "duration": null,
+          "source_id": "B_18_CopS_1",
+          "display_metadata": {
+            "Mean Desire to Move": "4.414815",
+            "Mean Pleasure": "4.42963",
+            "Mean Perceived Regularity": "4.216667",
+            "Mean Interest": "4.533333",
+            "Mean Energy": "4.761111",
+            "Mean Familiarity": "2.711111",
+            "Perceived Complexity": "2.216009",
+            "Revised Syncopation Index": "0.363673",
+            "Mean Tempo BPM": "137.35"
+          }
+        }
+      ],
+      "display_metadata": {},
       "tags": [
-        "Fast Tempo",
-        "High Familiarity",
-        "Low Complexity",
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253Acab66fb888109954a91174e7/original.wav",
+        "ci_vocoded": "audio/comparison%253Acab66fb888109954a91174e7/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:06775c151158e6cc5c2fdf38",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:26",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 26",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 26",
+          "display_metadata": {
+            "Syncopation Degree (S)": "34",
+            "Joint Audio Entropy (JAE)": "12.41",
+            "Wanting-to-Move (M)": "3.45",
+            "Pleasure (P)": "3.35"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:41",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 41",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 41",
+          "display_metadata": {
+            "Syncopation Degree (S)": "58",
+            "Joint Audio Entropy (JAE)": "10.63",
+            "Wanting-to-Move (M)": "1.94",
+            "Pleasure (P)": "2.24"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A06775c151158e6cc5c2fdf38/original.wav",
+        "ci_vocoded": "audio/comparison%253A06775c151158e6cc5c2fdf38/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (10/12)\r\nSecond excerpt (2/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:0d142cfa4261c071ac89a485",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:46",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 46",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 46",
+          "display_metadata": {
+            "Syncopation Degree (S)": "65",
+            "Joint Audio Entropy (JAE)": "10.25",
+            "Wanting-to-Move (M)": "1.82",
+            "Pleasure (P)": "2.03"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:44",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 44",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 44",
+          "display_metadata": {
+            "Syncopation Degree (S)": "62",
+            "Joint Audio Entropy (JAE)": "11.68",
+            "Wanting-to-Move (M)": "1.98",
+            "Pleasure (P)": "2.12"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison",
+        "High Syncopation",
+        "Low Pleasure",
+        "Low Wanting to Move"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A0d142cfa4261c071ac89a485/original.wav",
+        "ci_vocoded": "audio/comparison%253A0d142cfa4261c071ac89a485/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:17bbcbbe44d9198747fb737a",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:33",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 33",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 33",
+          "display_metadata": {
+            "Syncopation Degree (S)": "45",
+            "Joint Audio Entropy (JAE)": "11.72",
+            "Wanting-to-Move (M)": "3.26",
+            "Pleasure (P)": "3.21"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:45",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 45",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 45",
+          "display_metadata": {
+            "Syncopation Degree (S)": "64",
+            "Joint Audio Entropy (JAE)": "10.20",
+            "Wanting-to-Move (M)": "1.82",
+            "Pleasure (P)": "2.23"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A17bbcbbe44d9198747fb737a/original.wav",
+        "ci_vocoded": "audio/comparison%253A17bbcbbe44d9198747fb737a/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:2d7d52d5b642ba926e99a260",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:03",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 03",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 03",
+          "display_metadata": {
+            "Syncopation Degree (S)": "6",
+            "Joint Audio Entropy (JAE)": "10.15",
+            "Wanting-to-Move (M)": "2.68",
+            "Pleasure (P)": "2.56"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:50",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 50",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 50",
+          "display_metadata": {
+            "Syncopation Degree (S)": "81",
+            "Joint Audio Entropy (JAE)": "12.37",
+            "Wanting-to-Move (M)": "2.00",
+            "Pleasure (P)": "2.32"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A2d7d52d5b642ba926e99a260/original.wav",
+        "ci_vocoded": "audio/comparison%253A2d7d52d5b642ba926e99a260/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:3e000dcc14d46ef403137a65",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:47",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 47",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 47",
+          "display_metadata": {
+            "Syncopation Degree (S)": "66",
+            "Joint Audio Entropy (JAE)": "10.56",
+            "Wanting-to-Move (M)": "1.77",
+            "Pleasure (P)": "2.24"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:34",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 34",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 34",
+          "display_metadata": {
+            "Syncopation Degree (S)": "46",
+            "Joint Audio Entropy (JAE)": "13.07",
+            "Wanting-to-Move (M)": "3.52",
+            "Pleasure (P)": "3.32"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A3e000dcc14d46ef403137a65/original.wav",
+        "ci_vocoded": "audio/comparison%253A3e000dcc14d46ef403137a65/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:6c00ec3001e10a32b034c71d",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:01",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 01",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 01",
+          "display_metadata": {
+            "Syncopation Degree (S)": "0",
+            "Joint Audio Entropy (JAE)": "12.72",
+            "Wanting-to-Move (M)": "2.27",
+            "Pleasure (P)": "2.21"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:05",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 05",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 05",
+          "display_metadata": {
+            "Syncopation Degree (S)": "8",
+            "Joint Audio Entropy (JAE)": "12.17",
+            "Wanting-to-Move (M)": "2.15",
+            "Pleasure (P)": "2.30"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison",
         "Low Syncopation"
       ],
       "audio": {
-        "original": "audio/senn-2023-drumgroove%253Ad_04_johr_2/original.mp3",
-        "ci_vocoded": null
+        "original": "audio/comparison%253A6c00ec3001e10a32b034c71d/original.wav",
+        "ci_vocoded": "audio/comparison%253A6c00ec3001e10a32b034c71d/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (5/12)\r\nSecond excerpt (4/12)\r\nNeither sounds clearly more groovier than the other (3/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:99ceb6cbd44770cfade8091b",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:04",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 04",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 04",
+          "display_metadata": {
+            "Syncopation Degree (S)": "7",
+            "Joint Audio Entropy (JAE)": "10.60",
+            "Wanting-to-Move (M)": "3.00",
+            "Pleasure (P)": "2.80"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:49",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 49",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 49",
+          "display_metadata": {
+            "Syncopation Degree (S)": "78",
+            "Joint Audio Entropy (JAE)": "11.44",
+            "Wanting-to-Move (M)": "1.83",
+            "Pleasure (P)": "2.05"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253A99ceb6cbd44770cfade8091b/original.wav",
+        "ci_vocoded": "audio/comparison%253A99ceb6cbd44770cfade8091b/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -2306,12 +3590,259 @@
       "responses": {
         "original": {
           "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the drum-pattern excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the most strongly perceived rhythmic quality of this audio?\r\n\r\nOptions:\r\nComplex\r\nSimple\r\nSlow\r\nFast\r\nSyncopated\r\nUnsyncopated\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because more than one rhythmic quality is prominent or the rhythm is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Simple (8/10)\r\nSecondary answer: Unsyncopated (8/8)"
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the drum-pattern excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the most strongly perceived rhythmic quality of this audio?\r\n\r\nOptions:\r\nComplex\r\nSimple\r\nSlow\r\nFast\r\nSyncopated\r\nUnsyncopated\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because more than one rhythmic quality is prominent or the rhythm is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Syncopated (70/100)\r\nSecondary answer: Simple (44/70)"
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:d71c0728e4c7704a381fdfa6",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:43",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 43",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 43",
+          "display_metadata": {
+            "Syncopation Degree (S)": "60",
+            "Joint Audio Entropy (JAE)": "12.57",
+            "Wanting-to-Move (M)": "3.23",
+            "Pleasure (P)": "3.12"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:42",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 42",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 42",
+          "display_metadata": {
+            "Syncopation Degree (S)": "60",
+            "Joint Audio Entropy (JAE)": "12.29",
+            "Wanting-to-Move (M)": "2.89",
+            "Pleasure (P)": "2.94"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison",
+        "High Syncopation"
+      ],
+      "audio": {
+        "original": "audio/comparison%253Ad71c0728e4c7704a381fdfa6/original.wav",
+        "ci_vocoded": "audio/comparison%253Ad71c0728e4c7704a381fdfa6/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:e5dbd007a7d14edc208210d2",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:48",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 48",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 48",
+          "display_metadata": {
+            "Syncopation Degree (S)": "71",
+            "Joint Audio Entropy (JAE)": "13.15",
+            "Wanting-to-Move (M)": "3.08",
+            "Pleasure (P)": "3.09"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:07",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 07",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 07",
+          "display_metadata": {
+            "Syncopation Degree (S)": "9",
+            "Joint Audio Entropy (JAE)": "10.24",
+            "Wanting-to-Move (M)": "3.05",
+            "Pleasure (P)": "2.88"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253Ae5dbd007a7d14edc208210d2/original.wav",
+        "ci_vocoded": "audio/comparison%253Ae5dbd007a7d14edc208210d2/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          }
+        },
+        "ci_vocoded": {}
+      }
+    },
+    {
+      "id": "comparison:f5011c3446a16f40edde347a",
+      "dataset_id": "witek-2014-syncopation",
+      "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+      "instrument": "mixed",
+      "split": "unspecified",
+      "source_id": "comparison",
+      "duration": 20.0,
+      "include_task": "Rhythm",
+      "sample_type": "comparison",
+      "gap_seconds": 4,
+      "comparison_sources": [
+        {
+          "position": 1,
+          "id": "witek-2014-syncopation:10",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 10",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 10",
+          "display_metadata": {
+            "Syncopation Degree (S)": "14",
+            "Joint Audio Entropy (JAE)": "10.74",
+            "Wanting-to-Move (M)": "2.92",
+            "Pleasure (P)": "2.79"
+          }
+        },
+        {
+          "position": 2,
+          "id": "witek-2014-syncopation:08",
+          "dataset_name": "Witek et al. (2014) Syncopation Stimuli",
+          "instrument": "drum pattern 08",
+          "split": "unspecified",
+          "duration": 8.0,
+          "source_id": "stimulus 08",
+          "display_metadata": {
+            "Syncopation Degree (S)": "12",
+            "Joint Audio Entropy (JAE)": "10.59",
+            "Wanting-to-Move (M)": "2.88",
+            "Pleasure (P)": "2.76"
+          }
+        }
+      ],
+      "display_metadata": {},
+      "tags": [
+        "comparison"
+      ],
+      "audio": {
+        "original": "audio/comparison%253Af5011c3446a16f40edde347a/original.wav",
+        "ci_vocoded": "audio/comparison%253Af5011c3446a16f40edde347a/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "additional-model",
+          "label": "Additional Model",
+          "provider_id": ""
+        }
+      ],
+      "responses": {
+        "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
           }
         },
         "ci_vocoded": {}
