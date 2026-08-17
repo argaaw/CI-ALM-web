@@ -70,6 +70,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -152,6 +156,10 @@
             "response_text": "Primary answer: Muddy\r\nSecondary answer: Dark"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -216,6 +224,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -299,6 +311,10 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -361,6 +377,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -421,6 +441,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -500,6 +524,10 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -583,6 +611,10 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -643,6 +675,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -703,6 +739,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -784,6 +824,10 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: None"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -845,6 +889,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -907,6 +955,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -968,6 +1020,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1030,6 +1086,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1091,6 +1151,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1172,6 +1236,10 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: Dark"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1255,6 +1323,10 @@
             "response_text": "Primary answer: Mellow\r\nSecondary answer: Bright"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1316,6 +1388,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1377,6 +1453,10 @@
       "responses": {
         "original": {},
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1448,6 +1528,10 @@
             "response_text": "Primary answer: Tension\r\nSecondary answer: Joyful activation"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1519,6 +1603,10 @@
             "response_text": "Primary answer: Tension\r\nSecondary answer: Joyful activation"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1580,6 +1668,10 @@
             "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1641,6 +1733,10 @@
             "response_text": "Primary answer: rising: low → higher → higher → higher → highest\r\nSecondary answer: falling: high → lower → lower → lower → lowest"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1701,6 +1797,10 @@
             "response_text": "Primary answer: Hiphop\r\nSecondary answer: Rock"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1761,6 +1861,10 @@
             "response_text": "Primary answer: Hiphop\r\nSecondary answer: Rock"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1821,6 +1925,10 @@
             "response_text": "Primary answer: Rock\r\nSecondary answer: Hiphop"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1868,6 +1976,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1915,6 +2027,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -1975,6 +2091,10 @@
             "response_text": "Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2035,6 +2155,10 @@
             "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2095,6 +2219,10 @@
             "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
           }
         }
+      },
+      "human_responses_expected": {
+        "original": "",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2193,6 +2321,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly simpler than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2290,6 +2422,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "First excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2387,6 +2523,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly faster than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2483,6 +2623,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2579,6 +2723,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly faster than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2675,6 +2823,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2771,6 +2923,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2867,6 +3023,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "First excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -2965,6 +3125,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly simpler than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3061,6 +3225,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3133,6 +3301,10 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
           "audio-flamingo-next": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
@@ -3143,6 +3315,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "First excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3232,6 +3408,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly more groovier than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3318,6 +3498,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "First excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3404,6 +3588,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3490,6 +3678,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3577,6 +3769,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly more groovier than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3663,6 +3859,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Second excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3750,6 +3950,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly more syncopated than the other",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3836,6 +4040,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "First excerpt",
+        "ci_vocoded": ""
       }
     },
     {
@@ -3922,6 +4130,10 @@
           }
         },
         "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Neither sounds clearly more syncopated than the other",
+        "ci_vocoded": ""
       }
     }
   ]

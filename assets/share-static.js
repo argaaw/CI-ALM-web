@@ -59,10 +59,18 @@
       : '<div class="placeholder-result"><strong>No saved response</strong></div>'}</div>`;
   }
 
+  function expectedHumanResponsePane(sample, variant) {
+    const response = sample.human_responses_expected?.[variant];
+    return response
+      ? `<div class="saved-response-pane expected-human-response"><div class="alm-answer"><span>Human response (expected)</span><p>${escapeHtml(response)}</p></div></div>`
+      : "";
+  }
+
   function variantPane(sample, variant) {
     const models = sample.response_models || [];
     return `<div data-audio-variant-pane="${variant}" ${variant === "original" ? "" : "hidden"}>
       <p class="variant-pane-label">${variant === "original" ? "Original audio" : "CI-vocoded audio"}</p>
+      ${expectedHumanResponsePane(sample, variant)}
       <div class="alm-tabs" data-alm-tabs>${models.map((model, index) => `<button type="button" class="alm-tab${index ? "" : " is-active"}" data-alm-tab="${variant}-${model.id}" aria-selected="${index ? "false" : "true"}">${escapeHtml(model.label)}</button>`).join("")}</div>
       ${models.map((model, index) => responsePane(sample, variant, model, index)).join("")}
     </div>`;

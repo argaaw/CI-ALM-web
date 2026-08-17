@@ -120,16 +120,18 @@ kbd { border: 1px solid var(--line); background: #f4f6f8; border-radius: 5px; pa
 .alm-tabs { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px; }
 .alm-tab { border: 1px solid var(--line); border-radius: 999px; padding: 7px 10px; background: white; color: var(--muted); font: inherit; font-size: 11px; font-weight: 700; cursor: pointer; }
 .alm-tab.is-active { border-color: var(--brand); background: var(--brand-soft); color: var(--brand); }
-.saved-response-form { display: grid; gap: 11px; }
-.saved-response-form label { display: grid; gap: 6px; font-size: 12px; font-weight: 700; }
-.saved-response-form textarea { width: 100%; resize: vertical; }
-.saved-response-form .secondary-button { justify-self: start; }
+.saved-response-form, .human-response-form { display: grid; gap: 11px; }
+.saved-response-form label, .human-response-form label { display: grid; gap: 6px; font-size: 12px; font-weight: 700; }
+.saved-response-form textarea, .human-response-form textarea { width: 100%; resize: vertical; }
+.saved-response-form .secondary-button, .human-response-form .secondary-button { justify-self: start; }
+.human-response-form { margin: 0 0 16px; padding: 13px 14px; border: 1px solid #cad5f9; border-radius: 12px; background: #f6f8ff; }
 .saved-response-pane { display: grid; gap: 14px; }
 .saved-response-card [hidden] { display: none !important; }
 .saved-response-pane > div { display: grid; gap: 5px; padding: 13px 14px; border: 1px solid var(--line); border-radius: 10px; }
 .saved-response-pane .alm-question, .saved-response-pane .alm-answer { background: #fafbfc; border-color: #cdd5dd; }
 .saved-response-pane span { color: #364152; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .saved-response-pane p { margin: 0; white-space: pre-wrap; font-size: 13px; line-height: 1.55; }
+.expected-human-response { margin: 0 0 16px; }
 .placeholder-result { margin-top: 12px; padding: 17px; display: grid; gap: 5px; border: 1px dashed #cdd5dd; border-radius: 12px; color: var(--muted); background: #fafbfc; }
 .placeholder-result strong { color: var(--ink); font-size: 12px; }
 .placeholder-result span { font-size: 11px; }
