@@ -62,9 +62,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -126,9 +126,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -208,9 +208,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -273,9 +273,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -353,9 +353,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -413,9 +413,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -474,9 +474,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -557,9 +557,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -635,9 +635,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -695,9 +695,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -758,9 +758,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -837,9 +837,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -899,9 +899,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -960,9 +960,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1022,9 +1022,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1083,9 +1083,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1146,9 +1146,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1229,9 +1229,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1308,9 +1308,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1369,9 +1369,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1422,9 +1422,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1493,9 +1493,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1554,9 +1554,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1615,9 +1615,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1675,9 +1675,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1735,9 +1735,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1795,9 +1795,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1855,9 +1855,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1902,9 +1902,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -1949,9 +1949,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -2009,9 +2009,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -2069,9 +2069,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -2172,13 +2172,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (5/12)\r\nSecond excerpt (7/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (10/12)\r\nSecond excerpt (2/12)\r\nNeither sounds clearly simpler than the other (0/12)"
@@ -2265,13 +2269,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly faster than the other (0/12)"
@@ -2358,13 +2366,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (9/12)\r\nSecond excerpt (1/12)\r\nNeither sounds clearly faster than the other (2/12)"
@@ -2450,13 +2462,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (7/12)\r\nSecond excerpt (5/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly faster than the other (0/12)"
@@ -2542,13 +2558,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (1/12)\r\nSecond excerpt (10/12)\r\nNeither sounds clearly faster than the other (1/12)"
@@ -2634,13 +2654,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly simpler than the other (0/12)"
@@ -2726,13 +2750,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly simpler than the other (0/12)"
@@ -2818,13 +2846,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly simpler than the other (0/12)"
@@ -2912,13 +2944,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly simpler than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds simpler?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly simpler than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (11/12)\r\nNeither sounds clearly simpler than the other (1/12)"
@@ -3004,13 +3040,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly faster than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds faster?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly faster than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly faster than the other (0/12)"
@@ -3086,9 +3126,9 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
@@ -3171,13 +3211,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (3/12)\r\nSecond excerpt (9/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
@@ -3253,13 +3297,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (11/12)\r\nSecond excerpt (1/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
@@ -3335,13 +3383,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
@@ -3417,20 +3469,24 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
-            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
           },
           "audio-flamingo-next": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
-            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
           }
         },
         "ci_vocoded": {}
@@ -3500,13 +3556,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (8/12)\r\nSecond excerpt (4/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
+          },
           "audio-flamingo-next": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds groovier, that is, makes you want to move more?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more groovier than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more groovier than the other (0/12)"
@@ -3582,13 +3642,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (0/12)\r\nSecond excerpt (12/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
@@ -3665,13 +3729,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
@@ -3747,13 +3815,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (12/12)\r\nSecond excerpt (0/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
@@ -3829,13 +3901,17 @@
           "provider_id": "gemini"
         },
         {
-          "id": "additional-model",
-          "label": "Additional Model",
-          "provider_id": ""
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
         }
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
+            "response_text": "First excerpt (11/12)\r\nSecond excerpt (1/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the two drum-pattern excerpts, separated by 4 seconds of silence, and answer as an adult listener with normal hearing would most likely respond.\r\n\r\nWhich drum-pattern excerpt sounds more syncopated?\r\n\r\nOptions:\r\nFirst excerpt\r\nSecond excerpt\r\nNeither sounds clearly more syncopated than the other\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]",
             "response_text": "First excerpt (6/12)\r\nSecond excerpt (6/12)\r\nNeither sounds clearly more syncopated than the other (0/12)"
