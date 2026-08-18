@@ -94,14 +94,16 @@ kbd { border: 1px solid var(--line); background: #f4f6f8; border-radius: 5px; pa
 .choice input { width: auto; margin: 0; }
 .choice span { width: 21px; height: 21px; display: grid; place-items: center; border-radius: 6px; background: #e9edf2; font-size: 10px; }
 .choice:has(input:checked) { border-color: var(--brand); box-shadow: 0 0 0 2px var(--brand-soft); }
-.two-column-fields, .alm-form { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; margin-top: 11px; }
+.alm-form { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; margin-top: 11px; }
 .review-form > label { display: block; margin-top: 11px; }
 .primary-button, .secondary-button { border: 0; border-radius: 10px; padding: 11px 15px; font-weight: 800; }
 .primary-button { background: var(--brand); color: white; margin-top: 12px; }
 .secondary-button { background: var(--ink); color: white; align-self: end; }
 .secondary-button:disabled { opacity: .35; cursor: not-allowed; }
 .alm-form { grid-template-columns: 1fr 2fr auto; align-items: end; }
-.inference-form { grid-template-columns: minmax(130px, 1fr) minmax(105px, .65fr) minmax(240px, 2fr) auto; }
+.inference-form { grid-template-columns: minmax(130px, 1fr) minmax(80px, .45fr) minmax(150px, .75fr) auto; }
+.inference-form .inference-question, .inference-form .inference-fixed-prompt { grid-column: 1 / -2; }
+.inference-fixed-prompt { margin: -3px 0 2px; }
 .inference-format-help { margin: -3px 0 12px; color: var(--muted); font-size: 11px; line-height: 1.5; }
 .audio-variant-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 12px 0 14px; }
 .audio-variant-tab { min-height: 58px; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; background: #fbfcfd; color: var(--ink); font: inherit; font-size: 13px; font-weight: 800; text-align: left; }
@@ -150,18 +152,22 @@ kbd { border: 1px solid var(--line); background: #f4f6f8; border-radius: 5px; pa
   .sample-list-inner { max-height: 360px; }
   .metadata-grid { grid-template-columns: repeat(2, 1fr); }
   .alm-form { grid-template-columns: 1fr; }
+  .inference-form .inference-question, .inference-form .inference-fixed-prompt { grid-column: 1 / -1; }
 }
 @media (max-width: 620px) {
   .topbar { padding: 0 16px; }
   .topbar-actions > span:not(.status-dot) { display: none; }
   .hero-row { margin-top: 26px; }
   .metric-grid { grid-template-columns: repeat(2, 1fr); }
-  .status-choice, .two-column-fields { grid-template-columns: 1fr; }
+  .status-choice { grid-template-columns: 1fr; }
 }
 
 .inference-result { display: grid; gap: 8px; }
 .inference-result > div { display: flex; justify-content: space-between; align-items: center; }
 .inference-result small { color: var(--muted); }
+.inference-invalid-responses { max-height: 280px; overflow: auto; color: var(--muted); font-size: 11px; }
+.inference-invalid-responses summary { cursor: pointer; font-weight: 800; }
+.inference-invalid-responses pre { margin: 8px 0; padding: 8px; white-space: pre-wrap; border: 1px solid var(--line); border-radius: 8px; background: #fbfcfd; }
 .inference-result strong { font-size: 13px; line-height: 1.5; white-space: pre-line; }
 .inference-result > span { color: var(--muted); font-size: 10px; }
 

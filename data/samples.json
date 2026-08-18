@@ -2034,76 +2034,12 @@
       }
     },
     {
-      "id": "medley-solos-db:035332aa-b18c-567d-f247-8235fe046741",
-      "dataset_id": "medley-solos-db",
-      "dataset_name": "Medley-solos-DB",
-      "instrument": "clarinet",
-      "split": "test",
-      "source_id": "0",
-      "duration": 2.972,
-      "include_task": "Instrument",
-      "sample_type": "original",
-      "gap_seconds": null,
-      "comparison_sources": [],
-      "display_metadata": {},
-      "tags": [
-        "0"
-      ],
-      "audio": {
-        "original": "audio/medley-solos-db%253A035332aa-b18c-567d-f247-8235fe046741/original.wav",
-        "ci_vocoded": "audio/medley-solos-db%253A035332aa-b18c-567d-f247-8235fe046741/ci-vocoded.wav"
-      },
-      "response_models": [
-        {
-          "id": "audio-flamingo-next",
-          "label": "Audio-Flamingo Next",
-          "provider_id": "audio-flamingo-next"
-        },
-        {
-          "id": "gemini-3.1-pro-preview",
-          "label": "Gemini 3.1 Pro Preview",
-          "provider_id": "gemini"
-        },
-        {
-          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-          "provider_id": "qwen3-omni"
-        }
-      ],
-      "responses": {
-        "original": {
-          "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Clarinet (blown wind instrument)\r\nSecondary answer: None"
-          },
-          "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Clarinet (blown wind instrument)\r\nSecondary answer: None"
-          }
-        },
-        "ci_vocoded": {
-          "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Drums (percussion instrument)\r\nSecondary answer: None"
-          },
-          "audio-flamingo-next": {
-            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
-          }
-        }
-      },
-      "human_responses_expected": {
-        "original": "",
-        "ci_vocoded": ""
-      }
-    },
-    {
-      "id": "medley-solos-db:02f7aac1-d5bb-542d-fb0e-d1030cd9ac88",
+      "id": "medley-solos-db:0086cb3f-d951-591a-faf8-8c37d97796a2",
       "dataset_id": "medley-solos-db",
       "dataset_name": "Medley-solos-DB",
       "instrument": "distorted electric guitar",
       "split": "test",
-      "source_id": "27",
+      "source_id": "24",
       "duration": 2.972,
       "include_task": "Instrument",
       "sample_type": "original",
@@ -2114,8 +2050,8 @@
         "1"
       ],
       "audio": {
-        "original": "audio/medley-solos-db%253A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/original.wav",
-        "ci_vocoded": "audio/medley-solos-db%253A02f7aac1-d5bb-542d-fb0e-d1030cd9ac88/ci-vocoded.wav"
+        "original": "audio/medley-solos-db%253A0086cb3f-d951-591a-faf8-8c37d97796a2/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A0086cb3f-d951-591a-faf8-8c37d97796a2/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -2136,28 +2072,404 @@
       ],
       "responses": {
         "original": {
-          "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: None"
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Violin (bowed string instrument)"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
           }
         },
-        "ci_vocoded": {
-          "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Drums (percussion instrument)\r\nSecondary answer: None"
-          },
-          "audio-flamingo-next": {
-            "prompt": "Listen to the cochlear-implant-vocoded music excerpt and predict how an adult cochlear implant user would most likely perceive it.\r\n\r\nThe excerpt contains a single solo instrument. Identify the instrument based primarily on the sound characteristics that a cochlear implant user would be most likely to perceive while listening to the provided audio, rather than on assumptions about the instrument intended or present in the original music.\r\n\r\nWhich instrument would most likely be perceived as playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the perceived instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Electric Guitar (amplified plucked-string instrument)\r\nSecondary answer: Piano (keyboard instrument)"
-          }
-        }
+        "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Distorted electric guitar",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:08f48e8d-2124-52ca-fd83-e2181ed45403",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "distorted electric guitar",
+      "split": "test",
+      "source_id": "25",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "1"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A08f48e8d-2124-52ca-fd83-e2181ed45403/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A08f48e8d-2124-52ca-fd83-e2181ed45403/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Distorted electric guitar",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:1bb387c7-a5df-5282-f931-dfb1bc4435b3",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "distorted electric guitar",
+      "split": "test",
+      "source_id": "22",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "1"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A1bb387c7-a5df-5282-f931-dfb1bc4435b3/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A1bb387c7-a5df-5282-f931-dfb1bc4435b3/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Distorted electric guitar",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:23ea8ff1-cb5e-57cc-f058-f9fec4697380",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "distorted electric guitar",
+      "split": "test",
+      "source_id": "23",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "1"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A23ea8ff1-cb5e-57cc-f058-f9fec4697380/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A23ea8ff1-cb5e-57cc-f058-f9fec4697380/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Distorted electric guitar",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:002adfd5-3371-51e2-f2ae-8c1f81393734",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "flute",
+      "split": "test",
+      "source_id": "45",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "3"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A002adfd5-3371-51e2-f2ae-8c1f81393734/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A002adfd5-3371-51e2-f2ae-8c1f81393734/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (84/100, 84.0%)\r\nViolin (9/100, 9.0%)\r\nDistorted electric guitar (7/100, 7.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Flute",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:00c6502d-5b64-54c1-fa5f-12aa11c34cbe",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "flute",
+      "split": "test",
+      "source_id": "55",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "3"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A00c6502d-5b64-54c1-fa5f-12aa11c34cbe/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A00c6502d-5b64-54c1-fa5f-12aa11c34cbe/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (94/100, 94.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (6/100, 6.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Flute",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:01e90c85-e557-5081-fc0e-cf4b8593ea71",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "flute",
+      "split": "test",
+      "source_id": "69",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "3"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A01e90c85-e557-5081-fc0e-cf4b8593ea71/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A01e90c85-e557-5081-fc0e-cf4b8593ea71/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (96/100, 96.0%)\r\nViolin (3/100, 3.0%)\r\nDistorted electric guitar (1/100, 1.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Flute",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:0de44d1c-b2a7-5c99-fc24-da528cc7e31d",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "flute",
+      "split": "test",
+      "source_id": "50",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "3"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A0de44d1c-b2a7-5c99-fc24-da528cc7e31d/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A0de44d1c-b2a7-5c99-fc24-da528cc7e31d/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (96/100, 96.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (4/100, 4.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Flute",
         "ci_vocoded": ""
       }
     },
@@ -2200,13 +2512,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
             "response_text": "Primary answer: Piano (keyboard instrument)\r\nSecondary answer: None"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Piano (keyboard instrument)\r\nSecondary answer: None"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -2221,7 +2537,612 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Piano",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:00c01f0c-23d3-5d2e-fd60-bc02b1c8e65b",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "piano",
+      "split": "test",
+      "source_id": "82",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "4"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A00c01f0c-23d3-5d2e-fd60-bc02b1c8e65b/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A00c01f0c-23d3-5d2e-fd60-bc02b1c8e65b/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (5/100, 5.0%)\r\nDrums (95/100, 95.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Piano",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:0178abfb-e481-57db-f3fc-fe86f5d607eb",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "piano",
+      "split": "validation",
+      "source_id": "215",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "4"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A0178abfb-e481-57db-f3fc-fe86f5d607eb/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A0178abfb-e481-57db-f3fc-fe86f5d607eb/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Piano",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:0d498fa3-099c-5c92-f7dd-207a4567a9db",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "piano",
+      "split": "test",
+      "source_id": "76",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "4"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A0d498fa3-099c-5c92-f7dd-207a4567a9db/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A0d498fa3-099c-5c92-f7dd-207a4567a9db/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Piano",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:1dba7d46-124f-58e2-f0b4-2c860926ad54",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "tenor saxophone",
+      "split": "test",
+      "source_id": "87",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "5"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A1dba7d46-124f-58e2-f0b4-2c860926ad54/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A1dba7d46-124f-58e2-f0b4-2c860926ad54/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (1/100, 1.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (99/100, 99.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Saxophone",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:4fe75106-e72d-5cbf-f0b9-a81bde5b527d",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "tenor saxophone",
+      "split": "test",
+      "source_id": "85",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "5"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A4fe75106-e72d-5cbf-f0b9-a81bde5b527d/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A4fe75106-e72d-5cbf-f0b9-a81bde5b527d/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Saxophone",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:9572b420-f65c-57b0-f64f-91027f0781ec",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "tenor saxophone",
+      "split": "test",
+      "source_id": "87",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "5"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A9572b420-f65c-57b0-f64f-91027f0781ec/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A9572b420-f65c-57b0-f64f-91027f0781ec/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Saxophone",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:a92c5040-7f12-5b75-ffdb-520adb16cc7d",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "tenor saxophone",
+      "split": "test",
+      "source_id": "85",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "5"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253Aa92c5040-7f12-5b75-ffdb-520adb16cc7d/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253Aa92c5040-7f12-5b75-ffdb-520adb16cc7d/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Saxophone",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:00e676e6-2b81-5d72-f33b-d2456b045072",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "violin",
+      "split": "test",
+      "source_id": "128",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "7"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A00e676e6-2b81-5d72-f33b-d2456b045072/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A00e676e6-2b81-5d72-f33b-d2456b045072/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Violin",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:011b8ea9-fcdf-5d92-f99c-ec2910c7c957",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "violin",
+      "split": "test",
+      "source_id": "121",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "7"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A011b8ea9-fcdf-5d92-f99c-ec2910c7c957/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A011b8ea9-fcdf-5d92-f99c-ec2910c7c957/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Violin",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:0422b08f-54ab-5ee1-fafb-6f99e2367443",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "violin",
+      "split": "training",
+      "source_id": "196",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "7"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A0422b08f-54ab-5ee1-fafb-6f99e2367443/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A0422b08f-54ab-5ee1-fafb-6f99e2367443/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Violin",
+        "ci_vocoded": ""
+      }
+    },
+    {
+      "id": "medley-solos-db:0514c8c8-1e27-57d2-f3c2-52a2062de3e7",
+      "dataset_id": "medley-solos-db",
+      "dataset_name": "Medley-solos-DB",
+      "instrument": "violin",
+      "split": "training",
+      "source_id": "198",
+      "duration": 2.972,
+      "include_task": "Instrument",
+      "sample_type": "original",
+      "gap_seconds": null,
+      "comparison_sources": [],
+      "display_metadata": {},
+      "tags": [
+        "7"
+      ],
+      "audio": {
+        "original": "audio/medley-solos-db%253A0514c8c8-1e27-57d2-f3c2-52a2062de3e7/original.wav",
+        "ci_vocoded": "audio/medley-solos-db%253A0514c8c8-1e27-57d2-f3c2-52a2062de3e7/ci-vocoded.wav"
+      },
+      "response_models": [
+        {
+          "id": "audio-flamingo-next",
+          "label": "Audio-Flamingo Next",
+          "provider_id": "audio-flamingo-next"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview",
+          "provider_id": "gemini"
+        },
+        {
+          "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+          "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+          "provider_id": "qwen3-omni"
+        }
+      ],
+      "responses": {
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
+          }
+        },
+        "ci_vocoded": {}
+      },
+      "human_responses_expected": {
+        "original": "Violin",
         "ci_vocoded": ""
       }
     },
