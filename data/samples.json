@@ -2072,6 +2072,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (10/10, 100.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2127,6 +2131,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (10/10, 100.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2182,6 +2190,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (10/10, 100.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2237,6 +2249,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (10/10, 100.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (100/100, 100.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2292,6 +2308,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (9/10, 90.0%)\r\nViolin (1/10, 10.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2347,6 +2367,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (10/10, 100.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2402,6 +2426,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (10/10, 100.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2457,6 +2485,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (10/10, 100.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (100/100, 100.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2517,8 +2549,8 @@
             "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
           },
           "gemini-3.1-pro-preview": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nThe excerpt contains a single solo instrument. Identify the instrument based on the sound you hear.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano (keyboard instrument)\r\nClarinet (blown wind instrument)\r\nViolin (bowed string instrument)\r\nElectric Guitar (amplified plucked-string instrument)\r\nDrums (percussion instrument)\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible because the instrument identity is ambiguous, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different full option text only if reasonably plausible; otherwise, None]",
-            "response_text": "Primary answer: Piano (keyboard instrument)\r\nSecondary answer: None"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (10/10, 100.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
           },
           "audio-flamingo-next": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
@@ -2580,6 +2612,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (10/10, 100.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (5/100, 5.0%)\r\nDrums (95/100, 95.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2635,6 +2671,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (10/10, 100.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2690,6 +2730,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (10/10, 100.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (100/100, 100.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -2745,6 +2789,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (10/10, 100.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
@@ -2800,6 +2848,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (10/10, 100.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
@@ -2855,6 +2907,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (0/10, 0.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (10/10, 100.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
@@ -2910,6 +2966,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (0/100, 0.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (100/100, 100.0%)"
@@ -2965,6 +3025,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (10/10, 100.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -3020,6 +3084,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (10/10, 100.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -3075,6 +3143,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (10/10, 100.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
@@ -3130,6 +3202,10 @@
       ],
       "responses": {
         "original": {
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Piano (0/10, 0.0%)\r\nFlute (0/10, 0.0%)\r\nViolin (10/10, 100.0%)\r\nDistorted electric guitar (0/10, 0.0%)\r\nDrums (0/10, 0.0%)\r\nSaxophone (0/10, 0.0%)"
+          },
           "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich instrument is playing in this audio?\r\n\r\nOptions:\r\nPiano\r\nFlute\r\nViolin\r\nDistorted electric guitar\r\nDrums\r\nSaxophone\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
             "response_text": "Piano (0/100, 0.0%)\r\nFlute (0/100, 0.0%)\r\nViolin (100/100, 100.0%)\r\nDistorted electric guitar (0/100, 0.0%)\r\nDrums (0/100, 0.0%)\r\nSaxophone (0/100, 0.0%)"
