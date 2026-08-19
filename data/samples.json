@@ -68,11 +68,24 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (100/100, 100.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "gemini-3.1-pro-preview": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (3/10, 30.0%)\r\nDark (0/10, 0.0%)\r\nRough (3/10, 30.0%)\r\nSmooth (0/10, 0.0%)\r\nSharp (4/10, 40.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (8/100, 8.0%)\r\nDark (76/100, 76.0%)\r\nRough (9/100, 9.0%)\r\nSmooth (7/100, 7.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (1/4)\r\nDark (1/4)\r\nRough\r\nSmooth\r\nSharp (2/4)",
         "ci_vocoded": ""
       }
     },
@@ -137,13 +150,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (80/100, 80.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (20/100, 20.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Bright\r\nSecondary answer: Mellow"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (99/100, 99.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (1/100, 1.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -158,7 +175,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (1/3)\r\nDark\r\nRough\r\nSmooth\r\nSharp (2/3)",
         "ci_vocoded": ""
       }
     },
@@ -222,11 +239,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (82/100, 82.0%)\r\nRough (6/100, 6.0%)\r\nSmooth (12/100, 12.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (0/100, 0.0%)\r\nRough (100/100, 100.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (2/4)\r\nRough (2/4)\r\nSmooth\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -292,13 +318,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (100/100, 100.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Bright\r\nSecondary answer: Mellow"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (95/100, 95.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (5/100, 5.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -313,7 +343,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (2/3)\r\nDark\r\nRough\r\nSmooth\r\nSharp (1/3)",
         "ci_vocoded": ""
       }
     },
@@ -375,11 +405,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (82/100, 82.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (18/100, 18.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (100/100, 100.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (1/2)\r\nRough\r\nSmooth (1/2)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -439,11 +478,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (15/100, 15.0%)\r\nDark (3/100, 3.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (82/100, 82.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (8/100, 8.0%)\r\nDark (3/100, 3.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (89/100, 89.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (1/3)\r\nDark\r\nRough\r\nSmooth (2/3)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -505,13 +553,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (100/100, 100.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Mellow\r\nSecondary answer: Bright"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (5/100, 5.0%)\r\nDark (2/100, 2.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (93/100, 93.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -526,7 +578,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (1/3)\r\nRough (1/3)\r\nSmooth\r\nSharp (1/3)",
         "ci_vocoded": ""
       }
     },
@@ -592,13 +644,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (46/100, 46.0%)\r\nRough (54/100, 54.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Rough\r\nSecondary answer: Dark"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Mellow\r\nSecondary answer: Dark"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (95/100, 95.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (5/100, 5.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -613,7 +669,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (2/4)\r\nRough (2/4)\r\nSmooth\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -673,11 +729,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (15/100, 15.0%)\r\nDark (16/100, 16.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (69/100, 69.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (62/100, 62.0%)\r\nDark (0/100, 0.0%)\r\nRough (37/100, 37.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (1/100, 1.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (1/3)\r\nRough (2/3)\r\nSmooth\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -737,11 +802,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (79/100, 79.0%)\r\nDark (15/100, 15.0%)\r\nRough (2/100, 2.0%)\r\nSmooth (4/100, 4.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (4/100, 4.0%)\r\nDark (0/100, 0.0%)\r\nRough (95/100, 95.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (1/100, 1.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (1/2)\r\nRough (1/2)\r\nSmooth\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -805,13 +879,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (100/100, 100.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Rough\r\nSecondary answer: Dark"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Dark\r\nSecondary answer: Mellow"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (90/100, 90.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (10/100, 10.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -826,7 +904,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (1/2)\r\nRough\r\nSmooth (1/2)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -887,11 +965,16 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (23/100, 23.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (77/100, 77.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (2/3)\r\nDark\r\nRough\r\nSmooth (1/3)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -953,11 +1036,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (93/100, 93.0%)\r\nDark (0/100, 0.0%)\r\nRough (3/100, 3.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (4/100, 4.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (71/100, 71.0%)\r\nDark (20/100, 20.0%)\r\nRough (5/100, 5.0%)\r\nSmooth (4/100, 4.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright\r\nDark (1/4)\r\nRough (1/4)\r\nSmooth\r\nSharp (2/4)",
         "ci_vocoded": ""
       }
     },
@@ -1018,11 +1110,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (15/100, 15.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (85/100, 85.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (100/100, 100.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (2/4)\r\nDark\r\nRough\r\nSmooth (2/4)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -1084,11 +1185,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (21/100, 21.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (79/100, 79.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (12/100, 12.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (88/100, 88.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (1/3)\r\nDark\r\nRough\r\nSmooth (2/3)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -1149,11 +1259,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (100/100, 100.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (94/100, 94.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (6/100, 6.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (1/3)\r\nDark\r\nRough\r\nSmooth\r\nSharp (2/3)",
         "ci_vocoded": ""
       }
     },
@@ -1217,13 +1336,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (100/100, 100.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Bright\r\nSecondary answer: Sharp"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Bright\r\nSecondary answer: Mellow"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (45/100, 45.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (55/100, 55.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -1238,7 +1361,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (2/5)\r\nDark\r\nRough (1/5)\r\nSmooth (1/5)\r\nSharp (1/5)",
         "ci_vocoded": ""
       }
     },
@@ -1304,13 +1427,17 @@
       ],
       "responses": {
         "original": {
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (0/100, 0.0%)\r\nDark (100/100, 100.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          },
           "gemini-3.1-pro-preview": {
             "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
             "response_text": "Primary answer: Dark\r\nSecondary answer: Mellow"
           },
           "audio-flamingo-next": {
-            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich words best describe the timbre (sound character) of the sound in this audio?\r\n\r\nOptions:\r\nSharp\r\nMellow\r\nRough\r\nMuddy\r\nBright\r\nDark\r\n\r\nSelect the most likely answer as the primary answer. If another option is also reasonably plausible, provide it as the secondary answer. Otherwise, output \"None\" as the secondary answer.\r\n\r\nOutput only in the following format:\r\nPrimary answer: [full option text]\r\nSecondary answer: [a different option only if plausible; otherwise, None]",
-            "response_text": "Primary answer: Mellow\r\nSecondary answer: Dark"
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (1/100, 1.0%)\r\nDark (61/100, 61.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (38/100, 38.0%)\r\nSharp (0/100, 0.0%)"
           }
         },
         "ci_vocoded": {
@@ -1325,7 +1452,7 @@
         }
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (1/3)\r\nDark (1/3)\r\nRough (1/3)\r\nSmooth\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -1386,11 +1513,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (78/100, 78.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (22/100, 22.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (3/100, 3.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (97/100, 97.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (2/4)\r\nDark\r\nRough\r\nSmooth (2/4)\r\nSharp",
         "ci_vocoded": ""
       }
     },
@@ -1451,11 +1587,20 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "audio-flamingo-next": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (99/100, 99.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (1/100, 1.0%)\r\nSharp (0/100, 0.0%)"
+          },
+          "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+            "prompt": "Listen to the music excerpt and answer as an adult listener with normal hearing would most likely respond.\r\nWhich word best describes the timbre (sound character) of this audio?\r\n\r\nOptions:\r\nBright\r\nDark\r\nRough\r\nSmooth\r\nSharp\r\n\r\nOutput only in the following format:\r\nAnswer: [full option text]",
+            "response_text": "Bright (100/100, 100.0%)\r\nDark (0/100, 0.0%)\r\nRough (0/100, 0.0%)\r\nSmooth (0/100, 0.0%)\r\nSharp (0/100, 0.0%)"
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Bright (2/2)\r\nDark\r\nRough\r\nSmooth\r\nSharp",
         "ci_vocoded": ""
       }
     },
