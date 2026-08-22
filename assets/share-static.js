@@ -145,8 +145,9 @@
     const tab = event.target.closest("[data-alm-tab]");
     if (tab) {
       const card = tab.closest(".saved-response-card");
-      card.querySelectorAll("[data-alm-tab]").forEach((item) => { const active = item === tab; item.classList.toggle("is-active", active); item.setAttribute("aria-selected", String(active)); });
-      card.querySelectorAll("[data-alm-pane]").forEach((pane) => { pane.hidden = pane.dataset.almPane !== tab.dataset.almTab; });
+      const group = tab.closest(".alm-question-group") || card;
+      group.querySelectorAll("[data-alm-tab]").forEach((item) => { const active = item === tab; item.classList.toggle("is-active", active); item.setAttribute("aria-selected", String(active)); });
+      group.querySelectorAll("[data-alm-pane]").forEach((pane) => { pane.hidden = pane.dataset.almPane !== tab.dataset.almTab; });
     }
   });
 
