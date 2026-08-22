@@ -39,6 +39,7 @@
 
   function renderList() {
     const target = document.querySelector("#sample-list");
+    const scrollTop = target.querySelector("[data-sample-list]")?.scrollTop ?? 0;
     const samples = filteredSamples();
     if (!samples.some((sample) => sample.id === state.selectedId)) {
       state.selectedId = samples[0]?.id ?? null;
@@ -49,6 +50,8 @@
             <span class="sample-icon">♪</span><span class="sample-main"><strong>${escapeHtml(sample.instrument)}</strong><small>${escapeHtml(sample.id)} · ${escapeHtml(sample.split)}</small></span><span class="review-badge status-include">${escapeHtml(sample.include_task)}</span>
           </button>`).join("")}</div>`
       : '<div class="empty-list"><strong>No matching samples</strong><span>필터를 조정해 보세요.</span></div>';
+    const list = target.querySelector("[data-sample-list]");
+    if (list) list.scrollTop = scrollTop;
     renderDetail();
   }
 

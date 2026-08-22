@@ -128,6 +128,7 @@ kbd { border: 1px solid var(--line); background: #f4f6f8; border-radius: 5px; pa
 .ci-generation-form p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.45; }
 .variant-pane-label { margin: 0 0 10px; color: var(--brand); font-size: 11px; font-weight: 800; }
 .alm-tabs { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px; }
+.saved-response-card [data-static-question-selector] { margin-bottom: 12px; }
 .alm-tab { border: 1px solid var(--line); border-radius: 999px; padding: 7px 10px; background: white; color: var(--muted); font: inherit; font-size: 11px; font-weight: 700; cursor: pointer; }
 .alm-tab.is-active { border-color: var(--brand); background: var(--brand-soft); color: var(--brand); }
 .saved-response-form, .human-response-form { display: grid; gap: 11px; }
