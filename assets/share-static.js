@@ -52,11 +52,21 @@
     renderDetail();
   }
 
-  function responsePane(sample, variant, model, index) {
-    const response = sample.responses?.[variant]?.[model.id];
-    return `<div class="saved-response-pane" data-alm-pane="${variant}-${model.id}" ${index ? "hidden" : ""}>${response
-      ? `<div class="alm-question"><span>Question</span><p>${escapeHtml(response.prompt)}</p></div><div class="alm-answer"><span>Answer</span><p>${escapeHtml(response.response_text)}</p></div>`
+  function responsePane(sample, variant, question, model, index) {
+    const response = sample.responses?.[variant]?.[String(question.id)]?.[model.id];
+    return `<div class="saved-response-pane" data-alm-pane="${variant}-${question.id}-${model.id}" ${index ? "hidden" : ""}>${response
+      ? `<div class="alm-answer"><span>Answer</span><p>${escapeHtml(response.response_text)}</p></div>`
       : '<div class="placeholder-result"><strong>No saved response</strong></div>'}</div>`;
+  }
+
+  function questionPane(sample, variant, question, index) {
+    const models = sample.response_models || [];
+    return `<article class="alm-question-group" data-static-question-panel="${variant}" data-question-id="${question.id}" ${index ? "hidden" : ""}>
+      <div class="alm-question-heading"><span>${escapeHtml(question.name)}</span></div>
+      <p class="alm-question-text">${escapeHtml(question.question_text)}</p>
+      <div class="alm-tabs" data-alm-tabs>${models.map((model, modelIndex) => `<button type="button" class="alm-tab${modelIndex ? "" : " is-active"}" data-alm-tab="${variant}-${question.id}-${model.id}" aria-selected="${modelIndex ? "false" : "true"}">${escapeHtml(model.label)}</button>`).join("")}</div>
+      ${models.map((model, modelIndex) => responsePane(sample, variant, question, model, modelIndex)).join("")}
+    </article>`;
   }
 
   function expectedHumanResponsePane(sample, variant) {
@@ -67,12 +77,11 @@
   }
 
   function variantPane(sample, variant) {
-    const models = sample.response_models || [];
+    const questions = sample.response_questions || [];
     return `<div data-audio-variant-pane="${variant}" ${variant === "original" ? "" : "hidden"}>
       <p class="variant-pane-label">${variant === "original" ? "Original audio" : "CI-vocoded audio"}</p>
       ${expectedHumanResponsePane(sample, variant)}
-      <div class="alm-tabs" data-alm-tabs>${models.map((model, index) => `<button type="button" class="alm-tab${index ? "" : " is-active"}" data-alm-tab="${variant}-${model.id}" aria-selected="${index ? "false" : "true"}">${escapeHtml(model.label)}</button>`).join("")}</div>
-      ${models.map((model, index) => responsePane(sample, variant, model, index)).join("")}
+      ${questions.length ? `<label>Question type<select data-static-question-selector data-question-scope="${variant}">${questions.map((question) => `<option value="${question.id}">${escapeHtml(question.name)}</option>`).join("")}</select></label>${questions.map((question, index) => questionPane(sample, variant, question, index)).join("")}` : '<div class="placeholder-result"><strong>No questions registered</strong></div>'}
     </div>`;
   }
 
@@ -149,6 +158,17 @@
       group.querySelectorAll("[data-alm-tab]").forEach((item) => { const active = item === tab; item.classList.toggle("is-active", active); item.setAttribute("aria-selected", String(active)); });
       group.querySelectorAll("[data-alm-pane]").forEach((pane) => { pane.hidden = pane.dataset.almPane !== tab.dataset.almTab; });
     }
+  });
+
+  document.addEventListener("change", (event) => {
+    const selector = event.target.closest("[data-static-question-selector]");
+    if (!selector) return;
+    const detail = selector.closest(".detail-content");
+    const scope = selector.dataset.questionScope;
+    if (!detail || !scope) return;
+    detail.querySelectorAll(`[data-static-question-panel="${scope}"]`).forEach((panel) => {
+      panel.hidden = panel.dataset.questionId !== selector.value;
+    });
   });
 
   document.addEventListener("keydown", (event) => {
