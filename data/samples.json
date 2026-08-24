@@ -15120,11 +15120,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.15 (±0.20)\nSlow: 0.05 (±0.03)\nStraight (regular beat): 0.73 (±0.23)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.13 (±0.13)\nSlow: 0.04 (±0.04)\nStraight (regular beat): 0.33 (±0.33)\nSyncopated (off-beat): 0.52 (±0.24)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.88 (±0.06)\nSlow: 0.01 (±0.01)\nStraight (regular beat): 0.08 (±0.06)\nSyncopated (off-beat): 0.03 (±0.03)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.45 (15/33)\nSlow: 0.00 (0/33)\nStraight (regular beat): 0.55 (18/33)\nSyncopated (off-beat): 0.00 (0/33)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.43 (16/37)\nSlow: 0.00 (0/37)\nStraight (regular beat): 0.16 (6/37)\nSyncopated (off-beat): 0.41 (15/37)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.62 (10/16)\nSlow: 0.00 (0/16)\nStraight (regular beat): 0.31 (5/16)\nSyncopated (off-beat): 0.06 (1/16)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 1.00 (20/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.00 (0/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.55 (11/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.20 (4/20)\nSyncopated (off-beat): 0.25 (5/20)\n\nTotal 20 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15206,11 +15240,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.08 (±0.05)\nSlow: 0.06 (±0.04)\nStraight (regular beat): 0.80 (±0.08)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.23 (±0.00)\nSlow: 0.01 (±0.00)\nStraight (regular beat): 0.57 (±0.00)\nSyncopated (off-beat): 0.19 (±0.00)\n\nTotal 1 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.06 (±0.02)\nSlow: 0.06 (±0.03)\nStraight (regular beat): 0.19 (±0.27)\nSyncopated (off-beat): 0.69 (±0.30)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.09 (2/23)\nSlow: 0.04 (1/23)\nStraight (regular beat): 0.87 (20/23)\nSyncopated (off-beat): 0.00 (0/23)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.40 (14/35)\nSlow: 0.00 (0/35)\nStraight (regular beat): 0.23 (8/35)\nSyncopated (off-beat): 0.37 (13/35)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.09 (1/11)\nSlow: 0.00 (0/11)\nStraight (regular beat): 0.64 (7/11)\nSyncopated (off-beat): 0.27 (3/11)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.75 (15/20)\nSyncopated (off-beat): 0.25 (5/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.45 (9/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.45 (9/20)\nSyncopated (off-beat): 0.10 (2/20)\n\nTotal 20 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15293,11 +15361,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.41 (±0.31)\nSlow: 0.06 (±0.03)\nStraight (regular beat): 0.45 (±0.33)\nSyncopated (off-beat): 0.08 (±0.05)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.17 (±0.14)\nSlow: 0.10 (±0.10)\nStraight (regular beat): 0.36 (±0.30)\nSyncopated (off-beat): 0.37 (±0.32)\n\nTotal 5 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.91 (±0.05)\nSlow: 0.00 (±0.00)\nStraight (regular beat): 0.06 (±0.03)\nSyncopated (off-beat): 0.03 (±0.04)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.57 (20/35)\nSlow: 0.00 (0/35)\nStraight (regular beat): 0.43 (15/35)\nSyncopated (off-beat): 0.00 (0/35)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.43 (16/37)\nSlow: 0.00 (0/37)\nStraight (regular beat): 0.16 (6/37)\nSyncopated (off-beat): 0.41 (15/37)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.67 (10/15)\nSlow: 0.00 (0/15)\nStraight (regular beat): 0.33 (5/15)\nSyncopated (off-beat): 0.00 (0/15)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.35 (7/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.65 (13/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.50 (10/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.20 (4/20)\nSyncopated (off-beat): 0.30 (6/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.90 (9/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.10 (1/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15380,11 +15482,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.06 (±0.04)\nSlow: 0.08 (±0.05)\nStraight (regular beat): 0.80 (±0.10)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.10 (±0.00)\nSlow: 0.20 (±0.00)\nStraight (regular beat): 0.65 (±0.00)\nSyncopated (off-beat): 0.05 (±0.00)\n\nTotal 1 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.17 (±0.23)\nSlow: 0.02 (±0.02)\nStraight (regular beat): 0.79 (±0.23)\nSyncopated (off-beat): 0.03 (±0.02)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.08 (2/25)\nSlow: 0.12 (3/25)\nStraight (regular beat): 0.80 (20/25)\nSyncopated (off-beat): 0.00 (0/25)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.33 (11/33)\nSlow: 0.00 (0/33)\nStraight (regular beat): 0.33 (11/33)\nSyncopated (off-beat): 0.33 (11/33)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.33 (5/15)\nSlow: 0.00 (0/15)\nStraight (regular beat): 0.67 (10/15)\nSyncopated (off-beat): 0.00 (0/15)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.35 (7/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.50 (10/20)\nSyncopated (off-beat): 0.15 (3/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 1.00 (10/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15465,11 +15601,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.08 (±0.05)\nSlow: 0.06 (±0.04)\nStraight (regular beat): 0.82 (±0.08)\nSyncopated (off-beat): 0.05 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.13 (±0.13)\nSlow: 0.13 (±0.13)\nStraight (regular beat): 0.00 (±0.00)\nSyncopated (off-beat): 0.75 (±0.00)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.17 (±0.25)\nSlow: 0.01 (±0.01)\nStraight (regular beat): 0.81 (±0.24)\nSyncopated (off-beat): 0.02 (±0.02)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.09 (2/22)\nSlow: 0.00 (0/22)\nStraight (regular beat): 0.91 (20/22)\nSyncopated (off-beat): 0.00 (0/22)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.42 (15/36)\nSlow: 0.00 (0/36)\nStraight (regular beat): 0.11 (4/36)\nSyncopated (off-beat): 0.47 (17/36)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.44 (8/18)\nSlow: 0.00 (0/18)\nStraight (regular beat): 0.56 (10/18)\nSyncopated (off-beat): 0.00 (0/18)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.50 (10/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.25 (5/20)\nSyncopated (off-beat): 0.25 (5/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 1.00 (10/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15550,11 +15720,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.06 (±0.04)\nSlow: 0.07 (±0.05)\nStraight (regular beat): 0.81 (±0.09)\nSyncopated (off-beat): 0.06 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.23 (±0.00)\nSlow: 0.01 (±0.00)\nStraight (regular beat): 0.57 (±0.00)\nSyncopated (off-beat): 0.19 (±0.00)\n\nTotal 1 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.01 (±0.02)\nSlow: 0.22 (±0.11)\nStraight (regular beat): 0.75 (±0.12)\nSyncopated (off-beat): 0.02 (±0.02)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.34 (11/32)\nSlow: 0.00 (0/32)\nStraight (regular beat): 0.31 (10/32)\nSyncopated (off-beat): 0.34 (11/32)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.50 (10/20)\nStraight (regular beat): 0.50 (10/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.35 (7/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.55 (11/20)\nSyncopated (off-beat): 0.10 (2/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.20 (2/10)\nStraight (regular beat): 0.80 (8/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15635,11 +15839,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.10 (±0.05)\nSlow: 0.05 (±0.03)\nStraight (regular beat): 0.80 (±0.07)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.08 (±0.12)\nSlow: 0.11 (±0.11)\nStraight (regular beat): 0.22 (±0.31)\nSyncopated (off-beat): 0.59 (±0.22)\n\nTotal 3 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.05 (±0.03)\nSlow: 0.02 (±0.02)\nStraight (regular beat): 0.89 (±0.04)\nSyncopated (off-beat): 0.03 (±0.01)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.17 (4/24)\nSlow: 0.00 (0/24)\nStraight (regular beat): 0.83 (20/24)\nSyncopated (off-beat): 0.00 (0/24)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.42 (15/36)\nSlow: 0.00 (0/36)\nStraight (regular beat): 0.19 (7/36)\nSyncopated (off-beat): 0.39 (14/36)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.47 (9/19)\nSlow: 0.00 (0/19)\nStraight (regular beat): 0.47 (9/19)\nSyncopated (off-beat): 0.05 (1/19)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.60 (12/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.25 (5/20)\nSyncopated (off-beat): 0.15 (3/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 1.00 (10/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15720,11 +15958,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.06 (±0.04)\nSlow: 0.07 (±0.05)\nStraight (regular beat): 0.81 (±0.09)\nSyncopated (off-beat): 0.06 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "No valid proportion responses."
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.03 (±0.02)\nSlow: 0.20 (±0.17)\nStraight (regular beat): 0.57 (±0.21)\nSyncopated (off-beat): 0.21 (±0.23)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.33 (11/33)\nSlow: 0.00 (0/33)\nStraight (regular beat): 0.33 (11/33)\nSyncopated (off-beat): 0.33 (11/33)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.50 (10/20)\nStraight (regular beat): 0.50 (10/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.20 (4/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.60 (12/20)\nSyncopated (off-beat): 0.20 (4/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.70 (7/10)\nSyncopated (off-beat): 0.30 (3/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15805,11 +16077,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.08 (±0.05)\nSlow: 0.06 (±0.03)\nStraight (regular beat): 0.80 (±0.07)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.18 (±0.13)\nSlow: 0.08 (±0.12)\nStraight (regular beat): 0.22 (±0.31)\nSyncopated (off-beat): 0.52 (±0.32)\n\nTotal 3 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.64 (±0.26)\nSlow: 0.01 (±0.01)\nStraight (regular beat): 0.11 (±0.09)\nSyncopated (off-beat): 0.24 (±0.31)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.05 (1/21)\nSlow: 0.00 (0/21)\nStraight (regular beat): 0.95 (20/21)\nSyncopated (off-beat): 0.00 (0/21)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.42 (15/36)\nSlow: 0.00 (0/36)\nStraight (regular beat): 0.17 (6/36)\nSyncopated (off-beat): 0.42 (15/36)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.62 (10/16)\nSlow: 0.00 (0/16)\nStraight (regular beat): 0.38 (6/16)\nSyncopated (off-beat): 0.00 (0/16)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.65 (13/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.15 (3/20)\nSyncopated (off-beat): 0.20 (4/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.80 (8/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.20 (2/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15890,11 +16196,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.08 (±0.03)\nSlow: 0.08 (±0.05)\nStraight (regular beat): 0.79 (±0.09)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "No valid proportion responses."
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.04 (±0.01)\nSlow: 0.05 (±0.02)\nStraight (regular beat): 0.71 (±0.29)\nSyncopated (off-beat): 0.20 (±0.29)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.05 (1/22)\nSlow: 0.05 (1/22)\nStraight (regular beat): 0.91 (20/22)\nSyncopated (off-beat): 0.00 (0/22)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.39 (13/33)\nSlow: 0.00 (0/33)\nStraight (regular beat): 0.27 (9/33)\nSyncopated (off-beat): 0.33 (11/33)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.80 (8/10)\nSyncopated (off-beat): 0.20 (2/10)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.40 (8/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.50 (10/20)\nSyncopated (off-beat): 0.10 (2/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 1.00 (10/10)\nSyncopated (off-beat): 0.00 (0/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
         "ci_vocoded": ""
       }
     },
@@ -15974,11 +16314,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.10 (±0.06)\nSlow: 0.05 (±0.03)\nStraight (regular beat): 0.78 (±0.10)\nSyncopated (off-beat): 0.07 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.18 (±0.13)\nSlow: 0.15 (±0.11)\nStraight (regular beat): 0.17 (±0.24)\nSyncopated (off-beat): 0.50 (±0.35)\n\nTotal 3 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.29 (±0.20)\nSlow: 0.01 (±0.01)\nStraight (regular beat): 0.06 (±0.03)\nSyncopated (off-beat): 0.64 (±0.20)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.23 (6/26)\nSlow: 0.00 (0/26)\nStraight (regular beat): 0.77 (20/26)\nSyncopated (off-beat): 0.00 (0/26)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.42 (15/36)\nSlow: 0.00 (0/36)\nStraight (regular beat): 0.14 (5/36)\nSyncopated (off-beat): 0.44 (16/36)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.50 (10/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.05 (1/20)\nSyncopated (off-beat): 0.45 (9/20)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.65 (13/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.15 (3/20)\nSyncopated (off-beat): 0.20 (4/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.50 (5/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 0.50 (5/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16060,11 +16434,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.07 (±0.03)\nSlow: 0.07 (±0.04)\nStraight (regular beat): 0.79 (±0.08)\nSyncopated (off-beat): 0.08 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.13 (±0.08)\nSlow: 0.13 (±0.08)\nStraight (regular beat): 0.65 (±0.00)\nSyncopated (off-beat): 0.10 (±0.00)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.04 (±0.02)\nSlow: 0.12 (±0.12)\nStraight (regular beat): 0.07 (±0.04)\nSyncopated (off-beat): 0.77 (±0.14)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/21)\nSlow: 0.05 (1/21)\nStraight (regular beat): 0.95 (20/21)\nSyncopated (off-beat): 0.00 (0/21)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.34 (11/32)\nSlow: 0.00 (0/32)\nStraight (regular beat): 0.34 (11/32)\nSyncopated (off-beat): 0.31 (10/32)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/16)\nSlow: 0.38 (6/16)\nStraight (regular beat): 0.06 (1/16)\nSyncopated (off-beat): 0.56 (9/16)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.45 (9/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.50 (10/20)\nSyncopated (off-beat): 0.05 (1/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 1.00 (10/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16145,11 +16553,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.14 (±0.17)\nSlow: 0.04 (±0.01)\nStraight (regular beat): 0.76 (±0.17)\nSyncopated (off-beat): 0.06 (±0.05)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.27 (±0.02)\nSlow: 0.00 (±0.00)\nStraight (regular beat): 0.33 (±0.33)\nSyncopated (off-beat): 0.41 (±0.34)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.69 (±0.23)\nSlow: 0.00 (±0.01)\nStraight (regular beat): 0.16 (±0.12)\nSyncopated (off-beat): 0.15 (±0.24)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.49 (18/37)\nSlow: 0.00 (0/37)\nStraight (regular beat): 0.51 (19/37)\nSyncopated (off-beat): 0.00 (0/37)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.40 (14/35)\nSlow: 0.00 (0/35)\nStraight (regular beat): 0.14 (5/35)\nSyncopated (off-beat): 0.46 (16/35)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.53 (10/19)\nSlow: 0.00 (0/19)\nStraight (regular beat): 0.32 (6/19)\nSyncopated (off-beat): 0.16 (3/19)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.60 (12/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.10 (2/20)\nSyncopated (off-beat): 0.30 (6/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.80 (8/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 0.20 (2/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16232,11 +16674,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.14 (±0.14)\nSlow: 0.06 (±0.03)\nStraight (regular beat): 0.72 (±0.17)\nSyncopated (off-beat): 0.08 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.07 (±0.00)\nSlow: 0.00 (±0.00)\nStraight (regular beat): 0.65 (±0.00)\nSyncopated (off-beat): 0.28 (±0.00)\n\nTotal 1 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.45 (±0.26)\nSlow: 0.01 (±0.02)\nStraight (regular beat): 0.11 (±0.21)\nSyncopated (off-beat): 0.43 (±0.27)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.38 (12/32)\nSlow: 0.00 (0/32)\nStraight (regular beat): 0.62 (20/32)\nSyncopated (off-beat): 0.00 (0/32)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.43 (15/35)\nSlow: 0.00 (0/35)\nStraight (regular beat): 0.11 (4/35)\nSyncopated (off-beat): 0.46 (16/35)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.53 (10/19)\nSlow: 0.00 (0/19)\nStraight (regular beat): 0.00 (0/19)\nSyncopated (off-beat): 0.47 (9/19)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.55 (11/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.20 (4/20)\nSyncopated (off-beat): 0.25 (5/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.30 (3/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 0.70 (7/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16319,11 +16795,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.07 (±0.03)\nSlow: 0.07 (±0.04)\nStraight (regular beat): 0.79 (±0.08)\nSyncopated (off-beat): 0.07 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.14 (±0.14)\nSlow: 0.04 (±0.04)\nStraight (regular beat): 0.65 (±0.00)\nSyncopated (off-beat): 0.18 (±0.11)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.04 (±0.01)\nSlow: 0.06 (±0.02)\nStraight (regular beat): 0.04 (±0.01)\nSyncopated (off-beat): 0.86 (±0.04)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.38 (12/32)\nSlow: 0.00 (0/32)\nStraight (regular beat): 0.38 (12/32)\nSyncopated (off-beat): 0.25 (8/32)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.07 (1/15)\nSlow: 0.27 (4/15)\nStraight (regular beat): 0.00 (0/15)\nSyncopated (off-beat): 0.67 (10/15)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.30 (6/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.60 (12/20)\nSyncopated (off-beat): 0.10 (2/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 1.00 (10/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16406,11 +16916,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.05 (±0.04)\nSlow: 0.07 (±0.04)\nStraight (regular beat): 0.82 (±0.09)\nSyncopated (off-beat): 0.07 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "No valid proportion responses."
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.02 (±0.02)\nSlow: 0.08 (±0.06)\nStraight (regular beat): 0.35 (±0.35)\nSyncopated (off-beat): 0.55 (±0.37)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/21)\nSlow: 0.05 (1/21)\nStraight (regular beat): 0.95 (20/21)\nSyncopated (off-beat): 0.00 (0/21)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.31 (9/29)\nSlow: 0.00 (0/29)\nStraight (regular beat): 0.38 (11/29)\nSyncopated (off-beat): 0.31 (9/29)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/17)\nSlow: 0.41 (7/17)\nStraight (regular beat): 0.06 (1/17)\nSyncopated (off-beat): 0.53 (9/17)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.25 (5/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.60 (12/20)\nSyncopated (off-beat): 0.15 (3/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.10 (1/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 0.90 (9/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16493,11 +17037,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.06 (±0.03)\nSlow: 0.07 (±0.04)\nStraight (regular beat): 0.80 (±0.09)\nSyncopated (off-beat): 0.07 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.13 (±0.08)\nSlow: 0.13 (±0.08)\nStraight (regular beat): 0.65 (±0.00)\nSyncopated (off-beat): 0.10 (±0.00)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.05 (±0.03)\nSlow: 0.05 (±0.02)\nStraight (regular beat): 0.25 (±0.33)\nSyncopated (off-beat): 0.66 (±0.31)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.36 (12/33)\nSlow: 0.00 (0/33)\nStraight (regular beat): 0.30 (10/33)\nSyncopated (off-beat): 0.33 (11/33)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/15)\nSlow: 0.33 (5/15)\nStraight (regular beat): 0.00 (0/15)\nSyncopated (off-beat): 0.67 (10/15)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.35 (7/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.55 (11/20)\nSyncopated (off-beat): 0.10 (2/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 1.00 (10/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16578,11 +17156,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.33 (±0.34)\nSlow: 0.04 (±0.01)\nStraight (regular beat): 0.56 (±0.35)\nSyncopated (off-beat): 0.07 (±0.05)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.22 (±0.04)\nSlow: 0.12 (±0.12)\nStraight (regular beat): 0.28 (±0.28)\nSyncopated (off-beat): 0.39 (±0.37)\n\nTotal 2 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.69 (±0.19)\nSlow: 0.00 (±0.00)\nStraight (regular beat): 0.11 (±0.07)\nSyncopated (off-beat): 0.20 (±0.22)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.56 (20/36)\nSlow: 0.00 (0/36)\nStraight (regular beat): 0.44 (16/36)\nSyncopated (off-beat): 0.00 (0/36)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.41 (14/34)\nSlow: 0.00 (0/34)\nStraight (regular beat): 0.21 (7/34)\nSyncopated (off-beat): 0.38 (13/34)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.59 (10/17)\nSlow: 0.00 (0/17)\nStraight (regular beat): 0.06 (1/17)\nSyncopated (off-beat): 0.35 (6/17)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.15 (3/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.85 (17/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.40 (8/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.30 (6/20)\nSyncopated (off-beat): 0.30 (6/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.60 (6/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 0.40 (4/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16665,11 +17277,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.06 (±0.04)\nSlow: 0.07 (±0.05)\nStraight (regular beat): 0.81 (±0.10)\nSyncopated (off-beat): 0.06 (±0.04)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.23 (±0.00)\nSlow: 0.01 (±0.00)\nStraight (regular beat): 0.57 (±0.00)\nSyncopated (off-beat): 0.19 (±0.00)\n\nTotal 1 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.04 (±0.03)\nSlow: 0.05 (±0.02)\nStraight (regular beat): 0.06 (±0.02)\nSyncopated (off-beat): 0.85 (±0.04)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.34 (11/32)\nSlow: 0.00 (0/32)\nStraight (regular beat): 0.34 (11/32)\nSyncopated (off-beat): 0.31 (10/32)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/15)\nSlow: 0.33 (5/15)\nStraight (regular beat): 0.00 (0/15)\nSyncopated (off-beat): 0.67 (10/15)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.40 (8/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.50 (10/20)\nSyncopated (off-beat): 0.10 (2/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.00 (0/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 1.00 (10/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     },
@@ -16751,11 +17397,45 @@
         }
       ],
       "responses": {
-        "original": {},
+        "original": {
+          "65": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.16 (±0.20)\nSlow: 0.05 (±0.03)\nStraight (regular beat): 0.72 (±0.23)\nSyncopated (off-beat): 0.06 (±0.03)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.25 (±0.00)\nSlow: 0.00 (±0.00)\nStraight (regular beat): 0.00 (±0.00)\nSyncopated (off-beat): 0.75 (±0.00)\n\nTotal 1 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.49 (±0.28)\nSlow: 0.00 (±0.00)\nStraight (regular beat): 0.05 (±0.04)\nSyncopated (off-beat): 0.45 (±0.30)\n\nTotal 10 runs"
+            }
+          },
+          "63": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.33 (10/30)\nSlow: 0.00 (0/30)\nStraight (regular beat): 0.67 (20/30)\nSyncopated (off-beat): 0.00 (0/30)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.41 (13/32)\nSlow: 0.00 (0/32)\nStraight (regular beat): 0.19 (6/32)\nSyncopated (off-beat): 0.41 (13/32)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.53 (10/19)\nSlow: 0.00 (0/19)\nStraight (regular beat): 0.05 (1/19)\nSyncopated (off-beat): 0.42 (8/19)\n\nTotal 10 runs"
+            }
+          },
+          "61": {
+            "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+              "response_text": "Fast: 0.00 (0/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 1.00 (20/20)\nSyncopated (off-beat): 0.00 (0/20)\n\nTotal 20 runs"
+            },
+            "audio-flamingo-next": {
+              "response_text": "Fast: 0.45 (9/20)\nSlow: 0.00 (0/20)\nStraight (regular beat): 0.25 (5/20)\nSyncopated (off-beat): 0.30 (6/20)\n\nTotal 20 runs"
+            },
+            "gemini-3.1-pro-preview": {
+              "response_text": "Fast: 0.80 (8/10)\nSlow: 0.00 (0/10)\nStraight (regular beat): 0.00 (0/10)\nSyncopated (off-beat): 0.20 (2/10)\n\nTotal 10 runs"
+            }
+          }
+        },
         "ci_vocoded": {}
       },
       "human_responses_expected": {
-        "original": "",
+        "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
         "ci_vocoded": ""
       }
     }
