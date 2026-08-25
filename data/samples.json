@@ -8249,7 +8249,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Aclassical%253Aclassical.00000/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00000/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -8361,7 +8361,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Aclassical%253Aclassical.00002/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00002/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -8473,7 +8473,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Aclassical%253Aclassical.00012/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00012/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -8585,7 +8585,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Aclassical%253Aclassical.00073/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00073/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -8697,7 +8697,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Aclassical%253Aclassical.00096/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00096/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -8809,7 +8809,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Ajazz%253Ajazz.00005/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00005/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -9033,7 +9033,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Ajazz%253Ajazz.00044/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00044/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -9145,7 +9145,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Ajazz%253Ajazz.00056/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00056/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -9257,7 +9257,7 @@
       ],
       "audio": {
         "original": "audio/gtzan%253Ajazz%253Ajazz.00078/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00078/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -11609,7 +11609,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0003521/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0003521/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -11721,7 +11721,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0006149/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0006149/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -11833,7 +11833,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0007041/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0007041/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -11945,7 +11945,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0009887/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0009887/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -12057,7 +12057,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0042327/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0042327/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -12169,7 +12169,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0082178/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0082178/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -12281,7 +12281,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0208496/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0208496/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -12393,7 +12393,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0606115/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0606115/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15068,7 +15068,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_01/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_01/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15188,7 +15188,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_01/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_01/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15309,7 +15309,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_02/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_02/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15430,7 +15430,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_02/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_02/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15549,7 +15549,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_03/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_03/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15668,7 +15668,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_03/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_03/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15787,7 +15787,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_04/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_04/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -15906,7 +15906,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_04/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_04/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16025,7 +16025,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_05/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_05/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16144,7 +16144,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_05/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_05/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16262,7 +16262,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_40/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_40/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16382,7 +16382,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_41/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_41/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16501,7 +16501,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_42/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_42/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16622,7 +16622,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_44/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_44/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16743,7 +16743,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_44/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_44/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16864,7 +16864,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_45/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_45/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -16985,7 +16985,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_47/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_47/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -17104,7 +17104,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_48/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_48/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -17225,7 +17225,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_49/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_49/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -17345,7 +17345,7 @@
       ],
       "audio": {
         "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_50/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_50/ci-vocoded.wav"
       },
       "response_models": [
         {
