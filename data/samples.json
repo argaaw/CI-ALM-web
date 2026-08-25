@@ -12505,7 +12505,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0940184/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0940184/ci-vocoded.wav"
       },
       "response_models": [
         {
@@ -12617,7 +12617,7 @@
       ],
       "audio": {
         "original": "audio/mtg-jamendo-genre%253Atrack_0976780/original.wav",
-        "ci_vocoded": null
+        "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0976780/ci-vocoded.wav"
       },
       "response_models": [
         {
