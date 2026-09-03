@@ -4,6 +4,7 @@
     selectedTask: null,
     selectedSampleByTask: new Map(),
     sampleListScrollTopByTask: new Map(),
+    preferredAudioVariant: "original",
   };
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (character) => ({
@@ -79,9 +80,9 @@
       : "";
   }
 
-  function variantPane(sample, variant) {
+  function variantPane(sample, variant, selectedVariant) {
     const questions = orderedQuestions(sample.response_questions || [], variant);
-    return `<div data-audio-variant-pane="${variant}" ${variant === "original" ? "" : "hidden"}>
+    return `<div data-audio-variant-pane="${variant}" ${variant === selectedVariant ? "" : "hidden"}>
       <p class="variant-pane-label">${variant === "original" ? "Original audio" : "CI-vocoded audio"}</p>
       ${expectedHumanResponsePane(sample, variant)}
       ${questions.length ? `<label>Question type<select data-static-question-selector data-question-scope="${variant}">${questions.map((question) => `<option value="${question.id}">${escapeHtml(question.name)}</option>`).join("")}</select></label>${questions.map((question, index) => questionPane(sample, variant, question, index)).join("")}` : '<div class="placeholder-result"><strong>No questions registered</strong></div>'}
@@ -99,18 +100,21 @@
     const metrics = Object.entries(sample.display_metadata || {}).map(([label, value]) =>
       `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value || "—")}</strong></div>`,
     ).join("");
+    const audioVariant = state.preferredAudioVariant === "ci_vocoded" && sample.audio.ci_vocoded
+      ? "ci_vocoded"
+      : "original";
     const ciButton = sample.audio.ci_vocoded
-      ? '<button type="button" class="shared-audio-variant-tab" data-audio-variant-tab="ci_vocoded" aria-selected="false">CI-vocoded audio</button>'
+      ? `<button type="button" class="shared-audio-variant-tab${audioVariant === "ci_vocoded" ? " is-active" : ""}" data-audio-variant-tab="ci_vocoded" aria-selected="${audioVariant === "ci_vocoded"}">CI-vocoded audio</button>`
       : '<button type="button" class="shared-audio-variant-tab is-unavailable" data-audio-variant-tab="ci_vocoded" aria-selected="false" disabled>CI-vocoded audio<small>Not available</small></button>';
     const number = (currentTask()?.samples.indexOf(sample) ?? -1) + 1;
     target.innerHTML = `<div class="detail-content" data-current-sample="${escapeHtml(sample.id)}">
       <div class="detail-header"><div><p class="eyebrow">PREVIEW</p><h2>${number}</h2><p>${escapeHtml(sample.instrument)} · ${escapeHtml(sample.id)} · ${escapeHtml(sample.dataset_name)}</p></div><span class="review-badge large status-include">${escapeHtml(sample.include_task)}</span></div>
-      <div class="shared-audio-variant-tabs" role="tablist"><button type="button" class="shared-audio-variant-tab is-active" data-audio-variant-tab="original" aria-selected="true">Original audio</button>${ciButton}</div>
-      <section class="audio-card shared-audio-card"><audio id="main-audio" controls preload="metadata" src="${escapeHtml(sample.audio.original)}" data-original-src="${escapeHtml(sample.audio.original)}" data-ci-vocoded-src="${escapeHtml(sample.audio.ci_vocoded || "")}"></audio><div class="audio-shortcuts"><span><kbd>Space</kbd> play</span><span><kbd>J</kbd>/<kbd>K</kbd> prev/next</span></div></section>
+      <div class="shared-audio-variant-tabs" role="tablist"><button type="button" class="shared-audio-variant-tab${audioVariant === "original" ? " is-active" : ""}" data-audio-variant-tab="original" aria-selected="${audioVariant === "original"}">Original audio</button>${ciButton}</div>
+      <section class="audio-card shared-audio-card"><audio id="main-audio" controls preload="metadata" src="${escapeHtml(sample.audio[audioVariant])}" data-original-src="${escapeHtml(sample.audio.original)}" data-ci-vocoded-src="${escapeHtml(sample.audio.ci_vocoded || "")}"></audio><div class="audio-shortcuts"><span><kbd>Space</kbd> play</span><span><kbd>J</kbd>/<kbd>K</kbd> prev/next</span></div></section>
       <section class="metadata-grid"><div><span>Dataset</span><strong>${escapeHtml(sample.dataset_id)}</strong></div><div><span>Split</span><strong>${escapeHtml(sample.split)}</strong></div><div><span>Duration</span><strong>${sample.duration == null ? "—" : `${escapeHtml(sample.duration.toFixed(1))} s`}</strong></div><div><span>Source</span><strong>${escapeHtml(sample.source_id || "—")}</strong></div></section>
       ${metrics ? `<section class="stimulus-metadata"><div class="section-title"><div><p class="eyebrow">STIMULUS METRICS</p><h3>Source metadata</h3></div></div><div class="metadata-grid stimulus-metadata-grid">${metrics}</div></section>` : ""}
       <div class="tag-row">${sample.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      <section class="alm-card saved-response-card" data-audio-variant-card><div class="section-title"><div><p class="eyebrow">ALM RESPONSES</p><h3>Questions &amp; Answers</h3></div></div>${variantPane(sample, "original")}${variantPane(sample, "ci_vocoded")}</section>
+      <section class="alm-card saved-response-card" data-audio-variant-card><div class="section-title"><div><p class="eyebrow">ALM RESPONSES</p><h3>Questions &amp; Answers</h3></div></div>${variantPane(sample, "original", audioVariant)}${variantPane(sample, "ci_vocoded", audioVariant)}</section>
     </div>`;
   }
 
@@ -146,6 +150,7 @@
     if (variantTab && !variantTab.disabled) {
       const detail = variantTab.closest(".detail-content");
       const variant = variantTab.dataset.audioVariantTab;
+      state.preferredAudioVariant = variant;
       detail.querySelectorAll("[data-audio-variant-tab]").forEach((item) => {
         const active = item === variantTab;
         item.classList.toggle("is-active", active);
