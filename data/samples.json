@@ -108,6 +108,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.10 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.12 (±0.07)\nflat: same → same → same → same → same: 0.12 (±0.04)\nfalling_rising: high → lower → lowest → higher → high: 0.52 (±0.19)\nfalling: high → lower → lower → lower → lowest: 0.15 (±0.07)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.09 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.27 (±0.21)\nflat: same → same → same → same → same: 0.19 (±0.21)\nfalling_rising: high → lower → lowest → higher → high: 0.19 (±0.15)\nfalling: high → lower → lower → lower → lowest: 0.27 (±0.22)\n\nTotal 100 runs"
                 }
@@ -672,6 +675,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.67 (±0.10)\nrising_falling: low → higher → highest → lower → low: 0.14 (±0.03)\nflat: same → same → same → same → same: 0.10 (±0.04)\nfalling_rising: high → lower → lowest → higher → high: 0.06 (±0.03)\nfalling: high → lower → lower → lower → lowest: 0.05 (±0.02)\n\nTotal 4 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.11 (±0.06)\nrising_falling: low → higher → highest → lower → low: 0.27 (±0.21)\nflat: same → same → same → same → same: 0.11 (±0.13)\nfalling_rising: high → lower → lowest → higher → high: 0.17 (±0.13)\nfalling: high → lower → lower → lower → lowest: 0.33 (±0.23)\n\nTotal 100 runs"
                 }
@@ -813,6 +819,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.11 (±0.02)\nrising_falling: low → higher → highest → lower → low: 0.43 (±0.16)\nflat: same → same → same → same → same: 0.13 (±0.06)\nfalling_rising: high → lower → lowest → higher → high: 0.22 (±0.15)\nfalling: high → lower → lower → lower → lowest: 0.11 (±0.02)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.09 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.25 (±0.21)\nflat: same → same → same → same → same: 0.22 (±0.23)\nfalling_rising: high → lower → lowest → higher → high: 0.18 (±0.14)\nfalling: high → lower → lower → lower → lowest: 0.27 (±0.23)\n\nTotal 100 runs"
                 }
@@ -954,6 +963,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.04 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.03 (±0.03)\nflat: same → same → same → same → same: 0.87 (±0.16)\nfalling_rising: high → lower → lowest → higher → high: 0.03 (±0.03)\nfalling: high → lower → lower → lower → lowest: 0.04 (±0.06)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.09 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.24 (±0.20)\nflat: same → same → same → same → same: 0.25 (±0.23)\nfalling_rising: high → lower → lowest → higher → high: 0.16 (±0.12)\nfalling: high → lower → lower → lower → lowest: 0.26 (±0.22)\n\nTotal 100 runs"
                 }
@@ -1095,6 +1107,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.05 (±0.03)\nrising_falling: low → higher → highest → lower → low: 0.08 (±0.04)\nflat: same → same → same → same → same: 0.12 (±0.06)\nfalling_rising: high → lower → lowest → higher → high: 0.11 (±0.05)\nfalling: high → lower → lower → lower → lowest: 0.65 (±0.13)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.10 (±0.05)\nrising_falling: low → higher → highest → lower → low: 0.28 (±0.21)\nflat: same → same → same → same → same: 0.11 (±0.13)\nfalling_rising: high → lower → lowest → higher → high: 0.18 (±0.14)\nfalling: high → lower → lower → lower → lowest: 0.33 (±0.22)\n\nTotal 100 runs"
                 }
@@ -1236,6 +1251,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.64 (±0.17)\nrising_falling: low → higher → highest → lower → low: 0.13 (±0.06)\nflat: same → same → same → same → same: 0.11 (±0.06)\nfalling_rising: high → lower → lowest → higher → high: 0.06 (±0.04)\nfalling: high → lower → lower → lower → lowest: 0.06 (±0.04)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.12 (±0.10)\nrising_falling: low → higher → highest → lower → low: 0.29 (±0.22)\nflat: same → same → same → same → same: 0.12 (±0.15)\nfalling_rising: high → lower → lowest → higher → high: 0.17 (±0.13)\nfalling: high → lower → lower → lower → lowest: 0.31 (±0.23)\n\nTotal 100 runs"
                 }
@@ -1377,6 +1395,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.12 (±0.06)\nrising_falling: low → higher → highest → lower → low: 0.58 (±0.18)\nflat: same → same → same → same → same: 0.11 (±0.06)\nfalling_rising: high → lower → lowest → higher → high: 0.09 (±0.05)\nfalling: high → lower → lower → lower → lowest: 0.10 (±0.07)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.09 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.29 (±0.23)\nflat: same → same → same → same → same: 0.17 (±0.21)\nfalling_rising: high → lower → lowest → higher → high: 0.18 (±0.15)\nfalling: high → lower → lower → lower → lowest: 0.27 (±0.22)\n\nTotal 100 runs"
                 }
@@ -1518,6 +1539,9 @@
             },
             "ci_vocoded": {
               "51": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "rising: low → higher → higher → higher → highest: 0.04 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.04 (±0.04)\nflat: same → same → same → same → same: 0.85 (±0.15)\nfalling_rising: high → lower → lowest → higher → high: 0.03 (±0.03)\nfalling: high → lower → lower → lower → lowest: 0.04 (±0.04)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "rising: low → higher → higher → higher → highest: 0.09 (±0.04)\nrising_falling: low → higher → highest → lower → low: 0.22 (±0.18)\nflat: same → same → same → same → same: 0.28 (±0.23)\nfalling_rising: high → lower → lowest → higher → high: 0.17 (±0.12)\nfalling: high → lower → lower → lower → lowest: 0.24 (±0.21)\n\nTotal 100 runs"
                 }
@@ -13003,6 +13027,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.06 (±0.03)\nSlow: 0.03 (±0.02)\nStraight (regular beat): 0.70 (±0.27)\nSyncopated (off-beat): 0.21 (±0.28)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.28 (±0.24)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.50 (±0.23)\nSyncopated (off-beat): 0.14 (±0.06)\n\nTotal 24 runs"
                 }
@@ -13126,6 +13153,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.05 (±0.04)\nSlow: 0.06 (±0.04)\nStraight (regular beat): 0.53 (±0.31)\nSyncopated (off-beat): 0.37 (±0.29)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.13 (±0.07)\nSlow: 0.09 (±0.03)\nStraight (regular beat): 0.62 (±0.10)\nSyncopated (off-beat): 0.17 (±0.07)\n\nTotal 24 runs"
                 }
@@ -13248,6 +13278,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.74 (±0.13)\nSlow: 0.01 (±0.02)\nStraight (regular beat): 0.09 (±0.08)\nSyncopated (off-beat): 0.16 (±0.09)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.45 (±0.24)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.32 (±0.23)\nSyncopated (off-beat): 0.15 (±0.06)\n\nTotal 24 runs"
                 }
@@ -13370,6 +13403,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.07 (±0.07)\nSlow: 0.01 (±0.02)\nStraight (regular beat): 0.88 (±0.11)\nSyncopated (off-beat): 0.04 (±0.04)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.30 (±0.25)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.50 (±0.26)\nSyncopated (off-beat): 0.12 (±0.05)\n\nTotal 24 runs"
                 }
@@ -13492,6 +13528,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.02 (±0.02)\nSlow: 0.04 (±0.04)\nStraight (regular beat): 0.70 (±0.31)\nSyncopated (off-beat): 0.24 (±0.29)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.13 (±0.06)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.66 (±0.08)\nSyncopated (off-beat): 0.12 (±0.04)\n\nTotal 24 runs"
                 }
@@ -13615,6 +13654,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.67 (±0.21)\nSlow: 0.01 (±0.02)\nStraight (regular beat): 0.06 (±0.05)\nSyncopated (off-beat): 0.27 (±0.19)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.46 (±0.24)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.30 (±0.22)\nSyncopated (off-beat): 0.16 (±0.07)\n\nTotal 24 runs"
                 }
@@ -13739,6 +13781,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.81 (±0.24)\nSlow: 0.01 (±0.02)\nStraight (regular beat): 0.06 (±0.06)\nSyncopated (off-beat): 0.12 (±0.19)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.47 (±0.23)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.32 (±0.23)\nSyncopated (off-beat): 0.14 (±0.07)\n\nTotal 24 runs"
                 }
@@ -13863,6 +13908,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.07 (±0.10)\nSlow: 0.03 (±0.04)\nStraight (regular beat): 0.84 (±0.17)\nSyncopated (off-beat): 0.06 (±0.07)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.38 (±0.28)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.41 (±0.26)\nSyncopated (off-beat): 0.13 (±0.07)\n\nTotal 24 runs"
                 }
@@ -13985,6 +14033,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.04 (±0.04)\nSlow: 0.06 (±0.06)\nStraight (regular beat): 0.81 (±0.10)\nSyncopated (off-beat): 0.09 (±0.06)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.12 (±0.06)\nSlow: 0.09 (±0.03)\nStraight (regular beat): 0.67 (±0.08)\nSyncopated (off-beat): 0.13 (±0.05)\n\nTotal 24 runs"
                 }
@@ -14107,6 +14158,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.03 (±0.04)\nSlow: 0.02 (±0.03)\nStraight (regular beat): 0.91 (±0.10)\nSyncopated (off-beat): 0.04 (±0.05)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.33 (±0.25)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.44 (±0.23)\nSyncopated (off-beat): 0.16 (±0.07)\n\nTotal 24 runs"
                 }
@@ -14229,6 +14283,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.72 (±0.22)\nSlow: 0.01 (±0.01)\nStraight (regular beat): 0.08 (±0.06)\nSyncopated (off-beat): 0.20 (±0.23)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.41 (±0.25)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.32 (±0.23)\nSyncopated (off-beat): 0.19 (±0.15)\n\nTotal 24 runs"
                 }
@@ -14351,6 +14408,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.04 (±0.05)\nSlow: 0.03 (±0.05)\nStraight (regular beat): 0.78 (±0.31)\nSyncopated (off-beat): 0.16 (±0.24)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.23 (±0.21)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.55 (±0.20)\nSyncopated (off-beat): 0.13 (±0.06)\n\nTotal 24 runs"
                 }
@@ -14472,6 +14532,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.38 (±0.18)\nSlow: 0.02 (±0.02)\nStraight (regular beat): 0.10 (±0.05)\nSyncopated (off-beat): 0.50 (±0.15)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.44 (±0.23)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.29 (±0.20)\nSyncopated (off-beat): 0.19 (±0.13)\n\nTotal 24 runs"
                 }
@@ -14594,6 +14657,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.38 (±0.23)\nSlow: 0.02 (±0.03)\nStraight (regular beat): 0.16 (±0.10)\nSyncopated (off-beat): 0.44 (±0.24)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.39 (±0.26)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.38 (±0.24)\nSyncopated (off-beat): 0.16 (±0.08)\n\nTotal 24 runs"
                 }
@@ -14718,6 +14784,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.60 (±0.29)\nSlow: 0.01 (±0.02)\nStraight (regular beat): 0.08 (±0.05)\nSyncopated (off-beat): 0.32 (±0.26)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.44 (±0.24)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.30 (±0.20)\nSyncopated (off-beat): 0.18 (±0.13)\n\nTotal 24 runs"
                 }
@@ -14842,6 +14911,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.03 (±0.03)\nSlow: 0.04 (±0.05)\nStraight (regular beat): 0.23 (±0.24)\nSyncopated (off-beat): 0.70 (±0.25)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.18 (±0.17)\nSlow: 0.09 (±0.03)\nStraight (regular beat): 0.57 (±0.16)\nSyncopated (off-beat): 0.16 (±0.07)\n\nTotal 24 runs"
                 }
@@ -14966,6 +15038,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.01 (±0.02)\nSlow: 0.03 (±0.04)\nStraight (regular beat): 0.59 (±0.35)\nSyncopated (off-beat): 0.37 (±0.33)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.13 (±0.07)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.63 (±0.09)\nSyncopated (off-beat): 0.15 (±0.06)\n\nTotal 24 runs"
                 }
@@ -15090,6 +15165,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.04 (±0.05)\nSlow: 0.04 (±0.05)\nStraight (regular beat): 0.42 (±0.35)\nSyncopated (off-beat): 0.49 (±0.39)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.14 (±0.07)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.63 (±0.09)\nSyncopated (off-beat): 0.14 (±0.05)\n\nTotal 24 runs"
                 }
@@ -15214,6 +15292,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.05 (±0.05)\nSlow: 0.05 (±0.05)\nStraight (regular beat): 0.55 (±0.29)\nSyncopated (off-beat): 0.36 (±0.32)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.15 (±0.13)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.62 (±0.13)\nSyncopated (off-beat): 0.14 (±0.05)\n\nTotal 24 runs"
                 }
@@ -15337,6 +15418,9 @@
             },
             "ci_vocoded": {
               "66": {
+                "gemini-3.1-pro-preview": {
+                  "response_text": "Fast: 0.50 (±0.30)\nSlow: 0.00 (±0.01)\nStraight (regular beat): 0.08 (±0.07)\nSyncopated (off-beat): 0.42 (±0.28)\n\nTotal 10 runs"
+                },
                 "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
                   "response_text": "Fast: 0.40 (±0.24)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.38 (±0.24)\nSyncopated (off-beat): 0.15 (±0.07)\n\nTotal 24 runs"
                 }
