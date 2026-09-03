@@ -9,9 +9,9 @@
 .shared-task-toggle small { color: var(--muted); font-size: 9px; }
 .shared-task-toggle.is-active {
   border-color: var(--brand); background: var(--brand); color: white;
-  box-shadow: 0 5px 14px rgba(49, 87, 213, .18);
+  box-shadow: 0 5px 14px rgba(53, 107, 104, .18);
 }
-.shared-task-toggle.is-active small { color: #dce4ff; }
+.shared-task-toggle.is-active small { color: #d9e9e7; }
 .shared-sample-panel [data-sample-list] {
   height: calc(100% - 76px); overflow: auto; padding: 8px;
 }

@@ -10,6 +10,19 @@
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;",
   })[character]);
 
+  const QUESTION_PRIORITIES = {
+    original: "Proportion: NH",
+    ci_vocoded: "Proportion: CI",
+  };
+
+  function orderedQuestions(questions, variant) {
+    const prioritizedName = QUESTION_PRIORITIES[variant];
+    return [
+      ...questions.filter((question) => question.name === prioritizedName),
+      ...questions.filter((question) => question.name !== prioritizedName),
+    ];
+  }
+
   const currentTask = () => state.tasks.find((task) => task.id === state.selectedTask) || null;
 
   const selectedSample = () => {
@@ -67,7 +80,7 @@
   }
 
   function variantPane(sample, variant) {
-    const questions = sample.response_questions || [];
+    const questions = orderedQuestions(sample.response_questions || [], variant);
     return `<div data-audio-variant-pane="${variant}" ${variant === "original" ? "" : "hidden"}>
       <p class="variant-pane-label">${variant === "original" ? "Original audio" : "CI-vocoded audio"}</p>
       ${expectedHumanResponsePane(sample, variant)}

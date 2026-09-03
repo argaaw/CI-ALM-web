@@ -23,6 +23,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -31,11 +36,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -159,6 +159,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -167,11 +172,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -295,6 +295,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -303,11 +308,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -431,6 +431,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -439,11 +444,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -567,6 +567,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -575,11 +580,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -703,6 +703,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -711,11 +716,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -839,6 +839,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -847,11 +852,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -975,6 +975,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -983,11 +988,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1111,6 +1111,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1119,11 +1124,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1247,6 +1247,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1255,11 +1260,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1383,6 +1383,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1391,11 +1396,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1519,6 +1519,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1527,11 +1532,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1655,6 +1655,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1663,11 +1668,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1791,6 +1791,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1799,11 +1804,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -1927,6 +1927,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -1935,11 +1940,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2063,6 +2063,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2071,11 +2076,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2199,6 +2199,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2207,11 +2212,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2335,6 +2335,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2343,11 +2348,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2471,6 +2471,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2479,11 +2484,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2607,6 +2607,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2615,11 +2620,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2747,6 +2747,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2755,11 +2760,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2856,6 +2856,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2864,11 +2869,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -2965,6 +2965,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -2973,11 +2978,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3074,6 +3074,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3082,11 +3087,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3183,6 +3183,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3191,11 +3196,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3292,6 +3292,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3300,11 +3305,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3401,6 +3401,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3409,11 +3414,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3510,6 +3510,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3518,11 +3523,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3619,6 +3619,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3627,11 +3632,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3728,6 +3728,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3736,11 +3741,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3837,6 +3837,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3845,11 +3850,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -3946,6 +3946,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -3954,11 +3959,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4055,6 +4055,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4063,11 +4068,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4164,6 +4164,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4172,11 +4177,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4273,6 +4273,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4281,11 +4286,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4382,6 +4382,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4390,11 +4395,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4491,6 +4491,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4499,11 +4504,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4600,6 +4600,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4608,11 +4613,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4709,6 +4709,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4717,11 +4722,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4818,6 +4818,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4826,11 +4831,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -4955,6 +4955,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -4963,11 +4968,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -5114,6 +5114,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -5122,11 +5127,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -5273,6 +5273,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -5281,11 +5286,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -5433,6 +5433,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -5441,11 +5446,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -5590,6 +5590,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -5598,11 +5603,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -5749,6 +5749,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -5757,11 +5762,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -5911,6 +5911,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -5919,11 +5924,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -6066,6 +6066,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -6074,11 +6079,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -6222,6 +6222,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -6230,11 +6235,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -6377,6 +6377,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -6385,11 +6390,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -6532,6 +6532,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -6540,11 +6545,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -6690,6 +6690,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -6698,11 +6703,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -6846,6 +6846,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -6854,11 +6859,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7003,6 +7003,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7011,11 +7016,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7160,6 +7160,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7168,11 +7173,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7316,6 +7316,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7324,11 +7329,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7474,6 +7474,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7482,11 +7487,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7634,6 +7634,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7642,11 +7647,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7790,6 +7790,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7798,11 +7803,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -7946,6 +7946,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -7954,11 +7959,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8088,6 +8088,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8096,11 +8101,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8197,6 +8197,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8205,11 +8210,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8306,6 +8306,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8314,11 +8319,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8415,6 +8415,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8423,11 +8428,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8524,6 +8524,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8532,11 +8537,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8633,6 +8633,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8641,11 +8646,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8742,6 +8742,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8750,11 +8755,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8851,6 +8851,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8859,11 +8864,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -8960,6 +8960,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -8968,11 +8973,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9069,6 +9069,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9077,11 +9082,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9178,6 +9178,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9186,11 +9191,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9287,6 +9287,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9295,11 +9300,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9396,6 +9396,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9404,11 +9409,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9505,6 +9505,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9513,11 +9518,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9614,6 +9614,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9622,11 +9627,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9723,6 +9723,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9731,11 +9736,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9832,6 +9832,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9840,11 +9845,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -9941,6 +9941,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -9949,11 +9954,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10050,6 +10050,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10058,11 +10063,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10159,6 +10159,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10167,11 +10172,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10285,6 +10285,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10293,11 +10298,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10393,6 +10393,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10401,11 +10406,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10501,6 +10501,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10509,11 +10514,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10609,6 +10609,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10617,11 +10622,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10718,6 +10718,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10726,11 +10731,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10829,6 +10829,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10837,11 +10842,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -10938,6 +10938,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -10946,11 +10951,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11046,6 +11046,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11054,11 +11059,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11155,6 +11155,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11163,11 +11168,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11263,6 +11263,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11271,11 +11276,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11372,6 +11372,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11380,11 +11385,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11481,6 +11481,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11489,11 +11494,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11589,6 +11589,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11597,11 +11602,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11698,6 +11698,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11706,11 +11711,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11806,6 +11806,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11814,11 +11819,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -11914,6 +11914,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -11922,11 +11927,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12022,6 +12022,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12030,11 +12035,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12130,6 +12130,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12138,11 +12143,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12240,6 +12240,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12248,11 +12253,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12348,6 +12348,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12356,11 +12361,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12458,6 +12458,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12466,11 +12471,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12575,6 +12575,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12583,11 +12588,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12691,6 +12691,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12699,11 +12704,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12807,6 +12807,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12815,11 +12820,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -12923,6 +12923,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -12931,11 +12936,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13040,6 +13040,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13048,11 +13053,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13158,6 +13158,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13166,11 +13171,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13276,6 +13276,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13284,11 +13289,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13392,6 +13392,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13400,11 +13405,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13508,6 +13508,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13516,11 +13521,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13624,6 +13624,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13632,11 +13637,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13740,6 +13740,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13748,11 +13753,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13855,6 +13855,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13863,11 +13868,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -13971,6 +13971,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -13979,11 +13984,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -14089,6 +14089,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -14097,11 +14102,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -14207,6 +14207,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -14215,11 +14220,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -14325,6 +14325,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -14333,11 +14338,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -14443,6 +14443,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -14451,11 +14456,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -14561,6 +14561,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -14569,11 +14574,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
@@ -14678,6 +14678,11 @@
           },
           "response_models": [
             {
+              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
+              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
+              "provider_id": "qwen3-omni"
+            },
+            {
               "id": "audio-flamingo-next",
               "label": "Audio-Flamingo Next",
               "provider_id": "audio-flamingo-next"
@@ -14686,11 +14691,6 @@
               "id": "gemini-3.1-pro-preview",
               "label": "Gemini 3.1 Pro Preview",
               "provider_id": "gemini"
-            },
-            {
-              "id": "qwen3-omni-30b-a3b-instruct-autoround-w4a16",
-              "label": "Qwen3-Omni 30B-A3B Instruct (AutoRound W4A16)",
-              "provider_id": "qwen3-omni"
             }
           ],
           "response_questions": [
