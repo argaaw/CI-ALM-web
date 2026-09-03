@@ -1,57 +1,44 @@
 (() => {
-  const state = { samples: [], selectedId: null };
+  const state = {
+    tasks: [],
+    selectedTask: null,
+    selectedSampleByTask: new Map(),
+    sampleListScrollTopByTask: new Map(),
+  };
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;",
   })[character]);
 
-  const selectedSample = () => state.samples.find((sample) => sample.id === state.selectedId);
+  const currentTask = () => state.tasks.find((task) => task.id === state.selectedTask) || null;
 
-  function filteredSamples() {
-    const task = document.querySelector("#task").value;
-    const datasetId = document.querySelector("#dataset-id").value;
-    const sampleType = document.querySelector("#sample-type").value;
-    const query = document.querySelector("#query").value.trim().toLocaleLowerCase();
-    return state.samples.filter((sample) => {
-      if (task && sample.include_task !== task) return false;
-      if (datasetId && sample.dataset_id !== datasetId) return false;
-      if (sampleType && sample.sample_type !== sampleType) return false;
-      if (!query) return true;
-      return [sample.id, sample.instrument, sample.source_id]
-        .filter(Boolean)
-        .some((value) => value.toLocaleLowerCase().includes(query));
-    });
-  }
+  const selectedSample = () => {
+    const task = currentTask();
+    const selectedId = state.selectedSampleByTask.get(task?.id);
+    return task?.samples.find((sample) => sample.id === selectedId) ?? task?.samples[0] ?? null;
+  };
 
-  function renderDatasetOptions() {
-    const task = document.querySelector("#task").value;
-    const dataset = document.querySelector("#dataset-id");
-    const selected = dataset.value;
-    const items = [...new Map(
-      state.samples
-        .filter((sample) => !task || sample.include_task === task)
-        .map((sample) => [sample.dataset_id, sample.dataset_name]),
-    )].sort(([left], [right]) => left.localeCompare(right));
-    dataset.replaceChildren(new Option("All datasets", ""));
-    items.forEach(([id, name]) => dataset.add(new Option(name, id)));
-    dataset.value = items.some(([id]) => id === selected) ? selected : "";
+  function renderTasks() {
+    document.querySelector("[data-task-list]").innerHTML = state.tasks.map((task) => `
+      <button type="button" class="shared-task-toggle${task.id === state.selectedTask ? " is-active" : ""}" data-task="${escapeHtml(task.id)}" aria-pressed="${task.id === state.selectedTask}">
+        <strong>${escapeHtml(task.id)}</strong><small>${task.samples.length} samples</small>
+      </button>`).join("");
   }
 
   function renderList() {
     const target = document.querySelector("#sample-list");
-    const scrollTop = target.querySelector("[data-sample-list]")?.scrollTop ?? 0;
-    const samples = filteredSamples();
-    if (!samples.some((sample) => sample.id === state.selectedId)) {
-      state.selectedId = samples[0]?.id ?? null;
+    const task = currentTask();
+    const samples = task?.samples || [];
+    if (task && !samples.some((sample) => sample.id === state.selectedSampleByTask.get(task.id))) {
+      state.selectedSampleByTask.set(task.id, samples[0]?.id ?? null);
     }
     target.innerHTML = samples.length
-      ? `<div class="sample-list-inner" data-sample-list>${samples.map((sample) => `
-          <button class="sample-row${sample.id === state.selectedId ? " is-active" : ""}" data-sample-id="${escapeHtml(sample.id)}">
-            <span class="sample-icon">♪</span><span class="sample-main"><strong>${escapeHtml(sample.instrument)}</strong><small>${escapeHtml(sample.id)} · ${escapeHtml(sample.split)}</small></span><span class="review-badge status-include">${escapeHtml(sample.include_task)}</span>
-          </button>`).join("")}</div>`
-      : '<div class="empty-list"><strong>No matching samples</strong><span>필터를 조정해 보세요.</span></div>';
-    const list = target.querySelector("[data-sample-list]");
-    if (list) list.scrollTop = scrollTop;
+      ? samples.map((sample, index) => `
+          <button class="sample-row${sample.id === state.selectedSampleByTask.get(task?.id) ? " is-active" : ""}" data-sample-id="${escapeHtml(sample.id)}">
+            <span class="sample-icon">♪</span><span class="sample-main"><strong>${index + 1}</strong></span>
+          </button>`).join("")
+      : '<div class="empty-list"><strong>No included single-audio samples</strong></div>';
+    target.scrollTop = state.sampleListScrollTopByTask.get(task?.id) || 0;
     renderDetail();
   }
 
@@ -89,23 +76,6 @@
   }
 
 
-  function comparisonSourceCards(sample) {
-    const sources = sample.comparison_sources || [];
-    if (!sources.length) return "";
-    return `<section class="comparison-sources">
-      <div class="section-title"><div><p class="eyebrow">COMPARISON SOURCES</p><h3>Source metadata</h3></div><span>${escapeHtml(sample.gap_seconds)} second gap</span></div>
-      ${sources.map((source) => {
-        const sourceMetrics = Object.entries(source.display_metadata || {}).map(([label, value]) =>
-          `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value ?? "—")}</strong></div>`,
-        ).join("");
-        return `<article class="comparison-source-card">
-          <div class="comparison-source-heading"><strong>Audio ${escapeHtml(source.position)}</strong><span>${escapeHtml(source.id)}</span></div>
-          <section class="metadata-grid"><div><span>Dataset</span><strong>${escapeHtml(source.dataset_name)}</strong></div><div><span>Instrument</span><strong>${escapeHtml(source.instrument)}</strong></div><div><span>Split</span><strong>${escapeHtml(source.split)}</strong></div><div><span>Duration</span><strong>${source.duration == null ? "—" : `${escapeHtml(source.duration.toFixed(1))} s`}</strong></div><div><span>Source</span><strong>${escapeHtml(source.source_id || "—")}</strong></div></section>
-          ${sourceMetrics ? `<div class="metadata-grid stimulus-metadata-grid">${sourceMetrics}</div>` : ""}
-        </article>`;
-      }).join("")}
-    </section>`;
-  }
   function renderDetail() {
     const target = document.querySelector("#workspace");
     const sample = selectedSample();
@@ -119,12 +89,12 @@
     const ciButton = sample.audio.ci_vocoded
       ? '<button type="button" class="shared-audio-variant-tab" data-audio-variant-tab="ci_vocoded" aria-selected="false">CI-vocoded audio</button>'
       : '<button type="button" class="shared-audio-variant-tab is-unavailable" data-audio-variant-tab="ci_vocoded" aria-selected="false" disabled>CI-vocoded audio<small>Not available</small></button>';
+    const number = (currentTask()?.samples.indexOf(sample) ?? -1) + 1;
     target.innerHTML = `<div class="detail-content" data-current-sample="${escapeHtml(sample.id)}">
-      <div class="detail-header"><div><p class="eyebrow">PREVIEW</p><h2>${escapeHtml(sample.instrument)}</h2><p>${escapeHtml(sample.id)} · ${escapeHtml(sample.dataset_name)}</p></div><span class="review-badge large status-include">${escapeHtml(sample.include_task)}</span></div>
+      <div class="detail-header"><div><p class="eyebrow">PREVIEW</p><h2>${number}</h2><p>${escapeHtml(sample.instrument)} · ${escapeHtml(sample.id)} · ${escapeHtml(sample.dataset_name)}</p></div><span class="review-badge large status-include">${escapeHtml(sample.include_task)}</span></div>
       <div class="shared-audio-variant-tabs" role="tablist"><button type="button" class="shared-audio-variant-tab is-active" data-audio-variant-tab="original" aria-selected="true">Original audio</button>${ciButton}</div>
       <section class="audio-card shared-audio-card"><audio id="main-audio" controls preload="metadata" src="${escapeHtml(sample.audio.original)}" data-original-src="${escapeHtml(sample.audio.original)}" data-ci-vocoded-src="${escapeHtml(sample.audio.ci_vocoded || "")}"></audio><div class="audio-shortcuts"><span><kbd>Space</kbd> play</span><span><kbd>J</kbd>/<kbd>K</kbd> prev/next</span></div></section>
       <section class="metadata-grid"><div><span>Dataset</span><strong>${escapeHtml(sample.dataset_id)}</strong></div><div><span>Split</span><strong>${escapeHtml(sample.split)}</strong></div><div><span>Duration</span><strong>${sample.duration == null ? "—" : `${escapeHtml(sample.duration.toFixed(1))} s`}</strong></div><div><span>Source</span><strong>${escapeHtml(sample.source_id || "—")}</strong></div></section>
-      ${comparisonSourceCards(sample)}
       ${metrics ? `<section class="stimulus-metadata"><div class="section-title"><div><p class="eyebrow">STIMULUS METRICS</p><h3>Source metadata</h3></div></div><div class="metadata-grid stimulus-metadata-grid">${metrics}</div></section>` : ""}
       <div class="tag-row">${sample.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
       <section class="alm-card saved-response-card" data-audio-variant-card><div class="section-title"><div><p class="eyebrow">ALM RESPONSES</p><h3>Questions &amp; Answers</h3></div></div>${variantPane(sample, "original")}${variantPane(sample, "ci_vocoded")}</section>
@@ -132,11 +102,31 @@
   }
 
   function selectSample(id) {
-    state.selectedId = id;
+    const list = document.querySelector("#sample-list");
+    if (list) state.sampleListScrollTopByTask.set(state.selectedTask, list.scrollTop);
+    state.selectedSampleByTask.set(state.selectedTask, id);
+    renderList();
+  }
+
+  function selectTask(id) {
+    const previousTask = currentTask();
+    const list = document.querySelector("#sample-list");
+    if (previousTask && list) state.sampleListScrollTopByTask.set(previousTask.id, list.scrollTop);
+    state.selectedTask = id;
+    const task = currentTask();
+    if (task?.samples.length && !state.selectedSampleByTask.has(task.id)) {
+      state.selectedSampleByTask.set(task.id, task.samples[0].id);
+    }
+    if (task && !state.sampleListScrollTopByTask.has(task.id)) {
+      state.sampleListScrollTopByTask.set(task.id, 0);
+    }
+    renderTasks();
     renderList();
   }
 
   document.addEventListener("click", (event) => {
+    const task = event.target.closest("[data-task]");
+    if (task) return selectTask(task.dataset.task);
     const row = event.target.closest("[data-sample-id]");
     if (row) return selectSample(row.dataset.sampleId);
     const variantTab = event.target.closest("[data-audio-variant-tab]");
@@ -178,8 +168,8 @@
     if (event.target.matches("input, select")) return;
     const audio = document.querySelector("#main-audio");
     if (event.code === "Space" && audio) { event.preventDefault(); audio.paused ? audio.play() : audio.pause(); return; }
-    const samples = filteredSamples();
-    const index = Math.max(0, samples.findIndex((sample) => sample.id === state.selectedId));
+    const samples = currentTask()?.samples || [];
+    const index = Math.max(0, samples.findIndex((sample) => sample.id === selectedSample()?.id));
     if (["ArrowDown", "k", "K"].includes(event.key) && samples[index + 1]) { event.preventDefault(); selectSample(samples[index + 1].id); }
     if (["ArrowUp", "j", "J"].includes(event.key) && samples[index - 1]) { event.preventDefault(); selectSample(samples[index - 1].id); }
   });
@@ -191,17 +181,12 @@
     );
     if (!response.ok) throw new Error(`Could not load shared samples: ${response.status}`);
     const payload = await response.json();
-    state.samples = payload.samples;
-    const task = document.querySelector("#task");
-    payload.tasks.forEach((name) => task.add(new Option(name, name)));
-    task.addEventListener("change", () => { renderDatasetOptions(); renderList(); });
-    document.querySelector("#dataset-id").addEventListener("change", renderList);
-    document.querySelector("#sample-type").addEventListener("change", renderList);
-    document.querySelector("#query").addEventListener("input", renderList);
-    document.querySelector("#reset-filters").addEventListener("click", () => {
-      document.querySelector("#query").value = ""; task.value = ""; document.querySelector("#sample-type").value = ""; renderDatasetOptions(); renderList();
+    state.tasks = payload.tasks;
+    state.selectedTask = state.tasks[0]?.id || null;
+    state.tasks.forEach((task) => {
+      if (task.samples[0]) state.selectedSampleByTask.set(task.id, task.samples[0].id);
     });
-    renderDatasetOptions();
+    renderTasks();
     renderList();
   }
 

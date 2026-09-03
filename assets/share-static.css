@@ -1,0 +1,32 @@
+.shared-static-shell { max-width: 1480px; }
+.shared-static-grid { grid-template-columns: 210px 320px minmax(500px, 1fr); }
+.shared-task-toggle-list { display: grid; gap: 8px; padding: 13px; overflow: auto; }
+.shared-task-toggle {
+  width: 100%; display: grid; gap: 3px; border: 1px solid var(--line); border-radius: 11px;
+  padding: 11px 12px; background: #fbfcfd; color: var(--ink); text-align: left;
+}
+.shared-task-toggle strong { font-size: 12px; }
+.shared-task-toggle small { color: var(--muted); font-size: 9px; }
+.shared-task-toggle.is-active {
+  border-color: var(--brand); background: var(--brand); color: white;
+  box-shadow: 0 5px 14px rgba(49, 87, 213, .18);
+}
+.shared-task-toggle.is-active small { color: #dce4ff; }
+.shared-sample-panel [data-sample-list] {
+  height: calc(100% - 76px); overflow: auto; padding: 8px;
+}
+.shared-sample-panel .sample-row { grid-template-columns: 30px minmax(0, 1fr); padding: 7px 6px; }
+.shared-sample-panel .sample-main small { display: none; }
+
+@media (max-width: 1120px) {
+  .shared-static-grid { grid-template-columns: 190px 275px minmax(440px, 1fr); }
+}
+@media (max-width: 920px) {
+  .shared-static-grid { grid-template-columns: 1fr; }
+  .shared-task-panel, .shared-sample-panel { height: auto; }
+  .shared-task-toggle-list { grid-template-columns: repeat(3, 1fr); }
+  .shared-sample-panel [data-sample-list] { max-height: 390px; }
+}
+@media (max-width: 620px) {
+  .shared-task-toggle-list { grid-template-columns: repeat(2, 1fr); }
+}

@@ -4,24 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CI ALM Datasets — Shared page</title>
-  <link rel="stylesheet" href="assets/app.css?v=1788422703877126023">
-  <script defer src="assets/share-static.js?v=1788422703877126023"></script>
+  <link rel="stylesheet" href="assets/app.css?v=1788424115379046305">
+  <link rel="stylesheet" href="assets/share-static.css?v=1788424115379046305">
+  <script defer src="assets/share-static.js?v=1788424115379046305"></script>
 </head>
 <body>
   <header class="topbar"><div class="brand"><span class="brand-mark">AB</span><span><strong>CI ALM Datasets</strong><small>Read-only shared page</small></span></div></header>
-  <main class="page-shell">
+  <main class="page-shell shared-static-shell">
     <section class="hero-row"><div><h1>Selected samples</h1></div></section>
-    <section class="workspace-grid">
-      <aside class="filter-panel panel">
-        <div class="panel-heading"><div><p class="eyebrow">BROWSE</p><h2>Filters</h2></div><button id="reset-filters" type="button" class="text-button">Reset</button></div>
-        <form id="filter-form">
-          <label>Search<input id="query" type="search" placeholder="ID, instrument, source"></label>
-          <label>Task<select id="task"><option value="">All tasks</option></select></label>
-          <label>Dataset<select id="dataset-id"><option value="">All datasets</option></select></label>
-          <label>Sample type<select id="sample-type"><option value="">All samples</option><option value="single_audio">Single audio</option><option value="comparison">Comparison</option></select></label>
-        </form>
+    <section class="workspace-grid shared-static-grid">
+      <aside class="filter-panel panel shared-task-panel">
+        <div class="panel-heading"><div><p class="eyebrow">CHOOSE</p><h2>Task</h2></div></div>
+        <nav class="shared-task-toggle-list" data-task-list aria-label="Sample tasks"></nav>
       </aside>
-      <section class="sample-panel panel"><div class="panel-heading"><div><p class="eyebrow">SELECTED</p><h2>Samples</h2></div><span class="keyboard-hint">↑ ↓ navigate</span></div><div id="sample-list"></div></section>
+      <section class="sample-panel panel shared-sample-panel"><div class="panel-heading"><div><p class="eyebrow">LISTEN</p><h2>Samples</h2></div><span class="keyboard-hint">↑ ↓ navigate</span></div><div id="sample-list" data-sample-list></div></section>
       <section id="workspace" class="detail-panel panel"></section>
     </section>
   </main>
