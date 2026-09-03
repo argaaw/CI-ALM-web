@@ -8391,7 +8391,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.02)\nRock: 0.12 (±0.04)\nJazz: 0.09 (±0.02)\nElectronic: 0.70 (±0.06)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 1.00 (5/5)\r\nRock: 0.00 (0/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 0.00 (0/5)",
@@ -8500,7 +8506,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.02)\nRock: 0.14 (±0.07)\nJazz: 0.09 (±0.04)\nElectronic: 0.68 (±0.11)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 0.00 (0/5)\r\nRock: 0.00 (0/5)\r\nJazz: 1.00 (5/5)\r\nElectronic: 0.00 (0/5)",
@@ -8609,7 +8621,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.03)\nRock: 0.12 (±0.05)\nJazz: 0.09 (±0.03)\nElectronic: 0.71 (±0.09)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 0.00 (0/5)\r\nRock: 0.00 (0/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 1.00 (5/5)",
@@ -8718,7 +8736,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.08 (±0.03)\nRock: 0.25 (±0.20)\nJazz: 0.08 (±0.03)\nElectronic: 0.59 (±0.22)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 0.00 (0/5)\r\nRock: 1.00 (5/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 0.00 (0/5)",
@@ -8827,7 +8851,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.02)\nRock: 0.12 (±0.05)\nJazz: 0.10 (±0.04)\nElectronic: 0.69 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 1.00 (1/1)\r\nRock: 0.00 (0/1)\r\nJazz: 0.00 (0/1)\r\nElectronic: 0.00 (0/1)",
@@ -8936,7 +8966,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.11 (±0.04)\nRock: 0.11 (±0.04)\nJazz: 0.10 (±0.05)\nElectronic: 0.68 (±0.08)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 1.00 (1/1)\r\nRock: 0.00 (0/1)\r\nJazz: 0.00 (0/1)\r\nElectronic: 0.00 (0/1)",
@@ -9045,7 +9081,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.11 (±0.05)\nRock: 0.18 (±0.11)\nJazz: 0.10 (±0.04)\nElectronic: 0.62 (±0.16)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Classical: 1.00 (1/1)\r\nRock: 0.00 (0/1)\r\nJazz: 0.00 (0/1)\r\nElectronic: 0.00 (0/1)",
@@ -9154,7 +9196,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.10 (±0.01)\nRock: 0.11 (±0.03)\nJazz: 0.10 (±0.01)\nElectronic: 0.70 (±0.04)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9263,7 +9311,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.03)\nRock: 0.18 (±0.12)\nJazz: 0.10 (±0.04)\nElectronic: 0.63 (±0.16)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9372,7 +9426,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.02)\nRock: 0.15 (±0.08)\nJazz: 0.10 (±0.04)\nElectronic: 0.67 (±0.11)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9481,7 +9541,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.03)\nRock: 0.18 (±0.11)\nJazz: 0.10 (±0.04)\nElectronic: 0.63 (±0.14)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9590,7 +9656,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.02)\nRock: 0.12 (±0.05)\nJazz: 0.09 (±0.02)\nElectronic: 0.70 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9699,7 +9771,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.03)\nRock: 0.12 (±0.05)\nJazz: 0.08 (±0.03)\nElectronic: 0.71 (±0.09)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9808,7 +9886,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.08 (±0.03)\nRock: 0.12 (±0.05)\nJazz: 0.08 (±0.03)\nElectronic: 0.72 (±0.09)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -9917,7 +10001,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.08 (±0.03)\nRock: 0.25 (±0.19)\nJazz: 0.08 (±0.03)\nElectronic: 0.59 (±0.20)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -10026,7 +10116,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.03)\nRock: 0.22 (±0.16)\nJazz: 0.09 (±0.04)\nElectronic: 0.59 (±0.18)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -10135,7 +10231,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.08 (±0.03)\nRock: 0.11 (±0.06)\nJazz: 0.08 (±0.03)\nElectronic: 0.72 (±0.10)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -10244,7 +10346,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.09 (±0.04)\nRock: 0.19 (±0.14)\nJazz: 0.08 (±0.03)\nElectronic: 0.64 (±0.17)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -10353,7 +10461,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.08 (±0.03)\nRock: 0.12 (±0.05)\nJazz: 0.08 (±0.03)\nElectronic: 0.71 (±0.09)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -10462,7 +10576,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "29": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Classical: 0.08 (±0.03)\nRock: 0.11 (±0.05)\nJazz: 0.08 (±0.03)\nElectronic: 0.73 (±0.09)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -12881,7 +13001,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.28 (±0.24)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.50 (±0.23)\nSyncopated (off-beat): 0.14 (±0.06)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Fast: 0.20 (1/5)\r\nSlow: 0.00 (0/5)\r\nStraight (regular beat): 0.80 (4/5)\r\nSyncopated (off-beat): 0.00 (0/5)",
@@ -12998,7 +13124,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.13 (±0.07)\nSlow: 0.09 (±0.03)\nStraight (regular beat): 0.62 (±0.10)\nSyncopated (off-beat): 0.17 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Fast: 0.17 (1/6)\r\nSlow: 0.17 (1/6)\r\nStraight (regular beat): 0.17 (1/6)\r\nSyncopated (off-beat): 0.50 (3/6)",
@@ -13114,7 +13246,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.45 (±0.24)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.32 (±0.23)\nSyncopated (off-beat): 0.15 (±0.06)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Fast: 0.56 (5/9)\r\nSlow: 0.00 (0/9)\r\nStraight (regular beat): 0.22 (2/9)\r\nSyncopated (off-beat): 0.22 (2/9)",
@@ -13230,7 +13368,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.30 (±0.25)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.50 (±0.26)\nSyncopated (off-beat): 0.12 (±0.05)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Fast: 0.56 (5/9)\r\nSlow: 0.00 (0/9)\r\nStraight (regular beat): 0.44 (4/9)\r\nSyncopated (off-beat): 0.00 (0/9)",
@@ -13346,7 +13490,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.13 (±0.06)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.66 (±0.08)\nSyncopated (off-beat): 0.12 (±0.04)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Fast: 0.00 (0/9)\r\nSlow: 0.56 (5/9)\r\nStraight (regular beat): 0.44 (4/9)\r\nSyncopated (off-beat): 0.00 (0/9)",
@@ -13463,7 +13613,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.46 (±0.24)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.30 (±0.22)\nSyncopated (off-beat): 0.16 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -13581,7 +13737,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.47 (±0.23)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.32 (±0.23)\nSyncopated (off-beat): 0.14 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -13699,7 +13861,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.38 (±0.28)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.41 (±0.26)\nSyncopated (off-beat): 0.13 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -13815,7 +13983,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.12 (±0.06)\nSlow: 0.09 (±0.03)\nStraight (regular beat): 0.67 (±0.08)\nSyncopated (off-beat): 0.13 (±0.05)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -13931,7 +14105,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.33 (±0.25)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.44 (±0.23)\nSyncopated (off-beat): 0.16 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14047,7 +14227,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.41 (±0.25)\nSlow: 0.08 (±0.03)\nStraight (regular beat): 0.32 (±0.23)\nSyncopated (off-beat): 0.19 (±0.15)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14163,7 +14349,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.23 (±0.21)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.55 (±0.20)\nSyncopated (off-beat): 0.13 (±0.06)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14278,7 +14470,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.44 (±0.23)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.29 (±0.20)\nSyncopated (off-beat): 0.19 (±0.13)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14394,7 +14592,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.39 (±0.26)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.38 (±0.24)\nSyncopated (off-beat): 0.16 (±0.08)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14512,7 +14716,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.44 (±0.24)\nSlow: 0.08 (±0.02)\nStraight (regular beat): 0.30 (±0.20)\nSyncopated (off-beat): 0.18 (±0.13)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14630,7 +14840,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.18 (±0.17)\nSlow: 0.09 (±0.03)\nStraight (regular beat): 0.57 (±0.16)\nSyncopated (off-beat): 0.16 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14748,7 +14964,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.13 (±0.07)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.63 (±0.09)\nSyncopated (off-beat): 0.15 (±0.06)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14866,7 +15088,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.14 (±0.07)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.63 (±0.09)\nSyncopated (off-beat): 0.14 (±0.05)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -14984,7 +15212,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.15 (±0.13)\nSlow: 0.09 (±0.02)\nStraight (regular beat): 0.62 (±0.13)\nSyncopated (off-beat): 0.14 (±0.05)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
@@ -15101,7 +15335,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "66": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Fast: 0.40 (±0.24)\nSlow: 0.07 (±0.03)\nStraight (regular beat): 0.38 (±0.24)\nSyncopated (off-beat): 0.15 (±0.07)\n\nTotal 24 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "",
