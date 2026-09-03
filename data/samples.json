@@ -140,7 +140,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)",
+            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)",
             "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)"
           }
         },
@@ -281,8 +281,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)",
-            "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)"
+            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)",
+            "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)"
           }
         },
         {
@@ -422,8 +422,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)",
-            "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)"
+            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)",
+            "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)"
           }
         },
         {
@@ -563,8 +563,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)",
-            "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/4)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/4)\r\nFlat (same → same → same → same → same): 0.00 (0/4)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (4/4)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/4)"
+            "original": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)",
+            "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/5)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/5)\r\nFlat (same → same → same → same → same): 0.00 (0/5)\r\nFalling-rising (high → lower → lowest → higher → high): 1.00 (5/5)\r\nFalling (high → lower → lower → lower → lowest): 0.00 (0/5)"
           }
         },
         {
@@ -1127,7 +1127,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "falling",
+            "original": "",
             "ci_vocoded": "Rising (low → higher → higher → higher → highest): 0.00 (0/1)\r\nRising-falling (low → higher → highest → lower → low): 0.00 (0/1)\r\nFlat (same → same → same → same → same): 0.00 (0/1)\r\nFalling-rising (high → lower → lowest → higher → high): 0.00 (0/1)\r\nFalling (high → lower → lower → lower → lowest): 1.00 (1/1)"
           }
         },
@@ -1550,7 +1550,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "flat",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -1691,7 +1691,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "falling",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -1832,7 +1832,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "rising",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -1973,7 +1973,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "rising_falling",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -2114,7 +2114,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "flat",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -2255,7 +2255,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "falling",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -2396,7 +2396,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "rising",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -2537,7 +2537,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "rising_falling",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -2678,7 +2678,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "flat",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -2819,7 +2819,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "falling",
+            "original": "",
             "ci_vocoded": ""
           }
         }
@@ -2930,10 +2930,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.07 (±0.04)\nFlute: 0.06 (±0.03)\nViolin: 0.09 (±0.05)\nDistorted electric guitar: 0.13 (±0.07)\nDrums: 0.57 (±0.15)\nSaxophone: 0.07 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano: 0.00 (0/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 0.00 (0/4)\r\nDistorted electric guitar: 1.00 (4/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 0.00 (0/4)",
+            "original": "Piano: 0.00 (0/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 1.00 (5/5)\r\nDrums: 0.00 (0/5)\r\nSaxophone: 0.00 (0/5)",
             "ci_vocoded": "Piano: 0.00 (0/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 1.00 (5/5)\r\nDrums: 0.00 (0/5)\r\nSaxophone: 0.00 (0/5)"
           }
         },
@@ -3039,11 +3045,17 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.08 (±0.04)\nFlute: 0.08 (±0.04)\nViolin: 0.09 (±0.05)\nDistorted electric guitar: 0.30 (±0.22)\nDrums: 0.36 (±0.24)\nSaxophone: 0.10 (±0.06)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano: 0.00 (0/4)\r\nFlute: 1.00 (4/4)\r\nViolin: 0.00 (0/4)\r\nDistorted electric guitar: 0.00 (0/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 0.00 (0/4)",
-            "ci_vocoded": "Piano: 0.25 (1/4)\r\nFlute: 0.50 (2/4)\r\nViolin: 0.25 (1/4)\r\nDistorted electric guitar: 0.00 (0/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 0.00 (0/4)"
+            "original": "Piano: 0.00 (0/5)\r\nFlute: 1.00 (5/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 0.00 (0/5)\r\nDrums: 0.00 (0/5)\r\nSaxophone: 0.00 (0/5)",
+            "ci_vocoded": "Piano: 0.20 (1/5)\r\nFlute: 0.40 (2/5)\r\nViolin: 0.20 (1/5)\r\nDistorted electric guitar: 0.00 (0/5)\r\nDrums: 0.20 (1/5)\r\nSaxophone: 0.00 (0/5)"
           }
         },
         {
@@ -3148,11 +3160,17 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.06 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.06 (±0.04)\nDistorted electric guitar: 0.17 (±0.17)\nDrums: 0.59 (±0.22)\nSaxophone: 0.07 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano: 1.00 (4/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 0.00 (0/4)\r\nDistorted electric guitar: 0.00 (0/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 0.00 (0/4)",
-            "ci_vocoded": "Piano: 0.00 (0/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 0.00 (0/4)\r\nDistorted electric guitar: 0.00 (0/4)\r\nDrums: 0.75 (3/4)\r\nSaxophone: 0.25 (1/4)"
+            "original": "Piano: 1.00 (5/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 0.00 (0/5)\r\nDrums: 0.00 (0/5)\r\nSaxophone: 0.00 (0/5)",
+            "ci_vocoded": "Piano: 0.00 (0/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 0.00 (0/5)\r\nDrums: 0.80 (4/5)\r\nSaxophone: 0.20 (1/5)"
           }
         },
         {
@@ -3257,11 +3275,17 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.05 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.07 (±0.04)\nDistorted electric guitar: 0.43 (±0.26)\nDrums: 0.33 (±0.28)\nSaxophone: 0.07 (±0.05)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano: 0.00 (0/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 0.00 (0/4)\r\nDistorted electric guitar: 0.00 (0/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 1.00 (4/4)",
-            "ci_vocoded": "Piano: 0.00 (0/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 0.00 (0/4)\r\nDistorted electric guitar: 0.25 (1/4)\r\nDrums: 0.25 (1/4)\r\nSaxophone: 0.50 (2/4)"
+            "original": "Piano: 0.00 (0/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 0.00 (0/5)\r\nDrums: 0.00 (0/5)\r\nSaxophone: 1.00 (5/5)",
+            "ci_vocoded": "Piano: 0.00 (0/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 0.00 (0/5)\r\nDistorted electric guitar: 0.40 (2/5)\r\nDrums: 0.20 (1/5)\r\nSaxophone: 0.40 (2/5)"
           }
         },
         {
@@ -3366,11 +3390,17 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.08 (±0.04)\nFlute: 0.09 (±0.05)\nViolin: 0.10 (±0.06)\nDistorted electric guitar: 0.30 (±0.18)\nDrums: 0.32 (±0.20)\nSaxophone: 0.11 (±0.07)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano: 0.00 (0/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 1.00 (4/4)\r\nDistorted electric guitar: 0.00 (0/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 0.00 (0/4)",
-            "ci_vocoded": "Piano: 0.00 (0/3)\r\nFlute: 0.00 (0/3)\r\nViolin: 0.33 (1/3)\r\nDistorted electric guitar: 0.33 (1/3)\r\nDrums: 0.00 (0/3)\r\nSaxophone: 0.33 (1/3)"
+            "original": "Piano: 0.00 (0/5)\r\nFlute: 0.00 (0/5)\r\nViolin: 1.00 (5/5)\r\nDistorted electric guitar: 0.00 (0/5)\r\nDrums: 0.00 (0/5)\r\nSaxophone: 0.00 (0/5)",
+            "ci_vocoded": "Piano: 0.00 (0/4)\r\nFlute: 0.00 (0/4)\r\nViolin: 0.50 (2/4)\r\nDistorted electric guitar: 0.25 (1/4)\r\nDrums: 0.00 (0/4)\r\nSaxophone: 0.25 (1/4)"
           }
         },
         {
@@ -3475,7 +3505,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.07 (±0.03)\nFlute: 0.06 (±0.03)\nViolin: 0.07 (±0.04)\nDistorted electric guitar: 0.28 (±0.22)\nDrums: 0.46 (±0.26)\nSaxophone: 0.07 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Piano: 0.00 (0/1)\r\nFlute: 0.00 (0/1)\r\nViolin: 0.00 (0/1)\r\nDistorted electric guitar: 1.00 (1/1)\r\nDrums: 0.00 (0/1)\r\nSaxophone: 0.00 (0/1)",
@@ -3584,7 +3620,13 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.07 (±0.03)\nFlute: 0.06 (±0.03)\nViolin: 0.08 (±0.05)\nDistorted electric guitar: 0.25 (±0.17)\nDrums: 0.46 (±0.24)\nSaxophone: 0.08 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
             "original": "Piano: 0.00 (0/1)\r\nFlute: 0.00 (0/1)\r\nViolin: 0.00 (0/1)\r\nDistorted electric guitar: 1.00 (1/1)\r\nDrums: 0.00 (0/1)\r\nSaxophone: 0.00 (0/1)",
@@ -3693,10 +3735,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.06 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.07 (±0.04)\nDistorted electric guitar: 0.39 (±0.25)\nDrums: 0.35 (±0.27)\nSaxophone: 0.07 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Distorted electric guitar",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -3802,10 +3850,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.07 (±0.04)\nFlute: 0.06 (±0.03)\nViolin: 0.09 (±0.06)\nDistorted electric guitar: 0.21 (±0.18)\nDrums: 0.48 (±0.24)\nSaxophone: 0.08 (±0.05)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Flute",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -3911,10 +3965,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.07 (±0.04)\nFlute: 0.09 (±0.07)\nViolin: 0.09 (±0.06)\nDistorted electric guitar: 0.41 (±0.23)\nDrums: 0.18 (±0.20)\nSaxophone: 0.16 (±0.13)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Flute",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4020,10 +4080,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.08 (±0.04)\nFlute: 0.08 (±0.04)\nViolin: 0.09 (±0.05)\nDistorted electric guitar: 0.17 (±0.12)\nDrums: 0.49 (±0.20)\nSaxophone: 0.09 (±0.05)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Flute",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4129,10 +4195,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.05 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.06 (±0.04)\nDistorted electric guitar: 0.08 (±0.04)\nDrums: 0.71 (±0.12)\nSaxophone: 0.05 (±0.03)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4238,10 +4310,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.06 (±0.04)\nFlute: 0.05 (±0.02)\nViolin: 0.07 (±0.04)\nDistorted electric guitar: 0.12 (±0.08)\nDrums: 0.63 (±0.15)\nSaxophone: 0.06 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4347,10 +4425,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.08 (±0.04)\nFlute: 0.05 (±0.03)\nViolin: 0.06 (±0.03)\nDistorted electric guitar: 0.10 (±0.05)\nDrums: 0.65 (±0.14)\nSaxophone: 0.06 (±0.03)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Piano",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4456,10 +4540,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.06 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.07 (±0.04)\nDistorted electric guitar: 0.26 (±0.20)\nDrums: 0.50 (±0.25)\nSaxophone: 0.06 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Saxophone",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4565,10 +4655,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.06 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.08 (±0.05)\nDistorted electric guitar: 0.25 (±0.20)\nDrums: 0.50 (±0.24)\nSaxophone: 0.07 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Saxophone",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4674,10 +4770,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.05 (±0.03)\nFlute: 0.05 (±0.03)\nViolin: 0.06 (±0.04)\nDistorted electric guitar: 0.28 (±0.25)\nDrums: 0.50 (±0.28)\nSaxophone: 0.06 (±0.04)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Saxophone",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4783,10 +4885,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.08 (±0.04)\nFlute: 0.07 (±0.04)\nViolin: 0.10 (±0.06)\nDistorted electric guitar: 0.27 (±0.20)\nDrums: 0.39 (±0.25)\nSaxophone: 0.09 (±0.06)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Violin",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -4892,10 +5000,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.06 (±0.03)\nFlute: 0.04 (±0.03)\nViolin: 0.06 (±0.03)\nDistorted electric guitar: 0.09 (±0.05)\nDrums: 0.69 (±0.12)\nSaxophone: 0.06 (±0.03)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Violin",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -5001,10 +5115,16 @@
                 }
               }
             },
-            "ci_vocoded": {}
+            "ci_vocoded": {
+              "34": {
+                "qwen3-omni-30b-a3b-instruct-autoround-w4a16": {
+                  "response_text": "Piano: 0.10 (±0.06)\nFlute: 0.10 (±0.08)\nViolin: 0.10 (±0.08)\nDistorted electric guitar: 0.25 (±0.17)\nDrums: 0.27 (±0.23)\nSaxophone: 0.18 (±0.13)\n\nTotal 100 runs"
+                }
+              }
+            }
           },
           "human_responses_expected": {
-            "original": "Violin",
+            "original": "",
             "ci_vocoded": ""
           }
         }
@@ -5169,8 +5289,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright: 0.67 (4/6)\r\nDark: 0.00 (0/6)\r\nRough: 0.00 (0/6)\r\nSmooth: 0.17 (1/6)\r\nSharp: 0.17 (1/6)",
-            "ci_vocoded": "Bright: 0.60 (3/5)\r\nDark: 0.00 (0/5)\r\nRough: 0.00 (0/5)\r\nSmooth: 0.00 (0/5)\r\nSharp: 0.40 (2/5)"
+            "original": "Bright: 0.62 (5/8)\r\nDark: 0.00 (0/8)\r\nRough: 0.00 (0/8)\r\nSmooth: 0.12 (1/8)\r\nSharp: 0.25 (2/8)",
+            "ci_vocoded": "Bright: 0.57 (4/7)\r\nDark: 0.00 (0/7)\r\nRough: 0.00 (0/7)\r\nSmooth: 0.14 (1/7)\r\nSharp: 0.29 (2/7)"
           }
         },
         {
@@ -5331,8 +5451,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright: 0.40 (2/5)\r\nDark: 0.00 (0/5)\r\nRough: 0.00 (0/5)\r\nSmooth: 0.00 (0/5)\r\nSharp: 0.60 (3/5)",
-            "ci_vocoded": "Bright: 0.40 (2/5)\r\nDark: 0.00 (0/5)\r\nRough: 0.40 (2/5)\r\nSmooth: 0.00 (0/5)\r\nSharp: 0.20 (1/5)"
+            "original": "Bright: 0.33 (2/6)\r\nDark: 0.00 (0/6)\r\nRough: 0.00 (0/6)\r\nSmooth: 0.00 (0/6)\r\nSharp: 0.67 (4/6)",
+            "ci_vocoded": "Bright: 0.29 (2/7)\r\nDark: 0.00 (0/7)\r\nRough: 0.43 (3/7)\r\nSmooth: 0.00 (0/7)\r\nSharp: 0.29 (2/7)"
           }
         },
         {
@@ -5487,8 +5607,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright: 0.20 (1/5)\r\nDark: 0.00 (0/5)\r\nRough: 0.00 (0/5)\r\nSmooth: 0.80 (4/5)\r\nSharp: 0.00 (0/5)",
-            "ci_vocoded": "Bright: 0.00 (0/5)\r\nDark: 0.60 (3/5)\r\nRough: 0.40 (2/5)\r\nSmooth: 0.00 (0/5)\r\nSharp: 0.00 (0/5)"
+            "original": "Bright: 0.17 (1/6)\r\nDark: 0.00 (0/6)\r\nRough: 0.00 (0/6)\r\nSmooth: 0.83 (5/6)\r\nSharp: 0.00 (0/6)",
+            "ci_vocoded": "Bright: 0.00 (0/7)\r\nDark: 0.57 (4/7)\r\nRough: 0.43 (3/7)\r\nSmooth: 0.00 (0/7)\r\nSharp: 0.00 (0/7)"
           }
         },
         {
@@ -5647,8 +5767,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright: 0.00 (0/8)\r\nDark: 0.38 (3/8)\r\nRough: 0.50 (4/8)\r\nSmooth: 0.12 (1/8)\r\nSharp: 0.00 (0/8)",
-            "ci_vocoded": "Bright: 0.00 (0/6)\r\nDark: 0.33 (2/6)\r\nRough: 0.67 (4/6)\r\nSmooth: 0.00 (0/6)\r\nSharp: 0.00 (0/6)"
+            "original": "Bright: 0.00 (0/9)\r\nDark: 0.33 (3/9)\r\nRough: 0.56 (5/9)\r\nSmooth: 0.11 (1/9)\r\nSharp: 0.00 (0/9)",
+            "ci_vocoded": "Bright: 0.00 (0/7)\r\nDark: 0.29 (2/7)\r\nRough: 0.71 (5/7)\r\nSmooth: 0.00 (0/7)\r\nSharp: 0.00 (0/7)"
           }
         },
         {
@@ -5804,8 +5924,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright: 0.00 (0/4)\r\nDark: 0.25 (1/4)\r\nRough: 0.00 (0/4)\r\nSmooth: 0.75 (3/4)\r\nSharp: 0.00 (0/4)",
-            "ci_vocoded": "Bright: 0.00 (0/5)\r\nDark: 0.40 (2/5)\r\nRough: 0.60 (3/5)\r\nSmooth: 0.00 (0/5)\r\nSharp: 0.00 (0/5)"
+            "original": "Bright: 0.00 (0/6)\r\nDark: 0.33 (2/6)\r\nRough: 0.00 (0/6)\r\nSmooth: 0.67 (4/6)\r\nSharp: 0.00 (0/6)",
+            "ci_vocoded": "Bright: 0.00 (0/7)\r\nDark: 0.43 (3/7)\r\nRough: 0.57 (4/7)\r\nSmooth: 0.00 (0/7)\r\nSharp: 0.00 (0/7)"
           }
         },
         {
@@ -6746,7 +6866,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright\r\nDark (1/2)\r\nRough (1/2)\r\nSmooth\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -6904,7 +7024,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright\r\nDark (1/2)\r\nRough\r\nSmooth (1/2)\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -7060,7 +7180,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (2/3)\r\nDark\r\nRough\r\nSmooth (1/3)\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -7217,7 +7337,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright\r\nDark (1/4)\r\nRough (1/4)\r\nSmooth\r\nSharp (2/4)",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -7374,7 +7494,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (1/3)\r\nDark\r\nRough\r\nSmooth (2/3)\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -7530,7 +7650,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (1/3)\r\nDark\r\nRough\r\nSmooth\r\nSharp (2/3)",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -7688,7 +7808,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (2/5)\r\nDark\r\nRough (1/5)\r\nSmooth (1/5)\r\nSharp (1/5)",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -7848,7 +7968,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (1/3)\r\nDark (1/3)\r\nRough (1/3)\r\nSmooth\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -8004,7 +8124,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (2/4)\r\nDark\r\nRough\r\nSmooth (2/4)\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -8160,7 +8280,7 @@
             }
           },
           "human_responses_expected": {
-            "original": "Bright (2/2)\r\nDark\r\nRough\r\nSmooth\r\nSharp",
+            "original": "",
             "ci_vocoded": ""
           }
         }
@@ -8274,8 +8394,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Classical: 1.00 (4/4)\r\nRock: 0.00 (0/4)\r\nJazz: 0.00 (0/4)\r\nElectronic: 0.00 (0/4)",
-            "ci_vocoded": "Classical: 0.00 (0/4)\r\nRock: 0.75 (3/4)\r\nJazz: 0.25 (1/4)\r\nElectronic: 0.00 (0/4)"
+            "original": "Classical: 1.00 (5/5)\r\nRock: 0.00 (0/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 0.00 (0/5)",
+            "ci_vocoded": "Classical: 0.00 (0/5)\r\nRock: 0.60 (3/5)\r\nJazz: 0.40 (2/5)\r\nElectronic: 0.00 (0/5)"
           }
         },
         {
@@ -8383,8 +8503,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Classical: 0.00 (0/4)\r\nRock: 0.00 (0/4)\r\nJazz: 1.00 (4/4)\r\nElectronic: 0.00 (0/4)",
-            "ci_vocoded": "Classical: 0.00 (0/4)\r\nRock: 0.00 (0/4)\r\nJazz: 0.75 (3/4)\r\nElectronic: 0.25 (1/4)"
+            "original": "Classical: 0.00 (0/5)\r\nRock: 0.00 (0/5)\r\nJazz: 1.00 (5/5)\r\nElectronic: 0.00 (0/5)",
+            "ci_vocoded": "Classical: 0.00 (0/5)\r\nRock: 0.00 (0/5)\r\nJazz: 0.80 (4/5)\r\nElectronic: 0.20 (1/5)"
           }
         },
         {
@@ -8492,8 +8612,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Classical: 0.00 (0/4)\r\nRock: 0.00 (0/4)\r\nJazz: 0.00 (0/4)\r\nElectronic: 1.00 (4/4)",
-            "ci_vocoded": "Classical: 0.00 (0/4)\r\nRock: 0.00 (0/4)\r\nJazz: 0.00 (0/4)\r\nElectronic: 1.00 (4/4)"
+            "original": "Classical: 0.00 (0/5)\r\nRock: 0.00 (0/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 1.00 (5/5)",
+            "ci_vocoded": "Classical: 0.00 (0/5)\r\nRock: 0.00 (0/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 1.00 (5/5)"
           }
         },
         {
@@ -8601,8 +8721,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Classical: 0.00 (0/4)\r\nRock: 1.00 (4/4)\r\nJazz: 0.00 (0/4)\r\nElectronic: 0.00 (0/4)",
-            "ci_vocoded": "Classical: 0.00 (0/4)\r\nRock: 1.00 (4/4)\r\nJazz: 0.00 (0/4)\r\nElectronic: 0.00 (0/4)"
+            "original": "Classical: 0.00 (0/5)\r\nRock: 1.00 (5/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 0.00 (0/5)",
+            "ci_vocoded": "Classical: 0.00 (0/5)\r\nRock: 1.00 (5/5)\r\nJazz: 0.00 (0/5)\r\nElectronic: 0.00 (0/5)"
           }
         },
         {
@@ -9473,7 +9593,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Jazz",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -10465,8 +10585,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Excitement: 0.00 (0/4)\r\nCalmness: 0.00 (0/4)\r\nTension: 1.00 (4/4)\r\nSadness: 0.00 (0/4)",
-            "ci_vocoded": "Excitement: 0.00 (0/4)\r\nCalmness: 0.00 (0/4)\r\nTension: 1.00 (4/4)\r\nSadness: 0.00 (0/4)"
+            "original": "Excitement: 0.00 (0/5)\r\nCalmness: 0.00 (0/5)\r\nTension: 1.00 (5/5)\r\nSadness: 0.00 (0/5)",
+            "ci_vocoded": "Excitement: 0.20 (1/5)\r\nCalmness: 0.00 (0/5)\r\nTension: 0.80 (4/5)\r\nSadness: 0.00 (0/5)"
           }
         },
         {
@@ -10579,8 +10699,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Excitement: 0.00 (0/4)\r\nCalmness: 1.00 (4/4)\r\nTension: 0.00 (0/4)\r\nSadness: 0.00 (0/4)",
-            "ci_vocoded": "Excitement: 0.00 (0/4)\r\nCalmness: 1.00 (4/4)\r\nTension: 0.00 (0/4)\r\nSadness: 0.00 (0/4)"
+            "original": "Excitement: 0.00 (0/5)\r\nCalmness: 1.00 (5/5)\r\nTension: 0.00 (0/5)\r\nSadness: 0.00 (0/5)",
+            "ci_vocoded": "Excitement: 0.00 (0/5)\r\nCalmness: 1.00 (5/5)\r\nTension: 0.00 (0/5)\r\nSadness: 0.00 (0/5)"
           }
         },
         {
@@ -10693,8 +10813,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Excitement: 1.00 (4/4)\r\nCalmness: 0.00 (0/4)\r\nTension: 0.00 (0/4)\r\nSadness: 0.00 (0/4)",
-            "ci_vocoded": "Excitement: 1.00 (4/4)\r\nCalmness: 0.00 (0/4)\r\nTension: 0.00 (0/4)\r\nSadness: 0.00 (0/4)"
+            "original": "Excitement: 1.00 (5/5)\r\nCalmness: 0.00 (0/5)\r\nTension: 0.00 (0/5)\r\nSadness: 0.00 (0/5)",
+            "ci_vocoded": "Excitement: 1.00 (5/5)\r\nCalmness: 0.00 (0/5)\r\nTension: 0.00 (0/5)\r\nSadness: 0.00 (0/5)"
           }
         },
         {
@@ -10807,8 +10927,8 @@
             }
           },
           "human_responses_expected": {
-            "original": "Excitement: 0.00 (0/4)\r\nCalmness: 0.25 (1/4)\r\nTension: 0.00 (0/4)\r\nSadness: 0.75 (3/4)",
-            "ci_vocoded": "Excitement: 0.00 (0/3)\r\nCalmness: 0.00 (0/3)\r\nTension: 0.33 (1/3)\r\nSadness: 0.67 (2/3)"
+            "original": "Excitement: 0.00 (0/5)\r\nCalmness: 0.20 (1/5)\r\nTension: 0.00 (0/5)\r\nSadness: 0.80 (4/5)",
+            "ci_vocoded": "Excitement: 0.00 (0/4)\r\nCalmness: 0.00 (0/4)\r\nTension: 0.25 (1/4)\r\nSadness: 0.75 (3/4)"
           }
         },
         {
@@ -12764,8 +12884,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.25 (1/4)\r\nSlow: 0.00 (0/4)\r\nStraight (regular beat): 0.75 (3/4)\r\nSyncopated (off-beat): 0.00 (0/4)",
-            "ci_vocoded": "Fast: 0.20 (1/5)\r\nSlow: 0.00 (0/5)\r\nStraight (regular beat): 0.60 (3/5)\r\nSyncopated (off-beat): 0.20 (1/5)"
+            "original": "Fast: 0.20 (1/5)\r\nSlow: 0.00 (0/5)\r\nStraight (regular beat): 0.80 (4/5)\r\nSyncopated (off-beat): 0.00 (0/5)",
+            "ci_vocoded": "Fast: 0.17 (1/6)\r\nSlow: 0.00 (0/6)\r\nStraight (regular beat): 0.67 (4/6)\r\nSyncopated (off-beat): 0.17 (1/6)"
           }
         },
         {
@@ -12881,8 +13001,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.20 (1/5)\r\nSlow: 0.20 (1/5)\r\nStraight (regular beat): 0.20 (1/5)\r\nSyncopated (off-beat): 0.40 (2/5)",
-            "ci_vocoded": "Fast: 0.20 (1/5)\r\nSlow: 0.20 (1/5)\r\nStraight (regular beat): 0.20 (1/5)\r\nSyncopated (off-beat): 0.40 (2/5)"
+            "original": "Fast: 0.17 (1/6)\r\nSlow: 0.17 (1/6)\r\nStraight (regular beat): 0.17 (1/6)\r\nSyncopated (off-beat): 0.50 (3/6)",
+            "ci_vocoded": "Fast: 0.17 (1/6)\r\nSlow: 0.17 (1/6)\r\nStraight (regular beat): 0.33 (2/6)\r\nSyncopated (off-beat): 0.33 (2/6)"
           }
         },
         {
@@ -12997,8 +13117,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.57 (4/7)\r\nSlow: 0.00 (0/7)\r\nStraight (regular beat): 0.14 (1/7)\r\nSyncopated (off-beat): 0.29 (2/7)",
-            "ci_vocoded": "Fast: 0.57 (4/7)\r\nSlow: 0.00 (0/7)\r\nStraight (regular beat): 0.14 (1/7)\r\nSyncopated (off-beat): 0.29 (2/7)"
+            "original": "Fast: 0.56 (5/9)\r\nSlow: 0.00 (0/9)\r\nStraight (regular beat): 0.22 (2/9)\r\nSyncopated (off-beat): 0.22 (2/9)",
+            "ci_vocoded": "Fast: 0.50 (4/8)\r\nSlow: 0.00 (0/8)\r\nStraight (regular beat): 0.12 (1/8)\r\nSyncopated (off-beat): 0.38 (3/8)"
           }
         },
         {
@@ -13113,8 +13233,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.57 (4/7)\r\nSlow: 0.00 (0/7)\r\nStraight (regular beat): 0.43 (3/7)\r\nSyncopated (off-beat): 0.00 (0/7)",
-            "ci_vocoded": "Fast: 0.50 (4/8)\r\nSlow: 0.00 (0/8)\r\nStraight (regular beat): 0.50 (4/8)\r\nSyncopated (off-beat): 0.00 (0/8)"
+            "original": "Fast: 0.56 (5/9)\r\nSlow: 0.00 (0/9)\r\nStraight (regular beat): 0.44 (4/9)\r\nSyncopated (off-beat): 0.00 (0/9)",
+            "ci_vocoded": "Fast: 0.50 (5/10)\r\nSlow: 0.00 (0/10)\r\nStraight (regular beat): 0.50 (5/10)\r\nSyncopated (off-beat): 0.00 (0/10)"
           }
         },
         {
@@ -13229,8 +13349,8 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00 (0/7)\r\nSlow: 0.57 (4/7)\r\nStraight (regular beat): 0.43 (3/7)\r\nSyncopated (off-beat): 0.00 (0/7)",
-            "ci_vocoded": "Fast: 0.00 (0/8)\r\nSlow: 0.50 (4/8)\r\nStraight (regular beat): 0.50 (4/8)\r\nSyncopated (off-beat): 0.00 (0/8)"
+            "original": "Fast: 0.00 (0/9)\r\nSlow: 0.56 (5/9)\r\nStraight (regular beat): 0.44 (4/9)\r\nSyncopated (off-beat): 0.00 (0/9)",
+            "ci_vocoded": "Fast: 0.00 (0/10)\r\nSlow: 0.50 (5/10)\r\nStraight (regular beat): 0.50 (5/10)\r\nSyncopated (off-beat): 0.00 (0/10)"
           }
         },
         {
@@ -13346,7 +13466,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": "Fast: 0.33 (1/3)\r\nSlow: 0.00 (0/3)\r\nStraight (regular beat): 0.33 (1/3)\r\nSyncopated (off-beat): 0.33 (1/3)"
           }
         },
@@ -13464,7 +13584,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -13582,7 +13702,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -13698,7 +13818,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -13814,7 +13934,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -13930,7 +14050,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14046,7 +14166,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.50\r\nSyncopated (off-beat): 0.00",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14161,7 +14281,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14277,7 +14397,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14395,7 +14515,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14513,7 +14633,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14631,7 +14751,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14749,7 +14869,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14867,7 +14987,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.00\r\nSlow: 0.50\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         },
@@ -14984,7 +15104,7 @@
             "ci_vocoded": {}
           },
           "human_responses_expected": {
-            "original": "Fast: 0.50\r\nSlow: 0.00\r\nStraight (regular beat): 0.00\r\nSyncopated (off-beat): 0.50",
+            "original": "",
             "ci_vocoded": ""
           }
         }

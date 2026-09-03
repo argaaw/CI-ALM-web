@@ -76,7 +76,7 @@
   function expectedHumanResponsePane(sample, variant) {
     const response = sample.human_responses_expected?.[variant];
     return response
-      ? `<div class="saved-response-pane expected-human-response"><div class="alm-answer"><span>Human response (expected)</span><p>${escapeHtml(response)}</p></div></div>`
+      ? `<div class="saved-response-pane expected-human-response"><div class="alm-answer"><span>Human response</span><p>${escapeHtml(response)}</p></div></div>`
       : "";
   }
 
